@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Google7/Test#readme",
   "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
     "bootstrap": "^3.3.7"
   }
 }
