@@ -9,5 +9,12 @@
   "editor.autoClosingQuotes": "always",
   "editor.mouseWheelZoom": true,
   "editor.tabCompletion": "on",
-  "merge-conflict.autoNavigateNextConflict.enabled": true
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "less.compile": {
+    "compress": true, // 是否删除多余空白字符
+    "sourceMap": false, // 是否创建文件目录树，true的话会自动生成一个 .css.map 文件
+    "out": true, // 是否输出css文件，false为不输出
+    "outExt": ".css" // 输出文件的后缀,默认为.css
+  }
+
 }
