@@ -1,15 +1,13 @@
-.func(@width; @style; @color) {
-  border: @width @style @color;
+@usedScope:null;
+.func() {
+  .cont when (@usedScope = global) {
+    background-color: blue;
+    color: black;
+  }
+  .style when (@usedScope = mixin) {
+    background-color: red;
+    color: white;
+  }
+  @usedScope: global;
 }
-
-#demo {
-  .func(2px; dashed; red);
-}
-
-.mixin() {
-  @bgcolor: #C0C0C0;
-}
-.myclass{
-  .mixin();
-  background-color: @bgcolor;
-}
+.func();
