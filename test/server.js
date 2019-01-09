@@ -1,4 +1,3 @@
-'use strict';
 var http = require("http");
 http.createServer(function (request, response) {
     console.log(request.method + ': ' + request.url);
@@ -7,3 +6,4 @@ http.createServer(function (request, response) {
     });
     response.end("<h1>Hello world!</h1>");
 }).listen(8082);
+console.log(`http://localhost:8082/`);
