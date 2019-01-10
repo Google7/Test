@@ -196,3 +196,23 @@ var animals = {
         }
     ]
 }
+
+function Hello(){
+    var name;
+    this.setName = function(names){
+        name = names;
+    }
+    this.sayHello = function(){
+        console.log("hello "+name);
+    }
+}
+module.exports = Hello;
+
+function sayHello(param){
+    console.log(`Hello ${param}`);
+}
+
+function execute(task,param){
+    task(param);
+}
+execute(sayHello,"World");

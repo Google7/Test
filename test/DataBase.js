@@ -17,17 +17,20 @@ let users = {
     userages: 22,
     usercity: null
 }
-let connection = mysql.createConnection(config);
+let connect = mysql.createConnection(config);
 let pool = mysql.createPool(config);
-pool.getConnection(function (err, con) {
-    if (err) {
-        console.log(`数据库连接失败:${err}`);
-        autoConnect(connection);
-    } else {
-        console.log(`数据库连接成功`);
-        selectData(con);
-    }
-});
+
+function execute(task, param) {
+    pool.getConnection(function (err, con) {
+        if (err) {
+            console.log(`数据库连接失败:${err}`);
+            autoConnect(connect);
+        } else {
+            console.log(`数据库连接成功`);
+            task(con, param);
+        }
+    })
+}
 
 function insertData(con, obj) {
     con.query(insert, obj, function (err, result) {
@@ -71,13 +74,14 @@ function selectData(con, index) {
         if (err || index >= result.length) {
             console.log(`查询失败：${err}`);
         } else {
-            console.log(`查询成功`);
             if (index != null) {
+                console.log(`查询成功`);
                 console.log(result[index].userid + "--" +
                     result[index].username + "--" + result[index].userpwd + "--" +
                     result[index].usersex + "--" + result[index].userages + "--" +
                     result[index].usercity);
             } else {
+                console.log(`查询到${result.length}条数据`);
                 for (const i in result) {
                     console.log(result[i].userid + "--" +
                         result[i].username + "--" + result[i].userpwd + "--" +
@@ -92,7 +96,7 @@ function selectData(con, index) {
 
 var autoConnect = function () {
     let n = 0;
-    return function (con) {
+    return function (con, param) {
         if (n < 10) {
             n += 1;
             con.connect(function (err) {
@@ -103,7 +107,7 @@ var autoConnect = function () {
                     }, 2000);
                 } else {
                     console.log(`数据库连接成功`);
-                    selectData(con);
+                    task(con, param);
                 }
             });
         } else {
@@ -121,3 +125,5 @@ function closeMySQL(con) {
         console.log(`数据库关闭失败`);
     }
 }
+
+execute(selectData);
