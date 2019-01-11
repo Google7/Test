@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="./config/bootstrap.min.css" />
+    <script type="text/javascript" src="./config/jquery-3.3.1.min.js"></script>
+
+    <style type="text/css">
+        .ss {
+            color: red;
+            display: none;
+        }
+        
+        #aa {
+            display: none;
+        }
+        
+        #div11 {
+            position: relative;
+        }
+        
+        .color {
+            color: green;
+        }
+        
+        #div121 {
+            width: 200px;
+            height: 100px;
+            margin-top: 20px;
+            position: relative;
+            padding: 20px;
+            background: linear-gradient(150deg, red, blue, yellow, green);
+        }
+        
+        #div122 {
+            padding-left: 20px;
+            background: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(91, 53, 194, 1));
+        }
+        
+        #div123 {
+            display: flex;
+        }
+        
+        #div1231 {
+            width: 150px;
+            height: 150px;
+            box-shadow: 10px 10px 5px gray;
+            background: repeating-radial-gradient(red, blue 10%, yellow 10%);
+        }
+        
+        #cursor {
+            width: 200px;
+            height: 100px;
+            margin-left: 50px;
+            margin-top: 20px;
+            background-color: green;
+            border-radius: 5%;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+        
+        #div22 {
+            display: flex;
+        }
+        
+        #div221 {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            position: relative;
+            transition: 3s;
+            animation: myfirst 4s infinite;
+        }
+        
+        #div221:hover {
+            width: 400px;
+            height: 200px;
+            transform: rotate(180deg);
+        }
+        
+        #div222 {
+            width: 150px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            border-radius: 50%;
+            padding: 20px;
+            animation: test 3s infinite;
+        }
+        
+        #div223 {
+            display: flex;
+            width: 500px;
+            height: 100px;
+            position: relative;
+            background-color: blueviolet;
+        }
+        
+        @keyframes myfirst {
+            0% {
+                top: 0px;
+                left: 0px;
+                background: red;
+            }
+            25% {
+                top: 0px;
+                left: 100px;
+                background: blue;
+            }
+            50% {
+                top: 100px;
+                left: 100px;
+                background: yellow;
+            }
+            75% {
+                top: 100px;
+                left: 0px;
+                background: green;
+            }
+            100% {
+                top: 0px;
+                left: 0px;
+                background: red;
+            }
+        }
+        
+        @keyframes test {
+            from {
+                top: 0px;
+            }
+            to {
+                top: 200px;
+            }
+        }
+        
+        .demo {
+            color: blue;
+            position: relative;
+            animation: demo 20s;
+        }
+        
+        @keyframes demo {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 1600px;
+            }
+        }
+    </style>
+    <script>
+        var xmlhttp;
+        function loadXMLDoc(url, fun) {
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = fun;
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+        }
+
+        function callback() {
+            loadXMLDoc("test.txt", function() {
+                if (xmlhttp.readyState == 4 || xmlhttp.status == 200) {
+                    document.getElementById("span").innerHTML = xmlhttp.responseText;
+                }
+            })
+        }
+
+        $(document).ready(function() {
+            $("button").dblclick(function() {
+                $(this).hide();
+            });
+            $("#ha").css("color", "blue");
+
+            $("#demo").click(function() {
+                $("#ho").fadeIn(3000);
+                $("#ho").fadeOut(3000);
+                $("#aa").slideDown(3000);
+                $("#bb").slideUp(3000);
+                $("#div1").animate({
+                    left: "250px"
+                });
+            });
+            $("#tmp").click(function() {
+                $("#aa").stop(true, true);
+                $("#tmp").hide(3000, function() {
+                    alert(666);
+                });
+            });
+
+            $("#list").html("<h5>Hello!</h5>");
+            $("#ha").click(function() {
+                var t = setInterval(show, 100);
+            });
+
+            function show() {
+                $("#num").attr("value", new Date());
+            }
+            $("#zzz").click(add);
+
+            function add() {
+                var sp = $("<span></span>").text("呵呵");
+                $("#div").append(sp);
+                $("td").remove();
+                $("#demo,#tmp").toggleClass("color");
+
+                $.ajax({
+                    dataType: "json",
+                    url: "../test/test.json",
+                    success: function(result) {
+                        $("#num").attr("value", result.button[2].sub_button[2].name);
+
+                    }
+                });
+            }
+            var ctx = $("#can")[0].getContext("2d");
+            ctx.fillStyle = "red";
+            ctx.fillRect(20, 60, 40, 80);
+
+            var x = 100,
+                y = 50;
+            for (let i = 0; i < 10; i++) {
+                ctx.moveTo(x, y);
+                ctx.lineTo(x + 50, y + 50);
+                ctx.strokeStyle = "green";
+                ctx.stroke();
+                x = x + 20;
+            }
+
+            ctx.beginPath();
+            ctx.arc(150, 150, 30, 0, 2 * Math.PI);
+            ctx.fillStyle = "blue";
+            ctx.stroke();
+            ctx.fill();
+
+            ctx.font = "30px Arial";
+            ctx.strokeText("Hello World !", 200, 150);
+            var jsonobj = {
+                "name": "jianqichen",
+                "age": 23,
+                "pet": {
+                    "dog": "汪汪",
+                    "cat": "喵喵"
+                }
+            };
+            $("#num").attr("value", jsonobj.pet.cat);
+            $("#ff").click(function() {
+                var str = $("#pp").val();
+                var span = $("<span></span>").html(str);
+                $("#abc").before(span);
+                span.attr("class","demo");
+                setTimeout(function(){
+                    span.hide();
+                },20000);
+            })
+        });
+    </script>
+</head>
+
+<bod>
+    <div id="div">
+        <div id="div1" class="row">
+            <div id="div11" class="col-md-5">
+                <div id="abc"></div>
+                <input type="text" id="pp">
+                <button id="ff">发送</button><br />
+                <button id="ha">开始</button>
+                <button id="ho" onclick="end()" class="ss">结束</button><br />
+                <button id="zzz" onclick="callback()">点我</button> <button onclick="bibi()">加一</button><br />
+                <button id="lala">啦啦</button> <span id="span">0</span><br />
+                <input id="num" type="text" style="width:500px" />
+                <span id="aa">啊啊啊</span> <span id="bb">哈哈哈</span>
+                <input id="ipt" type="text" value="666" />
+                <table id="table" border="1px solid">
+                    <tr id="tr">
+                        <td id="td" name="myname">Jackie</td>
+                        <td id="jqc" name="jian">jainqichen</td>
+                    </tr>
+                </table>
+
+                <button id="demo" class="color" onclick="demo()">呵呵</button>
+                <button id="tmp" class="color">哈哈</button>
+            </div>
+
+            <div id="div12" class="col-md-5">
+                <div id="div121">linear-gradient</div>
+                <div id="div122">grba</div>
+                <div id="div123">
+                    <div id="div1231">repeating-linear-gradient</div>
+                    <button id="cursor">button</button>
+                </div>
+            </div>
+        </div>
+        <div id="div2" class="row">
+            <div id="div21" class="col-md-5">
+                <canvas id="can" width="500" height="300" style="border:1px solid yellow;"></canvas>
+            </div>
+            <div id="div22" class="col-md-5">
+                <div id="div221">animation</div>
+                <div id="div222">from to</div>
+                <div id="div223">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</bod>
+
+</html>
