@@ -5,7 +5,7 @@ var write = "Hello Stream";
 var events = require("events");
 var eventEmitter = new events.EventEmitter();
 var service = require("./Service");
-var route = require("./Router");
+var router = require("./Router");
 
 function eventEmitter() {
     var connectHandler = function () {
@@ -130,5 +130,7 @@ function demo(err,fd){
     })
 }
 
-service.start(route.route);
-
+//service.start(router.route);
+//service.getMethod();
+//service.postMethod();
+service.fileUpload();

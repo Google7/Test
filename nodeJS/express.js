@@ -11,7 +11,7 @@ app.delete("/del",function(req,res){
     res.send("Hello Delete !");
 });
 app.get("/list",function(req,res){
-    res.send("Hello List !")
+    res.send("Hello List !");
 });
 
 var service = app.listen(8084,function(){

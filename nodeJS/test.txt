@@ -1,0 +1,533 @@
+﻿2018-11-08 17:44:20.787   49 ======================GSL_CALL_BEGIN======================
+2018-11-08 17:44:20.787   49 GSL MAXID=433, MODIFIED TIME=2018-11-08 17:11:12, SCEVersion=ICDV300R006C60#
+2018-11-08 17:44:20.787   49 CallInfo TrunkNO=0,CLI=<<>>,CLD=<<>>,CLOD=<<>>,
+2018-11-08 17:44:20.788   49 sender_handle=5,sender_dsn=49,receiver_handle=255,receiver_dsn=65535,
+2018-11-08 17:44:20.788   49 AccessCode=T157 VDN=1 Exec flow f:/1/icdmmp/config/flow/ICD32_WarnCallout.GSL Version=ICDV300R006C90U3SPC105 OS=Linux
+2018-11-08 17:44:20.788   49 Monitor info ICDDebug=0 icdinsider=1 DebugMode=0 TraceFlag=0
+2018-11-08 17:44:20.788   49 $4$[ICD存储过程1]
+2018-11-08 17:44:20.788   49 name={*I_SCE_OutBoundQuery*},num=16,dataSource=feptest
+2018-11-08 17:44:20.788   49 IVR(0)(5,49)->Database agent:10.153.190.203:222(255)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundQuery*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:44:20.863   49 Database agent:222(255)(255,222)->IVR(0)(5,49): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:44:20.863   49 The des string:191 is small than the src string:216 when SafeCopy, CurSibIndex=4
+2018-11-08 17:44:20.863   49 The des string:191 is small than the src string:216 when SafeCopy, CurSibIndex=4
+2018-11-08 17:44:20.863   49 Proc successed Params: [P0]:type=11 value=0***(1) [P1]:type=191 value=?**?190) [P2]:type=41 value=R***w==(24) [P3]:type=21 value=1***574(11) [P4]:type=191 value=?**444(120) [P5]:type=41 value=y***g==(24) [P6]:type=21 value=1***574(11) [P7]:type=191 value=?**GBO(190) [P8]:type=41 value=I***Q==(24) [P9]:type=21 value=1***574(11) [P10]:type=191 value= [P11]:type=41 value= [P12]:type=21 value= [P13]:type=191 value= [P14]:type=41 value= [P15]:type=21 value=
+2018-11-08 17:44:20.863   49 @0@成功出口
+2018-11-08 17:44:20.863   49 $2$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:20.863   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:44:20.863   49 @0@真值出口
+2018-11-08 17:44:20.863   49 $327$[参数入堆栈]
+2018-11-08 17:44:20.863   49 @0@成功出口
+2018-11-08 17:44:20.863   49 $329$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:20.863   49 CompareSib, Param: Oper1Type=160 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:44:20.863   49 @1@假值出口
+2018-11-08 17:44:20.863   49 $356$[参数入堆栈]
+2018-11-08 17:44:20.863   49 @0@成功出口
+2018-11-08 17:44:20.863   49 $360$[类型4呼出]
+2018-11-08 17:44:20.863   49 CallSetup Param: cCF=0,szCLI=<<10086>>,szCLD=<<15209869574>>,ssp=-152223756,ucAudio=255,cResType=255,nResDsn=65535,cExtDataLen=0,cModelNo=255,MediaAbilityInd=1
+2018-11-08 17:44:20.863   49 Call SetSPSetupMsgIeInfoValue function params: cIeName = 209, cInfoName = 0, nValue =1
+2018-11-08 17:44:20.863   49 IE len=24, buf=D1 16 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2018-11-08 17:44:20.863   49 Enter CheckUserHookMsg() function, Param: ssp=-1
+2018-11-08 17:44:20.863   49 IVR(255)(5,49)->CCS(0)(255,65535): 发起呼叫:主叫:<<10086>> 被叫:<<15209869574>>,DID:255 中继:65535
+2018-11-08 17:44:20.959   49 CCS(0)(189,17452)->IVR(255)(5,49): 呼叫应答:NoteNO:255
+2018-11-08 17:44:20.959   49 CCS(0)(189,17452)->IVR(255)(5,49): 呼叫标识
+2018-11-08 17:44:20.959   49 Received msg type=2 sender_dsn=17452 sender_handle=189
+2018-11-08 17:44:20.959   49 Received msg type=81 sender_dsn=17452 sender_handle=189
+2018-11-08 17:44:22.439   49 CCS(0)(189,17452)->IVR(255)(5,49): 振铃: 
+2018-11-08 17:44:22.439   49 Received msg type=3 sender_dsn=17452 sender_handle=189
+2018-11-08 17:44:22.439   49 Received Alerting msg ssp=4467901 audio=255
+2018-11-08 17:44:22.439   49 IE len=13, buf=FC 03 00 00 00 A4 03 02 20 00 A7 01 01 
+2018-11-08 17:44:22.439   49 RePlace CallID list: ssp=4467901 CallID='  1541670260  9990  0  0'
+2018-11-08 17:44:22.439   49 Add CallID list: ssp=4467901 CallID='  1541670260  9990  0  0'
+2018-11-08 17:44:22.439   49 @0@未定义出口
+2018-11-08 17:44:22.439   49 $382$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:22.439   49 @0@成功出口
+2018-11-08 17:44:22.439   49 $357$[事件处理]
+
+2018-11-08 17:44:38.463   49 CCS(0)(189,17452)->IVR(255)(5,49): 拆线: 原因: 正常拆线
+2018-11-08 17:44:38.463   49 ProcessEvent receive msg type=8, mask=1245439
+2018-11-08 17:44:38.463   49 Received disconnect msg ssp=4467901 cause=0
+2018-11-08 17:44:38.463   49 @2@挂机出口
+2018-11-08 17:44:38.463   49 $363$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:38.463   49 @0@成功出口
+2018-11-08 17:44:38.463   49 $365$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:38.463   49 CompareSib, Param: Operate=2, (0 == 3 )
+2018-11-08 17:44:38.463   49 @1@假值出口
+2018-11-08 17:44:38.463   49 $376$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:38.463   49 CompareSib, Param: Operate=2, (0 == 8 )
+2018-11-08 17:44:38.463   49 @1@假值出口
+2018-11-08 17:44:38.463   49 $379$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:38.463   49 CompareSib, Param: Operate=2, (0 == 0 )
+2018-11-08 17:44:38.463   49 @0@真值出口
+2018-11-08 17:44:38.463   49 $403$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:38.463   49 @0@成功出口
+2018-11-08 17:44:38.463   49 $380$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:38.463   49 @0@成功出口
+2018-11-08 17:44:38.463   49 $381$[释放呼叫]
+2018-11-08 17:44:38.463   49 Enter CheckUserHookMsg() function, Param: ssp=4467901
+2018-11-08 17:44:38.463   49 Send disconnect/release msgtype=9 ssp=4467901 cause=0
+2018-11-08 17:44:38.463   49 IVR(255)(5,49)->CCS(0)(189,17452): 释放呼叫: 原因: 正常拆线
+2018-11-08 17:44:38.463   49 @0@成功出口
+2018-11-08 17:44:38.463   49 $344$[参数入堆栈]
+2018-11-08 17:44:38.463   49 @0@成功出口
+2018-11-08 17:44:38.463   49 $345$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:38.463   49 @0@成功出口
+2018-11-08 17:44:38.463   49 $347$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:38.463   49 Enter PlusWithStrRes() function, Param: cOp1Type=20,nOp1FP=1580,cOp2Type=20,nOp2Num=65535,nOp2FP=65534,nResFP=1580
+2018-11-08 17:44:38.463   49 FUNCTION PlusWithStrRes() ret, buf=2018110817:44:38,nRes=2018110817:44:38
+2018-11-08 17:44:38.463   49 @0@成功出口
+2018-11-08 17:44:38.463   49 $348$[EX_SIB_STRING_OPERATE_V20]
+2018-11-08 17:44:38.463   49 @0@成功出口
+2018-11-08 17:44:38.463   49 $332$[参数入堆栈]
+2018-11-08 17:44:38.463   49 @0@成功出口
+2018-11-08 17:44:38.463   49 $333$[语音识别收号]
+2018-11-08 17:44:38.463   49 current opr: play
+2018-11-08 17:44:38.463   49 remote tts buff to file:open tts file(/home/icd36/icddir/bin/360/ivragent/HUAWEITTS20181108094438_360_CI49.tmp)
+2018-11-08 17:44:38.463   49 IVR(255)(5,49)->IVRAGENT(0)(255,65535): IVR_LIBAGENT_PUT(50004):seqno=0 local=/home/icd36/icddir/bin/360/ivragent/HUAWEITTS20181108094438_360_CI49.tmp remote=t:/tts/60/HUAWEITTS20181108094438_360_CI49.txt
+2018-11-08 17:44:38.471   49 排队机(2)(255,15)->IVR(255)(5,49): IVR_LIBAGENT_PUT_ACK(50005):seqno=0 res=0
+2018-11-08 17:44:38.471   49 put local file to file server result=0:loc=/home/icd36/icddir/bin/360/ivragent/HUAWEITTS20181108094438_360_CI49.tmp remote=t:/tts/60/HUAWEITTS20181108094438_360_CI49.txt DelayTime=30000
+2018-11-08 17:44:38.471   49 Check Call Disconnect!
+2018-11-08 17:44:38.471   49 @0@成功出口
+2018-11-08 17:44:38.471   49 $334$[事件处理]
+2018-11-08 17:44:38.471   49 ProcessEvent receive msg type=21, mask=1048820
+2018-11-08 17:44:38.471   49 Get MSG_SSP_SCP_PLAYRECORD_RES, but the result is NOT success! msg.result=0
+2018-11-08 17:44:38.471   49 @5@设备消息出口
+2018-11-08 17:44:38.471   49 $340$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:38.471   49 CompareSib, Param: Operate=2, (0 == 0 )
+2018-11-08 17:44:38.471   49 @0@真值出口
+2018-11-08 17:44:38.471   49 $350$[参数入堆栈]
+2018-11-08 17:44:38.471   49 @0@成功出口
+2018-11-08 17:44:38.471   49 $351$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:38.471   49 @0@成功出口
+2018-11-08 17:44:38.471   49 $353$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:38.471   49 Enter PlusWithStrRes() function, Param: cOp1Type=20,nOp1FP=1633,cOp2Type=20,nOp2Num=65535,nOp2FP=65534,nResFP=1633
+2018-11-08 17:44:38.471   49 FUNCTION PlusWithStrRes() ret, buf=2018110817:44:38,nRes=2018110817:44:38
+2018-11-08 17:44:38.471   49 @0@成功出口
+2018-11-08 17:44:38.471   49 $354$[EX_SIB_STRING_OPERATE_V20]
+2018-11-08 17:44:38.471   49 @0@成功出口
+2018-11-08 17:44:38.471   49 $330$[ICD存储过程1]
+2018-11-08 17:44:38.471   49 name={*p_sce_warncalloutmsg*},num=7,dataSource=icdtest
+2018-11-08 17:44:38.471   49 IVR(1)(5,49)->Database agent:10.153.191.55:260(0)(255,63): Execute stored procedure:Executing stored procedure: stored procedure name {*p_sce_warncalloutmsg*}, Agent node No. 63 Proxy(IP=10.153.191.55:260)
+2018-11-08 17:44:38.479   49 Database agent:260(255)(255,260)->IVR(1)(5,49): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3icdtest;;.
+2018-11-08 17:44:38.479   49 Proc successed Params: [P0]:type=21 value=2***438(14) [P1]:type=21 value=2***438(14) [P2]:type=41 value=R***w==(24) [P3]:type=21 value=1***574(11) [P4]:type=191 value=?**?190) [P5]:type=11 value=0***(1) [P6]:type=21 value=?**鼗?9)
+2018-11-08 17:44:38.479   49 @0@成功出口
+2018-11-08 17:44:38.479   49 $429$[设置数据库延时时间]
+2018-11-08 17:44:38.479   49 SetDBDelayTime DelaySeconds=5.
+2018-11-08 17:44:38.479   49 @0@成功出口
+2018-11-08 17:44:38.479   49 $11$[参数入堆栈]
+2018-11-08 17:44:38.479   49 @0@成功出口
+2018-11-08 17:44:38.479   49 $13$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:38.479   49 CompareSib, Param: Oper1Type=160 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:44:38.479   49 @1@假值出口
+2018-11-08 17:44:38.479   49 $40$[参数入堆栈]
+2018-11-08 17:44:38.479   49 @0@成功出口
+2018-11-08 17:44:38.479   49 $44$[类型4呼出]
+2018-11-08 17:44:38.479   49 CallSetup Param: cCF=0,szCLI=<<10086>>,szCLD=<<15209869574>>,ssp=-152223756,ucAudio=255,cResType=255,nResDsn=65535,cExtDataLen=0,cModelNo=255,MediaAbilityInd=1
+2018-11-08 17:44:38.479   49 Call SetSPSetupMsgIeInfoValue function params: cIeName = 209, cInfoName = 0, nValue =1
+2018-11-08 17:44:38.479   49 IE len=24, buf=D1 16 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2018-11-08 17:44:38.479   49 Enter CheckUserHookMsg() function, Param: ssp=-1
+2018-11-08 17:44:38.479   49 IVR(255)(5,49)->CCS(0)(255,65535): 发起呼叫:主叫:<<10086>> 被叫:<<15209869574>>,DID:255 中继:65535
+
+2018-11-08 17:44:38.575   49 CCS(0)(189,17582)->IVR(255)(5,49): 呼叫应答:NoteNO:255
+2018-11-08 17:44:38.575   49 CCS(0)(189,17582)->IVR(255)(5,49): 呼叫标识
+2018-11-08 17:44:38.575   49 Received msg type=2 sender_dsn=17582 sender_handle=189
+2018-11-08 17:44:38.575   49 Received msg type=81 sender_dsn=17582 sender_handle=189
+2018-11-08 17:44:39.775   49 CCS(0)(189,17582)->IVR(255)(5,49): 振铃: 
+2018-11-08 17:44:39.775   49 Received msg type=3 sender_dsn=17582 sender_handle=189
+2018-11-08 17:44:39.775   49 Received Alerting msg ssp=4501181 audio=255
+2018-11-08 17:44:39.775   49 IE len=13, buf=FC 03 00 00 00 A4 03 02 20 00 A7 01 01 
+2018-11-08 17:44:39.775   49 RePlace CallID list: ssp=4501181 CallID='  1541670277 10099  1  0'
+2018-11-08 17:44:39.775   49 Add CallID list: ssp=4501181 CallID='  1541670277 10099  1  0'
+2018-11-08 17:44:39.775   49 @0@未定义出口
+2018-11-08 17:44:39.775   49 $66$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:39.775   49 @0@成功出口
+2018-11-08 17:44:39.775   49 $41$[事件处理]
+
+2018-11-08 17:44:55.679   49 CCS(0)(189,17582)->IVR(255)(5,49): 拆线: 原因: 正常拆线
+2018-11-08 17:44:55.679   49 ProcessEvent receive msg type=8, mask=1245439
+2018-11-08 17:44:55.679   49 Received disconnect msg ssp=4501181 cause=0
+2018-11-08 17:44:55.679   49 @2@挂机出口
+2018-11-08 17:44:55.679   49 $47$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $49$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:55.679   49 CompareSib, Param: Operate=2, (0 == 3 )
+2018-11-08 17:44:55.679   49 @1@假值出口
+2018-11-08 17:44:55.679   49 $60$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:55.679   49 CompareSib, Param: Operate=2, (0 == 8 )
+2018-11-08 17:44:55.679   49 @1@假值出口
+2018-11-08 17:44:55.679   49 $63$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:55.679   49 CompareSib, Param: Operate=2, (0 == 0 )
+2018-11-08 17:44:55.679   49 @0@真值出口
+2018-11-08 17:44:55.679   49 $87$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $64$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $65$[释放呼叫]
+2018-11-08 17:44:55.679   49 Enter CheckUserHookMsg() function, Param: ssp=4501181
+2018-11-08 17:44:55.679   49 Send disconnect/release msgtype=9 ssp=4501181 cause=0
+2018-11-08 17:44:55.679   49 IVR(255)(5,49)->CCS(0)(189,17582): 释放呼叫: 原因: 正常拆线
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $28$[参数入堆栈]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $29$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $31$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:55.679   49 Enter PlusWithStrRes() function, Param: cOp1Type=20,nOp1FP=1580,cOp2Type=20,nOp2Num=65535,nOp2FP=65534,nResFP=1580
+2018-11-08 17:44:55.679   49 FUNCTION PlusWithStrRes() ret, buf=2018110817:44:55,nRes=2018110817:44:55
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $32$[EX_SIB_STRING_OPERATE_V20]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $16$[参数入堆栈]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $17$[语音识别收号]
+2018-11-08 17:44:55.679   49 current opr: play
+2018-11-08 17:44:55.679   49 Check Call Disconnect!
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $18$[事件处理]
+2018-11-08 17:44:55.679   49 ProcessEvent receive msg type=21, mask=1048820
+2018-11-08 17:44:55.679   49 Get MSG_SSP_SCP_PLAYRECORD_RES, but the result is NOT success! msg.result=0
+2018-11-08 17:44:55.679   49 @5@设备消息出口
+2018-11-08 17:44:55.679   49 $24$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:55.679   49 CompareSib, Param: Operate=2, (0 == 0 )
+2018-11-08 17:44:55.679   49 @0@真值出口
+2018-11-08 17:44:55.679   49 $34$[参数入堆栈]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $35$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $37$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:55.679   49 Enter PlusWithStrRes() function, Param: cOp1Type=20,nOp1FP=1633,cOp2Type=20,nOp2Num=65535,nOp2FP=65534,nResFP=1633
+2018-11-08 17:44:55.679   49 FUNCTION PlusWithStrRes() ret, buf=2018110817:44:55,nRes=2018110817:44:55
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $38$[EX_SIB_STRING_OPERATE_V20]
+2018-11-08 17:44:55.679   49 @0@成功出口
+2018-11-08 17:44:55.679   49 $14$[ICD存储过程1]
+2018-11-08 17:44:55.679   49 name={*p_sce_warncalloutmsg*},num=7,dataSource=icdtest
+2018-11-08 17:44:55.680   49 IVR(1)(5,49)->Database agent:10.153.191.55:260(0)(255,63): Execute stored procedure:Executing stored procedure: stored procedure name {*p_sce_warncalloutmsg*}, Agent node No. 63 Proxy(IP=10.153.191.55:260)
+2018-11-08 17:44:55.695   49 Database agent:260(255)(255,260)->IVR(1)(5,49): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3icdtest;;.
+2018-11-08 17:44:55.695   49 Proc successed Params: [P0]:type=21 value=2***455(14) [P1]:type=21 value=2***455(14) [P2]:type=41 value=y***g==(24) [P3]:type=21 value=1***574(11) [P4]:type=191 value=?**444(120) [P5]:type=11 value=0***(1) [P6]:type=21 value=?**鼗?9)
+2018-11-08 17:44:55.695   49 @0@成功出口
+2018-11-08 17:44:55.695   49 $430$[设置数据库延时时间]
+2018-11-08 17:44:55.695   49 SetDBDelayTime DelaySeconds=5.
+2018-11-08 17:44:55.695   49 @0@成功出口
+2018-11-08 17:44:55.695   49 $90$[参数入堆栈]
+2018-11-08 17:44:55.695   49 @0@成功出口
+2018-11-08 17:44:55.695   49 $92$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:44:55.695   49 CompareSib, Param: Oper1Type=160 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:44:55.695   49 @1@假值出口
+2018-11-08 17:44:55.695   49 $119$[参数入堆栈]
+2018-11-08 17:44:55.695   49 @0@成功出口
+2018-11-08 17:44:55.695   49 $123$[类型4呼出]
+2018-11-08 17:44:55.695   49 CallSetup Param: cCF=0,szCLI=<<10086>>,szCLD=<<15209869574>>,ssp=-152223756,ucAudio=255,cResType=255,nResDsn=65535,cExtDataLen=0,cModelNo=255,MediaAbilityInd=1
+2018-11-08 17:44:55.695   49 Call SetSPSetupMsgIeInfoValue function params: cIeName = 209, cInfoName = 0, nValue =1
+2018-11-08 17:44:55.695   49 IE len=24, buf=D1 16 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2018-11-08 17:44:55.695   49 Enter CheckUserHookMsg() function, Param: ssp=-1
+2018-11-08 17:44:55.695   49 IVR(255)(5,49)->CCS(0)(255,65535): 发起呼叫:主叫:<<10086>> 被叫:<<15209869574>>,DID:255 中继:65535
+2018-11-08 17:44:55.743   49 CCS(0)(189,17726)->IVR(255)(5,49): 呼叫应答:NoteNO:255
+2018-11-08 17:44:55.743   49 CCS(0)(189,17726)->IVR(255)(5,49): 呼叫标识
+2018-11-08 17:44:55.743   49 Received msg type=2 sender_dsn=17726 sender_handle=189
+2018-11-08 17:44:55.743   49 Received msg type=81 sender_dsn=17726 sender_handle=189
+2018-11-08 17:44:56.935   49 CCS(0)(189,17726)->IVR(255)(5,49): 振铃: 
+2018-11-08 17:44:56.935   49 Received msg type=3 sender_dsn=17726 sender_handle=189
+2018-11-08 17:44:56.935   49 Received Alerting msg ssp=4538045 audio=255
+2018-11-08 17:44:56.935   49 IE len=13, buf=FC 03 00 00 00 A4 03 02 20 00 A7 01 01 
+2018-11-08 17:44:56.935   49 RePlace CallID list: ssp=4538045 CallID='  1541670295 10213  1  0'
+2018-11-08 17:44:56.935   49 Add CallID list: ssp=4538045 CallID='  1541670295 10213  1  0'
+2018-11-08 17:44:56.935   49 @0@未定义出口
+2018-11-08 17:44:56.935   49 $145$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:44:56.935   49 @0@成功出口
+2018-11-08 17:44:56.935   49 $120$[事件处理]
+
+2018-11-08 17:45:12.983   49 CCS(0)(189,17726)->IVR(255)(5,49): 拆线: 原因: 正常拆线
+2018-11-08 17:45:12.983   49 ProcessEvent receive msg type=8, mask=1245439
+2018-11-08 17:45:12.983   49 Received disconnect msg ssp=4538045 cause=0
+2018-11-08 17:45:12.983   49 @2@挂机出口
+2018-11-08 17:45:12.983   49 $126$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:12.983   49 @0@成功出口
+2018-11-08 17:45:12.983   49 $128$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:12.983   49 CompareSib, Param: Operate=2, (0 == 3 )
+2018-11-08 17:45:12.983   49 @1@假值出口
+2018-11-08 17:45:12.983   49 $139$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:12.983   49 CompareSib, Param: Operate=2, (0 == 8 )
+2018-11-08 17:45:12.983   49 @1@假值出口
+2018-11-08 17:45:12.983   49 $142$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:12.983   49 CompareSib, Param: Operate=2, (0 == 0 )
+2018-11-08 17:45:12.983   49 @0@真值出口
+2018-11-08 17:45:12.983   49 $166$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:12.983   49 @0@成功出口
+2018-11-08 17:45:12.983   49 $143$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:12.983   49 @0@成功出口
+2018-11-08 17:45:12.983   49 $144$[释放呼叫]
+2018-11-08 17:45:12.983   49 Enter CheckUserHookMsg() function, Param: ssp=4538045
+2018-11-08 17:45:12.983   49 Send disconnect/release msgtype=9 ssp=4538045 cause=0
+2018-11-08 17:45:12.983   49 IVR(255)(5,49)->CCS(0)(189,17726): 释放呼叫: 原因: 正常拆线
+2018-11-08 17:45:12.983   49 @0@成功出口
+2018-11-08 17:45:12.983   49 $107$[参数入堆栈]
+2018-11-08 17:45:12.983   49 @0@成功出口
+2018-11-08 17:45:12.983   49 $108$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:12.983   49 @0@成功出口
+2018-11-08 17:45:12.983   49 $110$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:12.983   49 Enter PlusWithStrRes() function, Param: cOp1Type=20,nOp1FP=1580,cOp2Type=20,nOp2Num=65535,nOp2FP=65534,nResFP=1580
+2018-11-08 17:45:12.983   49 FUNCTION PlusWithStrRes() ret, buf=2018110817:45:12,nRes=2018110817:45:12
+2018-11-08 17:45:12.983   49 @0@成功出口
+2018-11-08 17:45:12.983   49 $111$[EX_SIB_STRING_OPERATE_V20]
+2018-11-08 17:45:12.983   49 @0@成功出口
+2018-11-08 17:45:12.983   49 $95$[参数入堆栈]
+2018-11-08 17:45:12.983   49 @0@成功出口
+2018-11-08 17:45:12.983   49 $96$[语音识别收号]
+2018-11-08 17:45:12.983   49 current opr: play
+2018-11-08 17:45:12.983   49 remote tts buff to file:open tts file(/home/icd36/icddir/bin/360/ivragent/HUAWEITTS20181108094512_360_CI49.tmp)
+2018-11-08 17:45:12.983   49 IVR(255)(5,49)->IVRAGENT(0)(255,65535): IVR_LIBAGENT_PUT(50004):seqno=1 local=/home/icd36/icddir/bin/360/ivragent/HUAWEITTS20181108094512_360_CI49.tmp remote=t:/tts/60/HUAWEITTS20181108094512_360_CI49.txt
+2018-11-08 17:45:12.999   49 排队机(2)(255,16)->IVR(255)(5,49): IVR_LIBAGENT_PUT_ACK(50005):seqno=1 res=0
+2018-11-08 17:45:12.999   49 put local file to file server result=0:loc=/home/icd36/icddir/bin/360/ivragent/HUAWEITTS20181108094512_360_CI49.tmp remote=t:/tts/60/HUAWEITTS20181108094512_360_CI49.txt DelayTime=30000
+2018-11-08 17:45:12.999   49 Check Call Disconnect!
+2018-11-08 17:45:12.999   49 @0@成功出口
+2018-11-08 17:45:12.999   49 $97$[事件处理]
+2018-11-08 17:45:12.999   49 ProcessEvent receive msg type=21, mask=1048820
+2018-11-08 17:45:12.999   49 Get MSG_SSP_SCP_PLAYRECORD_RES, but the result is NOT success! msg.result=0
+2018-11-08 17:45:12.999   49 @5@设备消息出口
+2018-11-08 17:45:12.999   49 $103$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:12.999   49 CompareSib, Param: Operate=2, (0 == 0 )
+2018-11-08 17:45:12.999   49 @0@真值出口
+2018-11-08 17:45:12.999   49 $113$[参数入堆栈]
+2018-11-08 17:45:12.999   49 @0@成功出口
+2018-11-08 17:45:12.999   49 $114$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:12.999   49 @0@成功出口
+2018-11-08 17:45:12.999   49 $116$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:12.999   49 Enter PlusWithStrRes() function, Param: cOp1Type=20,nOp1FP=1633,cOp2Type=20,nOp2Num=65535,nOp2FP=65534,nResFP=1633
+2018-11-08 17:45:12.999   49 FUNCTION PlusWithStrRes() ret, buf=2018110817:45:12,nRes=2018110817:45:12
+2018-11-08 17:45:12.999   49 @0@成功出口
+2018-11-08 17:45:12.999   49 $117$[EX_SIB_STRING_OPERATE_V20]
+2018-11-08 17:45:12.999   49 @0@成功出口
+2018-11-08 17:45:12.999   49 $93$[ICD存储过程1]
+2018-11-08 17:45:12.999   49 name={*p_sce_warncalloutmsg*},num=7,dataSource=icdtest
+2018-11-08 17:45:12.999   49 IVR(2)(5,49)->Database agent:10.153.191.55:260(0)(255,63): Execute stored procedure:Executing stored procedure: stored procedure name {*p_sce_warncalloutmsg*}, Agent node No. 63 Proxy(IP=10.153.191.55:260)
+2018-11-08 17:45:13.007   49 Database agent:260(255)(255,260)->IVR(2)(5,49): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3icdtest;;.
+2018-11-08 17:45:13.007   49 Proc successed Params: [P0]:type=21 value=2***512(14) [P1]:type=21 value=2***512(14) [P2]:type=41 value=I***Q==(24) [P3]:type=21 value=1***574(11) [P4]:type=191 value=?**GBO(190) [P5]:type=11 value=0***(1) [P6]:type=21 value=?**鼗?9)
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $431$[设置数据库延时时间]
+2018-11-08 17:45:13.007   49 SetDBDelayTime DelaySeconds=5.
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $169$[参数入堆栈]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $171$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=160 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:13.007   49 @0@真值出口
+2018-11-08 17:45:13.007   49 $432$[设置数据库延时时间]
+2018-11-08 17:45:13.007   49 SetDBDelayTime DelaySeconds=5.
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $248$[参数入堆栈]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $250$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=160 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:13.007   49 @0@真值出口
+2018-11-08 17:45:13.007   49 $406$[参数入堆栈]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $407$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:13.007   49 @1@假值出口
+2018-11-08 17:45:13.007   49 $408$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $409$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:13.007   49 @1@假值出口
+2018-11-08 17:45:13.007   49 $410$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $411$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:13.007   49 @1@假值出口
+2018-11-08 17:45:13.007   49 $412$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $413$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:13.007   49 @1@假值出口
+2018-11-08 17:45:13.007   49 $414$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $415$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:13.007   49 @1@假值出口
+2018-11-08 17:45:13.007   49 $416$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $418$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=5, (**** != ****)
+2018-11-08 17:45:13.007   49 @0@真值出口
+2018-11-08 17:45:13.007   49 $420$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=5, (**** != ****)
+2018-11-08 17:45:13.007   49 @0@真值出口
+2018-11-08 17:45:13.007   49 $422$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=5, (**** != ****)
+2018-11-08 17:45:13.007   49 @0@真值出口
+2018-11-08 17:45:13.007   49 $424$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=5, (**** != ****)
+2018-11-08 17:45:13.007   49 @1@假值出口
+2018-11-08 17:45:13.007   49 $425$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $426$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.007   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=5, (**** != ****)
+2018-11-08 17:45:13.007   49 @1@假值出口
+2018-11-08 17:45:13.007   49 $427$[EXTENDED_SIB_ALGORITHUM]
+2018-11-08 17:45:13.007   49 @0@成功出口
+2018-11-08 17:45:13.007   49 $5$[ICD存储过程1]
+2018-11-08 17:45:13.007   49 name={*I_SCE_OutBoundWriteBack*},num=11,dataSource=feptest
+2018-11-08 17:45:13.007   49 IVR(2)(5,49)->Database agent:10.153.190.203:222(0)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundWriteBack*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:45:13.103   49 Database agent:222(255)(255,222)->IVR(2)(5,49): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:45:13.103   49 Proc successed Params: [P0]:type=41 value=R***w==(24) [P1]:type=11 value=1***(1) [P2]:type=41 value=y***g==(24) [P3]:type=11 value=1***(1) [P4]:type=41 value=I***Q==(24) [P5]:type=11 value=1***(1) [P6]:type=41 value= [P7]:type=11 value= [P8]:type=41 value= [P9]:type=11 value= [P10]:type=11 value=0***(1)
+2018-11-08 17:45:13.103   49 @0@成功出口
+2018-11-08 17:45:13.103   49 $9$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.103   49 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:13.103   49 @0@真值出口
+2018-11-08 17:45:13.103   49 $8$[ICD存储过程1]
+2018-11-08 17:45:13.103   49 name={*p_sce_warninterfacelog*},num=11,dataSource=icdtest
+2018-11-08 17:45:13.103   49 IVR(2)(5,49)->Database agent:10.153.191.55:260(0)(255,63): Execute stored procedure:Executing stored procedure: stored procedure name {*p_sce_warninterfacelog*}, Agent node No. 63 Proxy(IP=10.153.191.55:260)
+2018-11-08 17:45:13.111   49 Database agent:260(255)(255,260)->IVR(2)(5,49): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3icdtest;;.
+2018-11-08 17:45:13.111   49 Proc successed Params: [P0]:type=41 value=R***w==(24) [P1]:type=11 value=1***(1) [P2]:type=41 value=y***g==(24) [P3]:type=11 value=1***(1) [P4]:type=41 value=I***Q==(24) [P5]:type=11 value=1***(1) [P6]:type=41 value= [P7]:type=11 value= [P8]:type=41 value= [P9]:type=11 value= [P10]:type=11 value=0***(1)
+2018-11-08 17:45:13.111   49 @0@成功出口
+2018-11-08 17:45:13.111   49 流程结束
+2018-11-08 17:45:13.111   49 ======================GSL_CALL_END======================
+
+2018-11-08 17:45:13.827   51 ======================GSL_CALL_BEGIN======================
+2018-11-08 17:45:13.827   51 GSL MAXID=433, MODIFIED TIME=2018-11-08 17:11:12, SCEVersion=ICDV300R006C60#
+2018-11-08 17:45:13.827   51 CallInfo TrunkNO=0,CLI=<<>>,CLD=<<>>,CLOD=<<>>,
+2018-11-08 17:45:13.827   51 sender_handle=5,sender_dsn=51,receiver_handle=255,receiver_dsn=65535,
+2018-11-08 17:45:13.827   51 AccessCode=T157 VDN=1 Exec flow f:/1/icdmmp/config/flow/ICD32_WarnCallout.GSL Version=ICDV300R006C90U3SPC105 OS=Linux
+2018-11-08 17:45:13.827   51 Monitor info ICDDebug=0 icdinsider=1 DebugMode=0 TraceFlag=0
+2018-11-08 17:45:13.827   51 $4$[ICD存储过程1]
+2018-11-08 17:45:13.827   51 name={*I_SCE_OutBoundQuery*},num=16,dataSource=feptest
+2018-11-08 17:45:13.827   51 IVR(0)(5,51)->Database agent:10.153.190.203:222(255)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundQuery*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:45:13.895   51 Database agent:222(255)(255,222)->IVR(0)(5,51): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:45:13.895   51 Proc successed Params: [P0]:type=11 value=1***(1) [P1]:type=191 value= [P2]:type=41 value= [P3]:type=21 value= [P4]:type=191 value= [P5]:type=41 value= [P6]:type=21 value= [P7]:type=191 value= [P8]:type=41 value= [P9]:type=21 value= [P10]:type=191 value= [P11]:type=41 value= [P12]:type=21 value= [P13]:type=191 value= [P14]:type=41 value= [P15]:type=21 value=
+2018-11-08 17:45:13.895   51 @0@成功出口
+2018-11-08 17:45:13.895   51 $2$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:13.895   51 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:13.895   51 @1@假值出口
+2018-11-08 17:45:13.895   51 流程结束
+2018-11-08 17:45:13.895   51 ======================GSL_CALL_END======================
+
+2018-11-08 17:45:14.867   52 ======================GSL_CALL_BEGIN======================
+2018-11-08 17:45:14.867   52 GSL MAXID=433, MODIFIED TIME=2018-11-08 17:11:12, SCEVersion=ICDV300R006C60#
+2018-11-08 17:45:14.867   52 CallInfo TrunkNO=0,CLI=<<>>,CLD=<<>>,CLOD=<<>>,
+2018-11-08 17:45:14.867   52 sender_handle=5,sender_dsn=52,receiver_handle=255,receiver_dsn=65535,
+2018-11-08 17:45:14.867   52 AccessCode=T157 VDN=1 Exec flow f:/1/icdmmp/config/flow/ICD32_WarnCallout.GSL Version=ICDV300R006C90U3SPC105 OS=Linux
+2018-11-08 17:45:14.867   52 Monitor info ICDDebug=0 icdinsider=1 DebugMode=0 TraceFlag=0
+2018-11-08 17:45:14.867   52 $4$[ICD存储过程1]
+2018-11-08 17:45:14.867   52 name={*I_SCE_OutBoundQuery*},num=16,dataSource=feptest
+2018-11-08 17:45:14.867   52 IVR(0)(5,52)->Database agent:10.153.190.203:222(255)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundQuery*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:45:14.911   52 Database agent:222(255)(255,222)->IVR(0)(5,52): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:45:14.911   52 Proc successed Params: [P0]:type=11 value=1***(1) [P1]:type=191 value= [P2]:type=41 value= [P3]:type=21 value= [P4]:type=191 value= [P5]:type=41 value= [P6]:type=21 value= [P7]:type=191 value= [P8]:type=41 value= [P9]:type=21 value= [P10]:type=191 value= [P11]:type=41 value= [P12]:type=21 value= [P13]:type=191 value= [P14]:type=41 value= [P15]:type=21 value=
+2018-11-08 17:45:14.911   52 @0@成功出口
+2018-11-08 17:45:14.911   52 $2$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:14.911   52 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:14.911   52 @1@假值出口
+2018-11-08 17:45:14.911   52 流程结束
+2018-11-08 17:45:14.911   52 ======================GSL_CALL_END======================
+
+2018-11-08 17:45:15.907   50 ======================GSL_CALL_BEGIN======================
+2018-11-08 17:45:15.907   50 GSL MAXID=433, MODIFIED TIME=2018-11-08 17:11:12, SCEVersion=ICDV300R006C60#
+2018-11-08 17:45:15.907   50 CallInfo TrunkNO=0,CLI=<<>>,CLD=<<>>,CLOD=<<>>,
+2018-11-08 17:45:15.907   50 sender_handle=5,sender_dsn=50,receiver_handle=255,receiver_dsn=65535,
+2018-11-08 17:45:15.907   50 AccessCode=T157 VDN=1 Exec flow f:/1/icdmmp/config/flow/ICD32_WarnCallout.GSL Version=ICDV300R006C90U3SPC105 OS=Linux
+2018-11-08 17:45:15.907   50 Monitor info ICDDebug=0 icdinsider=1 DebugMode=0 TraceFlag=0
+2018-11-08 17:45:15.907   50 $4$[ICD存储过程1]
+2018-11-08 17:45:15.907   50 name={*I_SCE_OutBoundQuery*},num=16,dataSource=feptest
+2018-11-08 17:45:15.907   50 IVR(0)(5,50)->Database agent:10.153.190.203:222(255)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundQuery*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:45:15.991   50 Database agent:222(255)(255,222)->IVR(0)(5,50): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:45:15.991   50 Proc successed Params: [P0]:type=11 value=1***(1) [P1]:type=191 value= [P2]:type=41 value= [P3]:type=21 value= [P4]:type=191 value= [P5]:type=41 value= [P6]:type=21 value= [P7]:type=191 value= [P8]:type=41 value= [P9]:type=21 value= [P10]:type=191 value= [P11]:type=41 value= [P12]:type=21 value= [P13]:type=191 value= [P14]:type=41 value= [P15]:type=21 value=
+2018-11-08 17:45:15.991   50 @0@成功出口
+2018-11-08 17:45:15.991   50 $2$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:15.991   50 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:15.991   50 @1@假值出口
+2018-11-08 17:45:15.991   50 流程结束
+2018-11-08 17:45:15.991   50 ======================GSL_CALL_END======================
+
+2018-11-08 17:45:16.947   53 ======================GSL_CALL_BEGIN======================
+2018-11-08 17:45:16.947   53 GSL MAXID=433, MODIFIED TIME=2018-11-08 17:11:12, SCEVersion=ICDV300R006C60#
+2018-11-08 17:45:16.947   53 CallInfo TrunkNO=0,CLI=<<>>,CLD=<<>>,CLOD=<<>>,
+2018-11-08 17:45:16.947   53 sender_handle=5,sender_dsn=53,receiver_handle=255,receiver_dsn=65535,
+2018-11-08 17:45:16.947   53 AccessCode=T157 VDN=1 Exec flow f:/1/icdmmp/config/flow/ICD32_WarnCallout.GSL Version=ICDV300R006C90U3SPC105 OS=Linux
+2018-11-08 17:45:16.947   53 Monitor info ICDDebug=0 icdinsider=1 DebugMode=0 TraceFlag=0
+2018-11-08 17:45:16.947   53 $4$[ICD存储过程1]
+2018-11-08 17:45:16.947   53 name={*I_SCE_OutBoundQuery*},num=16,dataSource=feptest
+2018-11-08 17:45:16.947   53 IVR(0)(5,53)->Database agent:10.153.190.203:222(255)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundQuery*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:45:17.014   53 Database agent:222(255)(255,222)->IVR(0)(5,53): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:45:17.015   53 Proc successed Params: [P0]:type=11 value=1***(1) [P1]:type=191 value= [P2]:type=41 value= [P3]:type=21 value= [P4]:type=191 value= [P5]:type=41 value= [P6]:type=21 value= [P7]:type=191 value= [P8]:type=41 value= [P9]:type=21 value= [P10]:type=191 value= [P11]:type=41 value= [P12]:type=21 value= [P13]:type=191 value= [P14]:type=41 value= [P15]:type=21 value=
+2018-11-08 17:45:17.015   53 @0@成功出口
+2018-11-08 17:45:17.015   53 $2$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:17.015   53 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:17.015   53 @1@假值出口
+2018-11-08 17:45:17.015   53 流程结束
+2018-11-08 17:45:17.015   53 ======================GSL_CALL_END======================
+
+2018-11-08 10:26:08.314   54 Free CI Resource
+2018-11-08 17:45:17.987   54 ======================GSL_CALL_BEGIN======================
+2018-11-08 17:45:17.987   54 GSL MAXID=433, MODIFIED TIME=2018-11-08 17:11:12, SCEVersion=ICDV300R006C60#
+2018-11-08 17:45:17.987   54 CallInfo TrunkNO=0,CLI=<<>>,CLD=<<>>,CLOD=<<>>,
+2018-11-08 17:45:17.987   54 sender_handle=5,sender_dsn=54,receiver_handle=255,receiver_dsn=65535,
+2018-11-08 17:45:17.987   54 AccessCode=T157 VDN=1 Exec flow f:/1/icdmmp/config/flow/ICD32_WarnCallout.GSL Version=ICDV300R006C90U3SPC105 OS=Linux
+2018-11-08 17:45:17.987   54 Monitor info ICDDebug=0 icdinsider=1 DebugMode=0 TraceFlag=0
+2018-11-08 17:45:17.987   54 $4$[ICD存储过程1]
+2018-11-08 17:45:17.987   54 name={*I_SCE_OutBoundQuery*},num=16,dataSource=feptest
+2018-11-08 17:45:17.987   54 IVR(0)(5,54)->Database agent:10.153.190.203:222(255)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundQuery*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:45:18.038   54 Database agent:222(255)(255,222)->IVR(0)(5,54): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:45:18.039   54 Proc successed Params: [P0]:type=11 value=1***(1) [P1]:type=191 value= [P2]:type=41 value= [P3]:type=21 value= [P4]:type=191 value= [P5]:type=41 value= [P6]:type=21 value= [P7]:type=191 value= [P8]:type=41 value= [P9]:type=21 value= [P10]:type=191 value= [P11]:type=41 value= [P12]:type=21 value= [P13]:type=191 value= [P14]:type=41 value= [P15]:type=21 value=
+2018-11-08 17:45:18.039   54 @0@成功出口
+2018-11-08 17:45:18.039   54 $2$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:18.039   54 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:18.039   54 @1@假值出口
+2018-11-08 17:45:18.039   54 流程结束
+2018-11-08 17:45:18.039   54 ======================GSL_CALL_END======================
+
+2018-11-08 10:26:09.394   55 Free CI Resource
+2018-11-08 17:45:19.027   55 ======================GSL_CALL_BEGIN======================
+2018-11-08 17:45:19.027   55 GSL MAXID=433, MODIFIED TIME=2018-11-08 17:11:12, SCEVersion=ICDV300R006C60#
+2018-11-08 17:45:19.027   55 CallInfo TrunkNO=0,CLI=<<>>,CLD=<<>>,CLOD=<<>>,
+2018-11-08 17:45:19.027   55 sender_handle=5,sender_dsn=55,receiver_handle=255,receiver_dsn=65535,
+2018-11-08 17:45:19.027   55 AccessCode=T157 VDN=1 Exec flow f:/1/icdmmp/config/flow/ICD32_WarnCallout.GSL Version=ICDV300R006C90U3SPC105 OS=Linux
+2018-11-08 17:45:19.027   55 Monitor info ICDDebug=0 icdinsider=1 DebugMode=0 TraceFlag=0
+2018-11-08 17:45:19.027   55 $4$[ICD存储过程1]
+2018-11-08 17:45:19.027   55 name={*I_SCE_OutBoundQuery*},num=16,dataSource=feptest
+2018-11-08 17:45:19.027   55 IVR(0)(5,55)->Database agent:10.153.190.203:222(255)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundQuery*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:45:19.070   55 Database agent:222(255)(255,222)->IVR(0)(5,55): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:45:19.071   55 Proc successed Params: [P0]:type=11 value=1***(1) [P1]:type=191 value= [P2]:type=41 value= [P3]:type=21 value= [P4]:type=191 value= [P5]:type=41 value= [P6]:type=21 value= [P7]:type=191 value= [P8]:type=41 value= [P9]:type=21 value= [P10]:type=191 value= [P11]:type=41 value= [P12]:type=21 value= [P13]:type=191 value= [P14]:type=41 value= [P15]:type=21 value=
+2018-11-08 17:45:19.071   55 @0@成功出口
+2018-11-08 17:45:19.071   55 $2$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:19.071   55 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:19.071   55 @1@假值出口
+2018-11-08 17:45:19.071   55 流程结束
+2018-11-08 17:45:19.071   55 ======================GSL_CALL_END======================
+
+2018-11-08 10:26:10.434   56 Free CI Resource
+2018-11-08 17:45:20.067   56 ======================GSL_CALL_BEGIN======================
+2018-11-08 17:45:20.067   56 GSL MAXID=433, MODIFIED TIME=2018-11-08 17:11:12, SCEVersion=ICDV300R006C60#
+2018-11-08 17:45:20.067   56 CallInfo TrunkNO=0,CLI=<<>>,CLD=<<>>,CLOD=<<>>,
+2018-11-08 17:45:20.067   56 sender_handle=5,sender_dsn=56,receiver_handle=255,receiver_dsn=65535,
+2018-11-08 17:45:20.067   56 AccessCode=T157 VDN=1 Exec flow f:/1/icdmmp/config/flow/ICD32_WarnCallout.GSL Version=ICDV300R006C90U3SPC105 OS=Linux
+2018-11-08 17:45:20.067   56 Monitor info ICDDebug=0 icdinsider=1 DebugMode=0 TraceFlag=0
+2018-11-08 17:45:20.067   56 $4$[ICD存储过程1]
+2018-11-08 17:45:20.067   56 name={*I_SCE_OutBoundQuery*},num=16,dataSource=feptest
+2018-11-08 17:45:20.067   56 IVR(0)(5,56)->Database agent:10.153.190.203:222(255)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundQuery*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:45:20.150   56 Database agent:222(255)(255,222)->IVR(0)(5,56): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:45:20.151   56 Proc successed Params: [P0]:type=11 value=1***(1) [P1]:type=191 value= [P2]:type=41 value= [P3]:type=21 value= [P4]:type=191 value= [P5]:type=41 value= [P6]:type=21 value= [P7]:type=191 value= [P8]:type=41 value= [P9]:type=21 value= [P10]:type=191 value= [P11]:type=41 value= [P12]:type=21 value= [P13]:type=191 value= [P14]:type=41 value= [P15]:type=21 value=
+2018-11-08 17:45:20.151   56 @0@成功出口
+2018-11-08 17:45:20.151   56 $2$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:20.151   56 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:20.151   56 @1@假值出口
+2018-11-08 17:45:20.151   56 流程结束
+2018-11-08 17:45:20.151   56 ======================GSL_CALL_END======================
+
+2018-11-08 10:26:11.474   57 Free CI Resource
+2018-11-08 17:45:21.107   57 ======================GSL_CALL_BEGIN======================
+2018-11-08 17:45:21.107   57 GSL MAXID=433, MODIFIED TIME=2018-11-08 17:11:12, SCEVersion=ICDV300R006C60#
+2018-11-08 17:45:21.107   57 CallInfo TrunkNO=0,CLI=<<>>,CLD=<<>>,CLOD=<<>>,
+2018-11-08 17:45:21.107   57 sender_handle=5,sender_dsn=57,receiver_handle=255,receiver_dsn=65535,
+2018-11-08 17:45:21.107   57 AccessCode=T157 VDN=1 Exec flow f:/1/icdmmp/config/flow/ICD32_WarnCallout.GSL Version=ICDV300R006C90U3SPC105 OS=Linux
+2018-11-08 17:45:21.107   57 Monitor info ICDDebug=0 icdinsider=1 DebugMode=0 TraceFlag=0
+2018-11-08 17:45:21.107   57 $4$[ICD存储过程1]
+2018-11-08 17:45:21.107   57 name={*I_SCE_OutBoundQuery*},num=16,dataSource=feptest
+2018-11-08 17:45:21.107   57 IVR(0)(5,57)->Database agent:10.153.190.203:222(255)(255,76): Execute stored procedure:Executing stored procedure: stored procedure name {*I_SCE_OutBoundQuery*}, Agent node No. 76 Proxy(IP=10.153.190.203:222)
+2018-11-08 17:45:21.182   57 Database agent:222(255)(255,222)->IVR(0)(5,57): Execute stored procedure answerMSG_PROXY_SCP_PROC_ACK(89), status=0, dataSource=@3feptest;;.
+2018-11-08 17:45:21.183   57 Proc successed Params: [P0]:type=11 value=1***(1) [P1]:type=191 value= [P2]:type=41 value= [P3]:type=21 value= [P4]:type=191 value= [P5]:type=41 value= [P6]:type=21 value= [P7]:type=191 value= [P8]:type=41 value= [P9]:type=21 value= [P10]:type=191 value= [P11]:type=41 value= [P12]:type=21 value= [P13]:type=191 value= [P14]:type=41 value= [P15]:type=21 value=
+2018-11-08 17:45:21.183   57 @0@成功出口
+2018-11-08 17:45:21.183   57 $2$[EXTENDED_SIB_COMPARE]
+2018-11-08 17:45:21.183   57 CompareSib, Param: Oper1Type=10 Oper2Type=10 Operate=2, (**** == ****)
+2018-11-08 17:45:21.183   57 @1@假值出口
+2018-11-08 17:45:21.183   57 流程结束
+2018-11-08 17:45:21.183   57 ======================GSL_CALL_END======================
+
