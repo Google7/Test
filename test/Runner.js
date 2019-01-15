@@ -1,5 +1,3 @@
-import { builtinModules } from "module";
-
 function myfun(aa) {
     this.aa = aa;
     this.fun = function () {}

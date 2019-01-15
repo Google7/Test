@@ -4,6 +4,7 @@ var url = require("url");
 var express = require("express");
 var bodyParser = require("body-parser");
 var multer = require("multer");
+var database = require("./DataBase")
 
 function start(route) {
     function service(request, response) {
@@ -124,3 +125,34 @@ function fileUpload() {
     });
 }
 exports.fileUpload = fileUpload;
+
+function login(){
+    var app = express();
+    var urlencodeParser = bodyParser.urlencoded({
+        extended:false
+    });
+    app.get("/login.html",function(req,res){
+        res.sendFile(`${__dirname}/login.html`);
+    });
+    app.post("/process_login",urlencodeParser,function(req,res){
+        var userName = req.body.userName;
+        var userPwd = req.body.userPwd;
+        console.log(userName,userPwd)
+        var result = database.toLogin([userName,userPwd]);
+        console.log(result);
+        if(result){
+            app.get("/index.html",function(req,res){
+                res.sendFile(`${__dirname}/index.html`);
+            });
+        }else{
+            res.end("Error");
+        }
+    });
+
+    var server = app.listen(8320, function () {
+        var host = server.address().address;
+        var port = server.address().port;
+        console.log(host, port);
+    });
+}
+exports.login = login;

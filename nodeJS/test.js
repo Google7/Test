@@ -15,3 +15,13 @@ for (i = 0; i < arr.length - 1; i++) {
     }
     console.log("-------------------------")
 }
+
+function aa(){
+    var aa;
+    function bb(){
+        var bb = 123;
+        this.aa = bb;
+    }
+    return aa;
+}
+console.log(aa());

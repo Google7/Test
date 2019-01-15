@@ -7,6 +7,25 @@ var eventEmitter = new events.EventEmitter();
 var service = require("./Service");
 var router = require("./Router");
 
+function readFile() {
+    fs.readFile(`${__dirname}/test.txt`, "utf-8", function (err, data) {
+        if (err) {
+            return console.log(err);
+        } else {
+            console.log(data);
+        }
+
+    });
+    console.log("程序执行结束");
+}
+
+function writeFile(param) {
+    fs.writeFile(`${__dirname}/test.txt`, param, function (err) {
+        if (err) throw err;
+        console.log(`成功写入${__dirname}\\test.txt`);
+    })
+}
+
 function eventEmitter() {
     var connectHandler = function () {
         console.log("连接成功");
@@ -114,23 +133,8 @@ function readFile() {
     console.log("程序执行结束");
 }
 
-function demo(err,fd){
-    if(err){
-        console.log(err);
-        return;
-    }
-    var buf = new Buffer(8);
-    fs.read(fd,buf,0,8,null,function(err,byte,buf){
-        if(err){
-            console.log(err);
-            return;
-        }
-        console.log(byte);
-        console.log(buf);
-    })
-}
-
 //service.start(router.route);
 //service.getMethod();
 //service.postMethod();
-service.fileUpload();
+//service.fileUpload();
+service.login()

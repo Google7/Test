@@ -10,6 +10,7 @@ let select = "select * from userinfo";
 let insert = "insert into userinfo set ?";
 let del = "delete from userinfo where userid = ?"
 let update = "update userinfo set username = ? where userid = ?"
+let login = "select * from userinfo where username = ? and userpwd = ?"
 let users = {
     username: 'abc',
     userpwd: 'def',
@@ -29,7 +30,7 @@ function execute(task, param) {
             console.log(`数据库连接成功`);
             task(con, param);
         }
-    })
+    });
 }
 
 function insertData(con, obj) {
@@ -40,7 +41,7 @@ function insertData(con, obj) {
             console.log(`成功插入${result.affectedRows}条数据`);
         }
         closeMySQL(con);
-    })
+    });
 }
 
 function deleteData(con, num) {
@@ -55,7 +56,7 @@ function deleteData(con, num) {
             }
         }
         closeMySQL(con);
-    })
+    });
 }
 
 function updateDate(con, array) {
@@ -66,7 +67,7 @@ function updateDate(con, array) {
             console.log(`更改成功`);
         }
         closeMySQL(con);
-    })
+    });
 }
 
 function selectData(con, index) {
@@ -91,6 +92,22 @@ function selectData(con, index) {
             }
         }
         closeMySQL(con);
+    });
+}
+
+function toLogin(array) {
+    connect.connect(function (err) {
+        if (err) throw err;
+        connect.query(login, array, function(err, result) {
+            connect.end();
+            if (err) throw err;
+            if (result[0] == null) {
+                return false;
+            } else {
+                console.log(true);
+                return true;
+            }
+        })
     })
 }
 
@@ -126,4 +143,4 @@ function closeMySQL(con) {
     }
 }
 
-execute(selectData);
+exports.toLogin = toLogin;
