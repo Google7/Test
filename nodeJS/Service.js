@@ -2,6 +2,7 @@ var http = require("http");
 var fs = require("fs");
 var url = require("url");
 var express = require("express");
+var router = express.Router();
 var bodyParser = require("body-parser");
 var multer = require("multer");
 var database = require("./DataBase")
@@ -131,6 +132,9 @@ function login(){
     var urlencodeParser = bodyParser.urlencoded({
         extended:false
     });
+    app.get("/",function(req,res){
+        res.sendFile(`${__dirname}/index.html`);
+    })
     app.get("/login.html",function(req,res){
         res.sendFile(`${__dirname}/login.html`);
     });
@@ -138,17 +142,18 @@ function login(){
         var userName = req.body.userName;
         var userPwd = req.body.userPwd;
         console.log(userName,userPwd)
-        var result = database.toLogin([userName,userPwd]);
-        console.log(result);
+        database.toLogin([userName,userPwd]);
+        var result = database.success();
         if(result){
-            app.get("/index.html",function(req,res){
-                res.sendFile(`${__dirname}/index.html`);
-            });
+            router.get('/', function (req, res, next) {
+                res.render('index', {
+                  title: 'index'
+                }); 
+              });
         }else{
             res.end("Error");
         }
     });
-
     var server = app.listen(8320, function () {
         var host = server.address().address;
         var port = server.address().port;

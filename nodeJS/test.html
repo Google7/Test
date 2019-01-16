@@ -10,13 +10,7 @@
     <div><button id="btn">push</button> <input type="text" id="ipt" /></div>
     <script>
         $("#btn").on("click", function () {
-            $.ajax({
-                dataType: "text",
-                url: "/process_get",
-                success: function (result) {
-                    $("#ipt").attr("value", result);
-                }
-            });
+            
         });
     </script>
 </body>

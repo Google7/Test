@@ -1,4 +1,6 @@
 let mysql = require("mysql");
+let events = require("events");
+let eventEmitter = new events.EventEmitter();
 const config = {
     host: "localhost",
     user: "root",
@@ -101,14 +103,20 @@ function toLogin(array) {
         connect.query(login, array, function(err, result) {
             connect.end();
             if (err) throw err;
-            if (result[0] == null) {
-                return false;
-            } else {
+            if (result[0] != null) {
                 console.log(true);
-                return true;
+                eventEmitter.emit("success");
+                eventEmitter.on("success",success);
+            } else {
+                console.log(false);
+                return;
             }
         })
     })
+}
+
+function success(){
+    return true;
 }
 
 var autoConnect = function () {
@@ -144,3 +152,4 @@ function closeMySQL(con) {
 }
 
 exports.toLogin = toLogin;
+exports.success = success;
