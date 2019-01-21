@@ -143,16 +143,16 @@ function login(){
         var userPwd = req.body.userPwd;
         console.log(userName,userPwd)
         database.toLogin([userName,userPwd]);
-        var result = database.success();
-        if(result){
-            router.get('/', function (req, res, next) {
-                res.render('index', {
-                  title: 'index'
-                }); 
-              });
-        }else{
-            res.end("Error");
-        }
+        fs.readFile(`${__dirname}/test.txt`,"utf-8",function(err,data){
+            if(err) throw err;
+            console.log("读取成功");
+            var jsonObj = JSON.parse(data);
+            if(jsonObj.result == true){
+                res.end("Successful");
+            } else{
+                res.end("Error");
+            }
+        });
     });
     var server = app.listen(8320, function () {
         var host = server.address().address;

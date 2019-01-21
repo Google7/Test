@@ -1,6 +1,8 @@
 let mysql = require("mysql");
 let events = require("events");
 let eventEmitter = new events.EventEmitter();
+let fs = require("fs");
+let jsonStr ='{"result":true}';
 const config = {
     host: "localhost",
     user: "root",
@@ -100,23 +102,22 @@ function selectData(con, index) {
 function toLogin(array) {
     connect.connect(function (err) {
         if (err) throw err;
-        connect.query(login, array, function(err, result) {
-            connect.end();
-            if (err) throw err;
+        console.log("数据库连接成功");
+        connect.query(login, array, function(errs, result) {
+            if (err) throw errs;
             if (result[0] != null) {
-                console.log(true);
-                eventEmitter.emit("success");
-                eventEmitter.on("success",success);
+                console.log(result);
+                fs.writeFile(`${__dirname}/test.txt`,jsonStr,"utf-8",function(err){
+                    if(err) throw err;
+                    console.log("写入成功");
+                });
             } else {
                 console.log(false);
-                return;
             }
-        })
-    })
-}
-
-function success(){
-    return true;
+            connect.end();
+            console.log("数据库关闭成功");
+        });
+    });
 }
 
 var autoConnect = function () {
@@ -152,4 +153,3 @@ function closeMySQL(con) {
 }
 
 exports.toLogin = toLogin;
-exports.success = success;
