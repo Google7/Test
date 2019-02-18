@@ -216,3 +216,9 @@ function execute(task,param){
     task(param);
 }
 execute(sayHello,"World");
+
+var aa = "abcdefg";
+console.log(aa.split('').reverse().join());
+console.log(typeof aa.split(''));
+console.log(typeof aa.split('').reverse());
+console.log(typeof aa.split('').reverse().join());

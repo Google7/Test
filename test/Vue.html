@@ -4,10 +4,81 @@
 <head>
     <meta charset="utf-8">
     <title>Vue</title>
+    <script type="text/javascript" src="../config/vue.js"></script>
 </head>
 
 <body>
-    
+    <div id="app">
+        <p>{{message.name|uppercase}}</p>
+        <input v-model="content">
+        <p>{{list[0].text}}</p>
+        <button @click="click">click</button>
+        <input v-model="newTodo" v-on:keyup.enter="addTodo">
+        <ul>
+            <li v-for="todo in todos">
+                <span>{{todo.text}}</span>
+                <button v-on:click="removeTodo($index)">X</button>
+            </li>
+        </ul>
+        <span v-if="Greeting">Greeting</span>
+        <p>{{result ? true : false}}</p>
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                content: "Hello Vue",
+                message: {
+                    name: "jian",
+                    age: 23
+                },
+                list: [{
+                        text: 'Learn JavaScript'
+                    },
+                    {
+                        text: 'Learn Vue.js'
+                    },
+                    {
+                        text: 'Build Something Awesome'
+                    }
+                ],
+                newTodo: "",
+                todos: [{
+                    text: "Add some todos"
+                }],
+                Greeting: true,
+                result:null
+            },
+            methods: {
+                click: function () {
+                    this.content = this.content.split('').reverse().join('');
+                },
+                addTodo: function () {
+                    var obj = this.newTodo.trim();
+                    if (obj) {
+                        this.todos.push({
+                            text: obj
+                        });
+                        this.newTodo = "";
+                    }
+                },
+                removeTodo: function (index) {
+                    this.todos.splice(index, 1);
+                }
+            },
+            created: function () {
+                
+            }
+        });
+        
+        vm.message.name = "qichen";
+        vm.result = false;
+        var MyCompontent = Vue.extend({
+
+        });
+        var compontentInstance = new MyCompontent();
+    </script>
 </body>
 
 </html>

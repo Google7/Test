@@ -15,11 +15,11 @@ let insert = "insert into userinfo set ?";
 let del = "delete from userinfo where userid = ?"
 let update = "update userinfo set username = ? where userid = ?"
 let login = "select * from userinfo where username = ? and userpwd = ?"
-let users = {
+let user = {
     username: 'abc',
     userpwd: 'def',
     usersex: 1,
-    userages: 22,
+    userage: null,
     usercity: null
 }
 let connect = mysql.createConnection(config);
@@ -83,14 +83,14 @@ function selectData(con, index) {
                 console.log(`查询成功`);
                 console.log(result[index].userid + "--" +
                     result[index].username + "--" + result[index].userpwd + "--" +
-                    result[index].usersex + "--" + result[index].userages + "--" +
+                    result[index].usersex + "--" + result[index].userage + "--" +
                     result[index].usercity);
             } else {
                 console.log(`查询到${result.length}条数据`);
                 for (const i in result) {
                     console.log(result[i].userid + "--" +
                         result[i].username + "--" + result[i].userpwd + "--" +
-                        result[i].usersex + "--" + result[i].userages + "--" +
+                        result[i].usersex + "--" + result[i].userage + "--" +
                         result[i].usercity);
                 }
             }
@@ -153,3 +153,5 @@ function closeMySQL(con) {
 }
 
 exports.toLogin = toLogin;
+
+execute(selectData);
