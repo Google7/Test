@@ -4,16 +4,16 @@
 var obj1 = {
     a: 3,
     b: 4
-}
+};
 demo.call(obj1, 1, 2);
 demo.apply(obj1, [5, 6]);
 
 var obj2 = {
     user: "jian",
-    fun: function() {
+    fun: function () {
         console.log(this.user, this.fun);
     }
-}
+};
 obj2.fun();
 
 function ab() {
@@ -22,32 +22,32 @@ function ab() {
 var a = new ab();
 console.log(a.user);
 
-var fun = function() {
+var fun = function () {
     console.log(fun.caller);
-}
+};
 
 function ba() {
     fun();
 }
 ba();
 
-var cc = function(x, y) {
+var cc = function (x, y) {
     console.log(arguments, arguments.length, arguments.callee.length, arguments.callee);
     console.log(x * y);
     return x + y;
-}
+};
 cc(2, 3, 4);
-var dd = function(name, age) {
-    this.name = name,
-        this.age = age
-}
+var dd = function (name, age) {
+    this.name = name;
+    this.age = age;
+};
 var obj3 = new dd("jian", 23);
 dd.prototype.ss = 123;
 console.log(obj3.ss, obj3.name);
 
 function ee(name) {
-    this.name = name,
-        this.age = 23
+    this.name = name;
+    this.age = 23;
 }
 var obj4 = new ee("jian");
 console.log(obj4.constructor.toString(), obj4.age);
@@ -76,7 +76,7 @@ var demo = {
     lastName: "qichen",
     age: 23,
     fun: test
-}
+};
 console.log(demo.fun());
 
 function test2(firstName, lastName) {
@@ -89,9 +89,9 @@ console.log(xx);
 
 function fun1() {
     var n = 1;
-    add = function() {
+    add = function () {
         n += 1;
-    }
+    };
 
     function fun2() {
         console.log(n);
@@ -107,9 +107,9 @@ res();
 var object = {
     name: "My Object",
 
-    getNameFunc: function() {
+    getNameFunc: function () {
         var that = this;
-        return function() {
+        return function () {
             return that.name;
         };
     }
@@ -126,12 +126,12 @@ abc.prototype.age = 23;
 console.log(asd.age);
 console.log(abc.prototype);
 
-var bibi = function() {
+var bibi = function () {
     var count = 1;
-    return function() {
+    return function () {
         console.log(count);
         return count += 1;
-    }
+    };
 }();
 bibi();
 bibi();
@@ -155,7 +155,7 @@ console.log(nn);
 var jsobj = {
     name: "jian",
     age: 23
-}
+};
 
 var jsonstr = '{"emp":[' +
     '{"name":"dog","age":15},' +
@@ -164,7 +164,7 @@ var jsonstr = '{"emp":[' +
 console.log(jsobj);
 console.log(JSON.parse(jsonstr));
 
-for (x in jsobj) {
+for (var x in jsobj) {
     console.log(jsobj[x]);
 }
 
@@ -195,30 +195,37 @@ var animals = {
             "age": 18
         }
     ]
-}
+};
 
-function Hello(){
+function Hello() {
     var name;
-    this.setName = function(names){
+    this.setName = function (names) {
         name = names;
-    }
-    this.sayHello = function(){
-        console.log("hello "+name);
-    }
+    };
+    this.sayHello = function () {
+        console.log("hello " + name);
+    };
 }
 module.exports = Hello;
 
-function sayHello(param){
-    console.log(`Hello ${param}`);
+function sayHello(param) {
+    console.log("Hello" + param);
 }
 
-function execute(task,param){
+function execute(task, param) {
     task(param);
 }
-execute(sayHello,"World");
+execute(sayHello, "World");
 
-var aa = "abcdefg";
-console.log(aa.split('').reverse().join());
-console.log(typeof aa.split(''));
-console.log(typeof aa.split('').reverse());
-console.log(typeof aa.split('').reverse().join());
+var str = "abCdefg";
+console.log(str.split('').reverse().join());
+console.log(typeof str.split(''));
+console.log(typeof str.split('').reverse());
+console.log(typeof str.split('').reverse().join());
+
+var arr = new Array(3);
+arr[0] = 1;
+arr[1] = 3;
+arr[2] = 2;
+console.log(arr);
+console.log(arr.sort());
