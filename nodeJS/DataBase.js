@@ -2,7 +2,7 @@ let mysql = require("mysql");
 let events = require("events");
 let eventEmitter = new events.EventEmitter();
 let fs = require("fs");
-let jsonStr ='{"result":true}';
+let jsonStr = '{"result":true}';
 const config = {
     host: "localhost",
     user: "root",
@@ -99,26 +99,24 @@ function selectData(con, index) {
     });
 }
 
-function toLogin(array) {
-    connect.connect(function (err) {
+var toLogin = function (array) {
+    var msg;
+    return connect.connect(function (err) {
         if (err) throw err;
         console.log("数据库连接成功");
-        connect.query(login, array, function(errs, result) {
+        return connect.query(login, array, function (errs, result) {
             if (err) throw errs;
             if (result[0] != null) {
-                console.log(result);
-                fs.writeFile(`${__dirname}/test.txt`,jsonStr,"utf-8",function(err){
-                    if(err) throw err;
-                    console.log("写入成功");
-                });
+                msg = true;
             } else {
-                console.log(false);
+                msg = false;
             }
+            console.log(msg);
             connect.end();
             console.log("数据库关闭成功");
         });
-    });
-}
+    });  
+};
 
 var autoConnect = function () {
     let n = 0;
@@ -154,4 +152,4 @@ function closeMySQL(con) {
 
 exports.toLogin = toLogin;
 
-execute(selectData);
+console.log(toLogin(["abc","def"]));
