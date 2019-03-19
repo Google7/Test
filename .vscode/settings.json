@@ -15,6 +15,7 @@
     "sourceMap": false, // 是否创建文件目录树，true的话会自动生成一个 .css.map 文件
     "out": true, // 是否输出css文件，false为不输出
     "outExt": ".css" // 输出文件的后缀,默认为.css
-  }
-
+  },
+  "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe"
+  
 }

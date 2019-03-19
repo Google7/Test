@@ -4,10 +4,310 @@
 <head>
     <meta charset="utf-8">
     <title>Vue</title>
+    <script type="text/javascript" src="../config/vue.js"></script>
+    <style>
+        .class-a{
+            background-color: blue;
+        }
+        .class-b{
+            font-size: 50px;
+        }
+        #app{
+            display:flex;
+        }
+    </style>
 </head>
 
 <body>
-    
+    <div id="app">
+        <div>
+            <p>{{message.name|uppercase}}</p>
+            <input v-model="content">
+            <p>{{list[0].text}}</p>
+            <button @click="click">click</button>
+            <input v-model="newTodo" @keyup.enter="addTodo">
+            <ul>
+                <li v-for="todo in todos">
+                    <span>{{todo.text}}</span>
+                    <button @click="removeTodo($index)">X</button>
+                </li>
+            </ul>
+            <span v-if="Yes">Yes</span>
+            <span v-else="No">No</span>
+            <span v-show="show">show</span>
+            <template v-if="ok">
+                <h1>Title</h1>
+                <p>Paragraph 1</p>
+                <p>Paragraph 2</p>
+            </template>
+            <p>{{result ? true : false}}</p>
+            <div>
+                a = {{a}},b = {{b}}
+            </div>
+            firstName:<input type="text" v-model="firstName">
+            <br>
+            lastName:<input type="text" v-model="lastName">
+            <br>
+            {{fullName}}
+            <div v-bind:class="classObject">class</div>
+            <div v-bind:style="styleObject">style</div>
+            <ul>
+                <li v-for="item in items" track-by="$index">
+                    {{$index}} === {{item.msg}}
+                    <input type="button" @click="remove($index)" value="移除">
+                </li>
+            </ul>
+            <div>
+                <input type="button" @click="modify" value="修改">
+                <input type="button" @click="reduct" value="还原">
+            </div>
+            <ul>
+                <li v-for="value in object">
+                    {{$key}} === {{value}}
+                </li>
+            </ul>
+            <span v-for="n in 10">{{ n }}</span>
+        </div>
+        <div>
+            <button @click="push('Hello',$event)">点击我</button>
+            <p></p>
+            <a @click="prevent" href="http://www.baidu.com">百度一下</a>
+            <p></p>
+            <input @keyup.enter="keyup" v-model="msg">
+            <p></p>
+            <div>
+                <span>message is {{message}}</span>
+                <br>
+                <input type="text" v-model="message" placeholder="edit me">
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox" v-model="checked">
+                <label for="checkbox">{{checked}}</label>
+            </div>
+            <div>
+                <input type="checkbox" id="jack" value="Jack" v-model="checkedNames">
+                <label for="jack">Jack</label>
+                <input type="checkbox" id="john" value="John" v-model="checkedNames">
+                <label for="john">John</label>
+                <input type="checkbox" id="mike" value="Mike" v-model="checkedNames">
+                <label for="mike">Mike</label>
+                <br>
+                <span>checked name: {{checkedNames | json}}</span>
+            </div>
+            <div>
+                <input type="radio" id="one" value="One" v-model="picked">
+                <label for="one">One</label>
+                <input type="radio" id="two" value="Two" v-model="picked">
+                <label for="two">Two</label>
+                <br>
+                <span>Picked : {{picked}}</span>
+            </div>
+            <div>
+                <select v-model="selected">
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                </select>
+                <span>selected : {{selected}}</span>
+                <option v-for="option in options">
+                    {{option.text}} === {{option.value}}
+                </option>
+            </div>
+        </div>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                content: "Hello Vue",
+                message: {
+                    name: "jian",
+                    age: 23
+                },
+                list: [{
+                        text: 'Learn JavaScript'
+                    },
+                    {
+                        text: 'Learn Vue.js'
+                    },
+                    {
+                        text: 'Build Something Awesome'
+                    }
+                ],
+                newTodo: "",
+                todos: [{
+                    text: "Add some todos"
+                }],
+                Yes: true,
+                show: true,
+                ok: true,
+                result: null,
+                a: 1,
+                firstName: "jian",
+                lastName: "qichen",
+                fullName: "jianqichen",
+                classObject: {
+                    "class-a": true,
+                    "class-b": true
+                },
+                styleObject: {
+                    "color": "red",
+                    "font-size": "30px"
+                },
+                items: [{
+                        msg: "a"
+                    },
+                    {
+                        msg: "b"
+                    },
+                    {
+                        msg: "c"
+                    },
+                    {
+                        msg: "d"
+                    },
+                    {
+                        msg: "e"
+                    }
+                ],
+                object: {
+                    name: "jianqichen",
+                    age: 23,
+                    girlfriend: null
+
+                },
+                msg: " ",
+                message: " ",
+                checked: false,
+                checkedNames: [],
+                picked: " ",
+                selected: null,
+                options: [{
+                        text: "One",
+                        value: "A"
+                    },
+                    {
+                        text: "Two",
+                        value: "B"
+                    },
+                    {
+                        text: "Three",
+                        value: "C"
+                    }
+                ]
+            },
+            methods: {
+                click: function () {
+                    this.content = this.content.split('').reverse().join('');
+                    event.preventDefault();
+                },
+                addTodo: function () {
+                    var obj = this.newTodo.trim();
+                    if (obj) {
+                        this.todos.push({
+                            text: obj
+                        });
+                        this.newTodo = "";
+                    }
+                },
+                removeTodo: function (index) {
+                    this.todos.splice(index, 1);
+                },
+                modify: function () {
+                    this.items = [{
+                            msg: "a"
+                        },
+                        {
+                            msg: "b"
+                        },
+                        {
+                            msg: "x"
+                        },
+                        {
+                            msg: "y"
+                        },
+                        {
+                            msg: "z"
+                        }
+                    ]
+                },
+                reduct: function () {
+                    this.items = [{
+                            msg: "a"
+                        },
+                        {
+                            msg: "b"
+                        },
+                        {
+                            msg: "c"
+                        },
+                        {
+                            msg: "d"
+                        },
+                        {
+                            msg: "e"
+                        }
+                    ]
+                },
+                remove: function (index) {
+                    this.items.$remove(this.items[index]);
+                },
+                push: function (msg, event) {
+                    alert(msg);
+                    alert(event.target.tagName)
+                },
+                prevent: function () {
+                    event.preventDefault();
+                },
+                keyup: function () {
+                    alert(this.msg);
+                    this.msg = " ";
+                }
+            },
+            created: function () {
+
+            },
+            computed: {
+                b: function () {
+                    return this.a + 1;
+                },
+                fullName: {
+                    get: function () {
+                        return this.firstName + " " + this.lastName;
+                    },
+                    set: function (newValue) {
+                        var str;
+                        for (let i = 1; i < newValue.length; i++) {
+                            var n = newValue[i].charCodeAt();
+                            if (n >= 65 && n <= 90) {
+                                str = newValue[i];
+                            }
+                        }
+                        var num = newValue.indexOf(str);
+                        this.firstName = newValue.substr(0, num);
+                        this.lastName = newValue.substr(num);
+                    }
+                }
+            },
+            watch: {
+                items: function () {
+
+                }
+            }
+        });
+        vm.message.name = "qichen";
+        vm.result = false;
+
+        vm.$watch("firstName", function (val) {
+            this.fullName = val + " " + this.lastName;
+        });
+        vm.$watch("lastName", function (val) {
+            this.fullName = this.firstName + " " + val;
+        });
+        vm.fullName = "JianQichen";
+        
+
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <style>
+        .demo {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <button onclick="color(this,ture)">Button0</button>
+            <button>Button1</button>
+        </div>
+        <div>
+            <img src="./images/aaa.gif" alt="资源找不到">
+            <img src="./images/bbb.gif" alt="资源找不到">
+            <img src="./images/ccc.gif" alt="资源找不到">
+        </div>
+    </div>
+
+    <script>
+        var scope = "global";
+
+        function open() {
+            var answer = confirm("确定打开？");
+            if (answer) {
+                window.open("http://taobao.com")
+            }
+        }
+
+        function add(msg, size) {
+            var div = document.getElementById("div");
+            if (!div) {
+                div = document.createElement("div");
+                div.id = "div";
+                div.textContent = "I am is ";
+                document.body.append(div);
+                var span = document.createElement("span");
+                var text = document.createTextNode(msg);
+                span.append(text);
+                div.append(span);
+                div.style.fontSize = size;
+            }
+        }
+
+        function color(cur, boo) {
+            if (boo) {
+                cur.style.color = "red";
+            } else {
+                cur.style.color = "blue";
+            }
+        }
+
+        function hide() {
+            event.target.style.display = "none";
+        }
+
+        var btn0 = document.getElementsByTagName("button")[0];
+        color(btn0, false);
+        var btn1 = document.getElementsByTagName("button")[1];
+        btn1.className = "demo";
+
+        var img = document.getElementsByTagName("img");
+        for (let i = 0; i < img.length; i++) {
+            img[i].addEventListener("click", hide)
+        }
+
+        function change() {
+            scope = "change";
+            return function nested() {
+                var scope = "nested";
+                var local = "local";
+                return scope;
+            }
+        }
+
+        function test(o) {
+            var i = "i";
+            if (typeof o == "object") {
+                var j = "j";
+                for (var k = 0; k < 5; k++) {
+                    alert(k);
+                }
+                alert(k);
+            }
+            alert(j);
+            alert(i);
+        }
+
+        function aa() {
+            alert(scope);
+            var scope = "change";
+            alert(scope);
+
+        }
+    </script>
+</body>
+
+</html>
