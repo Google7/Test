@@ -29,19 +29,59 @@ var person = new Person("jian", 23);
 
 var arr = [1, 2, 2, 3, 3, 4, 5];
 
-function demo(array){
+function demo(array) {
     var temp = [];
     for (var i = 0; i < array.length; i++) {
-        if(temp.indexOf(array[i]) == -1){
+        if (temp.indexOf(array[i]) == -1) {
             temp.push(array[i]);
         }
     }
     return temp;
 }
 
-console.log(demo(arr));
+function runAsync1() {
+    var p = new Promise(function (resolve) {
+        //做一些异步操作
+        setTimeout(function () {
+            console.log('执行完成1');
+            resolve('随便什么数据1');
+        }, 1000);
+    });
+    return p;
+}
 
-var aa = [1,3,5,2,7,4,8,6];
-console.log(aa.sort().reverse().join(" ").split(/ /));
+function runAsync2() {
+    var p = new Promise(function (resolve) {
+        //做一些异步操作
+        setTimeout(function () {
+            console.log('执行完成2');
+            resolve('随便什么数据2');
+        }, 1000);
+    });
+    return p;
+}
 
+function runAsync3() {
+    var p = new Promise(function (resolve) {
+        //做一些异步操作
+        setTimeout(function () {
+            console.log('执行完成3');
+            resolve('随便什么数据3');
+        }, 1000);
+    });
+    return p;
+}
 
+function getNumber() {
+    var p = new Promise(function (resolve, reject) {
+        var n = Math.ceil(Math.random() * 10);
+        setTimeout(function () {
+            if (n <= 5) {
+                resolve(n);
+            } else {
+                reject('数字太大' + " " + n);
+            }
+        }, 1000)
+    })
+    return p;
+}

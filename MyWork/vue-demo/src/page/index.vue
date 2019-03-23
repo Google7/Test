@@ -3,7 +3,7 @@
     <Header></Header>
     <div class="article_list">
       <ul>
-        <li v-for="i in list" v-bind:key="i.create_at">
+        <li v-for="i in list" v-bind:key="i.id">
           <time v-text="$utils.goodTime(i.create_at)"></time>
           <router-link :to="'/content/' + i.id">{{ i.title }}</router-link>
         </li>
@@ -13,8 +13,9 @@
   </div>
 </template>
 <script>
-import Header from "../components/header.vue";
-import Footer from "../components/footer.vue";
+import Header from "../components/header";
+import Footer from "../components/footer";
+
 export default {
   components: { Header, Footer },
   data() {
@@ -27,9 +28,10 @@ export default {
   },
   methods: {
     getData() {
-      var v = this;
-      this.$api.get("topics", null, r => {
-        v.list = r.data;
+      this.$api.get("topics", null, result => {
+        this.list = result.data;
+      },err => {
+        window.alert(err);
       });
     }
   }
