@@ -6,22 +6,21 @@ const path = require('path')
 
 module.exports = {
   dev: {
+
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/api/**': {
-        target: 'http://localhost:8080/', // 设置你调用的接口域名和端口号
-        changeOrigin: true, // 跨域
-        pathRewrite: {
-          '^/api': '/api'
-        }
+      '/api/v1/**': {
+        target: 'https://cnodejs.org', // 你接口的域名
+        secure: false,
+        changeOrigin: false
       }
     },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
-    port: 8084, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    port: 8085, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
@@ -62,7 +61,8 @@ module.exports = {
     /**
      * Source Maps
      */
-    productionSourceMap: false,
+
+    productionSourceMap: true,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
 

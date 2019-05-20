@@ -1,0 +1,644 @@
+{
+  "success": true,
+  "data": [{
+    "id": "5bd4772a14e994202cd5bdb7",
+    "author_id": "504c28a2e2b845157708cb61",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>2018年10月27日晚上，突然收到服务器不能访问的告警通知，拜托了狼叔 <a href=\"/user/i5ting\">@i5ting</a> 帮忙看看，结果登不上也ping不通。\n后来收到短信，发现是被ucloud封了，短信内容如下：</p>\n<blockquote>\n<p>【UCloud】尊敬的UCloud用户，您的IP：123.59.77.142  存在URL ：<a href=\"https://cnodejs.org/topic/57239bce5a26c4a841ecbf01\">https://cnodejs.org/topic/57239bce5a26c4a841ecbf01</a> （详细信息请查看邮箱）包含违禁内容（包括但不限于翻墙等），违反了国家有关法律法规。目前依主管单位要求，对您的IP予以封停，请您尽快处理违规内容。待处理完成后请联系技术支持重新开启业务。[4000188113]</p>\n</blockquote>\n<p>然后联系了ucloud的客服，一下就打通了，对方态度挺好处理问题也快。ucloud说是运营商那边封的，不是他们的检测机制。所以需要联系运营商解决。\n考虑到各位亲爱的网友们的行为我无法控制，那么一直跟越来越严格的审查系统对抗只会让自己疲惫，所以我就站点迁到国外。来到了aws jp。</p>\n<p>我大致测了测，电信和移动的访问速度非常快，100ms以内，联通会慢一点，400ms以内吧。</p>\n<p>建议翻墙访问。</p>\n</div>",
+    "title": "服务器迁移至 aws 日本机房",
+    "last_reply_at": "2019-03-29T04:52:43.006Z",
+    "good": false,
+    "top": true,
+    "reply_count": 181,
+    "visit_count": 19665,
+    "create_at": "2018-10-27T14:33:14.694Z",
+    "author": {
+      "loginname": "alsotang",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1147375?v=4&s=120"
+    }
+  }, {
+    "id": "5c73d9c2ab86b86ddf6b2b4a",
+    "author_id": "51f0f267f4963ade0e08f503",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>更灵活的机动、更快的效率、更高的产能\nServerless - 解放的不仅仅是生产力，更是一种全新的思维方式。</p>\n<p>百姓网 Hax、上线了郭达峰、ThoughtWorks 陈欢、阿里云杜万、淘宝冰森等优秀分享者，\n期待与你一起进入嗨翻 server 的新场景。</p>\n<p><img src=\"//static.cnodejs.org/FlbUfz7IHVgS4DwmjSrXKiL9fMRl\" alt=\"image.png\">\n<img src=\"//static.cnodejs.org/FlDAitTvYWpWsudI8VGjfjGGXYRr\" alt=\"image.png\"></p>\n<p>时间：03 月 16 日周六\n地点：上海证大五道口广场</p>\n<p>报名链接：<a href=\"https://survey.alibaba.com/apps/zhiliao/tZc2WjLe2\">https://survey.alibaba.com/apps/zhiliao/tZc2WjLe2</a>\n活动主页：<a href=\"https://taobaofed.github.io/nodejs-club/\">https://taobaofed.github.io/nodejs-club/</a></p>\n</div>",
+    "title": "Node 地下铁第八期「上海站」线下沙龙邀约 - Let's Go Serverless!",
+    "last_reply_at": "2019-03-21T01:39:18.715Z",
+    "good": false,
+    "top": true,
+    "reply_count": 41,
+    "visit_count": 4548,
+    "create_at": "2019-02-25T12:04:18.826Z",
+    "author": {
+      "loginname": "lellansin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2081487?v=4&s=120"
+    }
+  }, {
+    "id": "5c9ee97099e62a362ff4166b",
+    "author_id": "59302f441e7e75f60c1ad854",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>前端开发知识整理分享, 👏👏欢迎来喷，不被喷就不知道自己的问题</p>\n<p><a href=\"https://github.com/AttemptWeb/Record\">github 项目仓库原址</a></p>\n<h2><img src=\"https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/record1.png\" alt></h2>\n<p><img src=\"https://img.shields.io/badge/build-passing-brightgreen.svg\" alt=\"passing\"> <img src=\"https://img.shields.io/badge/License-MIT-brightgreen.svg\" alt=\"MIT\"></p>\n<p><strong>不是技术的创造者，只是技术的搬运工。有疑问欢迎issues</strong></p>\n<hr>\n<p>推荐 <a href=\"https://coolshell.cn/articles/10804.html\">X-Y Problem 问题</a></p>\n<h2>Problem</h2>\n<ul>\n<li><a href=\"https://github.com/EastSummer/wheel_marking/blob/master/question.md\"><strong>【Github】</strong> 一些面试问题的集合</a></li>\n<li><a href=\"https://github.com/HerryLo/Record/blob/master/js/JsMd/%E5%B8%B8%E8%A7%81%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98.md\"><strong>【Markdown】</strong> 前端面试题持续更新中</a></li>\n<li><a href=\"https://github.com/mqyqingfeng/Blog\"><strong>【冴羽博客强推】</strong> JavaScript深入系列、JavaScript专题系列、ES6系列</a></li>\n<li><a href=\"https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn\"><strong>【Github】</strong> 饿了么 Node.js 面试</a></li>\n<li><a href=\"https://blog.csdn.net/column/details/webgl.html?&amp;page=2\"><strong>【文章】</strong> webGL的学习之路</a></li>\n<li><a href=\"https://coolshell.cn/articles/10804.html\"><strong>【文章】</strong> X-Y Problem 问题</a></li>\n<li><a href=\"https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension\"><strong>【文章】</strong> vue 的双向绑定</a></li>\n<li><a href=\"https://github.com/AttemptWeb/Record/blob/master/other/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B.md\"><strong>【Markdown】</strong> 康威定律</a></li>\n<li><a href=\"https://juejin.im/post/5c22f13b5188252b56273a00\"><strong>【掘金】</strong> 闭包的错误使用</a></li>\n<li><a href=\"https://juejin.im/post/5983dfbcf265da3e2f7f32de\"><strong>【掘金】</strong> react@15.0 源码解析</a></li>\n<li><a href=\"https://i5ting.github.io/modern-nodejs/\"><strong>【Github】</strong> 现代的Node.js 构建服务利器</a></li>\n</ul>\n<h2>Portal</h2>\n<ul>\n<li>\n<p><a href=\"https://github.com/AttemptWeb/Record/tree/master/css\"><strong>【Markdown】</strong> css 传送</a></p>\n<blockquote>\n<p>随着css功能的不断强大，它可以做的东西也越来越多</p>\n</blockquote>\n</li>\n<li>\n<p><a href=\"https://github.com/AttemptWeb/Record/tree/master/js\"><strong>【Markdown】</strong> javascript 传送</a></p>\n<blockquote>\n<p>ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化</p>\n</blockquote>\n</li>\n<li>\n<p><a href=\"https://github.com/AttemptWeb/Record/tree/master/frame\"><strong>【Markdown】</strong> reactjs 传送</a></p>\n</li>\n</ul>\n<blockquote>\n<p>前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发</p>\n</blockquote>\n<ul>\n<li><a href=\"https://github.com/AttemptWeb/Record/tree/master/other/wxsapp\"><strong>【Markdown】</strong> 小程序开发 传送</a></li>\n</ul>\n<blockquote>\n<p>官方微信小程序对于API的开发，让前端开发者易于上手，但在一些问题面前无法得到好的解决</p>\n</blockquote>\n<ul>\n<li><a href=\"https://github.com/AttemptWeb/Record/tree/master/other/devTooll\"><strong>【Markdown】</strong> 工具扩展 传送</a></li>\n</ul>\n<blockquote>\n<p>开发对于git、webpack、Travis CI需要有一定的了解</p>\n</blockquote>\n<ul>\n<li><a href=\"https://github.com/AttemptWeb/Record/tree/master/server\"><strong>【Markdown】</strong> server扩展 传送</a></li>\n</ul>\n<blockquote>\n<p>对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码</p>\n</blockquote>\n<ul>\n<li><a href=\"https://github.com/AttemptWeb/Record/tree/master/other/learn\"><strong>【Markdown】</strong> 学习资料 传送</a></li>\n</ul>\n<blockquote>\n<p>将平时学习的资料放在这里</p>\n</blockquote>\n<h2>Project example</h2>\n<blockquote>\n<p>说明: 都是别人的项目，只是放个链接</p>\n</blockquote>\n<ul>\n<li>\n<p><a href=\"https://github.com/bailicangdu/vue2-elm\">基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用</a></p>\n</li>\n<li>\n<p><a href=\"https://github.com/bailicangdu/node-elm\">基于 node.js + Mongodb 构建电商后台系统</a></p>\n</li>\n<li>\n<p><a href=\"https://pan.baidu.com/s/1geQIWHt?qq-pf-to=pcqq.group&amp;errno=0&amp;errmsg=Auth%20Login%20Sucess&amp;&amp;bduss=&amp;ssnerror=0#list/path=%2FVue%202.0%20%E9%AB%98%E7%BA%A7%E5%AE%9E%E6%88%98-%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%9F%B3%E4%B9%90WebApp\">Vue 2.0 高级实战-开发移动端音乐WebApp 百度云视频地址</a></p>\n</li>\n<li>\n<p><a href=\"https://pro.ant.design/\">开箱即用的中台前端/设计解决方案 ANT DESIGN PRO</a></p>\n</li>\n</ul>\n<h2>License</h2>\n<p><a href=\"https://github.com/HerryLo/Record/blob/master/LICENSE\">MIT</a></p>\n<h2>github 项目仓库</h2>\n<p><a href=\"https://github.com/AttemptWeb/Record\">github 项目仓库原址</a></p>\n</div>",
+    "title": "github的分享仓库 Record",
+    "last_reply_at": "2019-03-30T18:03:56.746Z",
+    "good": false,
+    "top": false,
+    "reply_count": 2,
+    "visit_count": 109,
+    "create_at": "2019-03-30T03:58:40.046Z",
+    "author": {
+      "loginname": "lh199507",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20215975?v=4&s=120"
+    }
+  }, {
+    "id": "5c9dee91484eeb3634158598",
+    "author_id": "57df88ff7d8293463a01e70b",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><h1><a href=\"https://github.com/996icu/996.ICU\">https://github.com/996icu/996.ICU</a></h1>\n<h3>这么大个论坛，没人敢聊这个？我不入地狱谁入地狱，为了广大互联网从业人员，豁出去了，你个死程序还能写几年？真以为三十几岁还能找到工作？说不定坟头草都几丈高了</h3>\n<p>996ICU，工作 996，生病 ICU，说不定ICU的机会都没有，赚那么多钱有用吗?\n要敢于反抗，不畏强权，即使被生活所迫也不要放弃说“不”的权利，我们热爱工作，我们更热爱生活，我们要陪家人、我们要有时间去谈恋爱\n<strong>程序猿的责任心不容质疑，我可以自愿007，但绝不愿强制996</strong></p>\n<p>（注意！上次deno issues有人声称要搞黑名单，意思就是跟了贴的人永远失去面试机会，这么大个论坛，没人敢聊这个？这次996ICU跟不跟风，你自己决定，我反正生死看淡不服就干）\n几乎是一秒一个star</p>\n</div>",
+    "title": "996ICU这么大个论坛，没人敢聊这个？，工作 996，生病 ICU,要敢于反抗，不畏强权，即使被生活所迫也不要放弃说“不”的权利",
+    "last_reply_at": "2019-03-30T15:29:40.890Z",
+    "good": false,
+    "top": false,
+    "reply_count": 13,
+    "visit_count": 554,
+    "create_at": "2019-03-29T10:08:17.910Z",
+    "author": {
+      "loginname": "zengming00",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5255081?v=4&s=120"
+    }
+  }, {
+    "id": "5c9d958c99e62a362ff4109a",
+    "author_id": "5b8f4cb682f0728f354d741b",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>最近刚刚试用了egg做了一个项目，但是在service中使用egg-sequelize的事务时遇到了一些问题\n如果一个有事务的service调用了另一个有事务的service，如何才能优雅的传递事务？之前是再service中预留了事务这个参数，\n但这样写代码真的是太丑了，有没有什么好的办法？\n另外，关于controller与service与Dao之间的界限，一直不能很好的区别开\n如：关于session的操作，是在controller中进行，还是service？service与controller都可以访问ctx，这让我在使用时分不清两者的界限\n又如：controller对于service返回的结果，是否还需要校验？如果service中出现了参数不正确，如何才能让controller获知？\n恳请各位看看在下的问题</p>\n</div>",
+    "title": "关于在egg中带有事务的service之间的调用",
+    "last_reply_at": "2019-03-30T12:06:49.088Z",
+    "good": false,
+    "top": false,
+    "reply_count": 3,
+    "visit_count": 200,
+    "create_at": "2019-03-29T03:48:28.247Z",
+    "author": {
+      "loginname": "M1178475702",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/42426867?v=4&s=120"
+    }
+  }, {
+    "id": "5b5e78f5673571454c633cea",
+    "author_id": "5b56866ae740336c7bedb345",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p><strong>koa2实战项目介绍（真全栈）：</strong></p>\n<p><strong>Nodejs+koa2实战视频教程</strong>从零开始一步一步让你学会Koa基础以及用用<strong>Koa开发项目</strong>，本教程涉及 用户权限判断 、<strong>验证码</strong> 、分页、多级分类、<strong>ueditor可视化富文本编辑器</strong>、图片上传、<strong>底层DB库封装</strong>、<strong>扩展art-template的核心方法、<strong>ajax改变状态、ajax排序、以及赠送的</strong>Socket.io机器人</strong> 、Socket.io多人聊天室、<strong>Socket.io群聊</strong>、前后端分离 <strong>RESTful API Api</strong>接口、购买域名 服务器、域名备案、<strong>nginx负载均衡</strong>、<strong>域名解析部署nodejs程序</strong>、Nodejs进程管理器pm2模块、Koa操作<strong>mysql数据库</strong></p>\n<p><strong>地址：</strong> <a href=\"https://www.itying.com/goods-800.html\">Koa2实战视频教程下载地址点我</a></p>\n<p><strong>2018 Nodejs+Koa2入门实战视频教程百度网盘下载地址（41讲免费基础下载地址）：</strong></p>\n<p><a href=\"https://pan.baidu.com/s/1KNaA97kGwNhavch5rP_G7w\">https://pan.baidu.com/s/1KNaA97kGwNhavch5rP_G7w</a></p>\n</div>",
+    "title": "Nodejs+koa2实战视频教程【87讲】--Koa2+Nodejs+MongoDb打造企业级CMS前后端全栈项目实战视频教程",
+    "last_reply_at": "2019-03-30T12:04:30.879Z",
+    "good": false,
+    "top": false,
+    "reply_count": 77,
+    "visit_count": 15094,
+    "create_at": "2018-07-30T02:33:25.113Z",
+    "author": {
+      "loginname": "songsunli",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/41601667?v=4&s=120"
+    }
+  }, {
+    "id": "5c98303afd41137eb76611c5",
+    "author_id": "5c8b07957ce0df37324281f2",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p><a href=\"https://www.bilibili.com/video/av47250164?from=search&amp;seid=5656787623889941077\">https://www.bilibili.com/video/av47250164?from=search&amp;seid=5656787623889941077</a></p>\n<p>Nodejs直播系统开发有人会吗?不知道 Nodejs搭建的直播系统性能怎么样?</p>\n</div>",
+    "title": "Nodejs直播系统开发有人会吗?B站已经有Nodejs实现（摄像机）监控直播管理系统",
+    "last_reply_at": "2019-03-30T12:01:52.690Z",
+    "good": false,
+    "top": false,
+    "reply_count": 6,
+    "visit_count": 858,
+    "create_at": "2019-03-25T01:34:50.259Z",
+    "author": {
+      "loginname": "xuemeifenglin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48575523?v=4&s=120"
+    }
+  }, {
+    "id": "5b7ac9c7c52ad1482eb940bf",
+    "author_id": "5b52cbf1fb9e84ec69cc1ca2",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>Egg.js现在用的人多吗？那些公司在用有知道的吗？</p>\n<p>同上，老铁们出来吧。</p>\n</div>",
+    "title": "Egg.js现在用的人多吗？那些公司在用有知道的吗？",
+    "last_reply_at": "2019-03-30T11:59:29.479Z",
+    "good": false,
+    "top": false,
+    "reply_count": 85,
+    "visit_count": 8289,
+    "create_at": "2018-08-20T14:01:43.981Z",
+    "author": {
+      "loginname": "nodeper",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/41500847?v=4&s=120"
+    }
+  }, {
+    "id": "5c9f55f499e62a362ff41799",
+    "author_id": "5b31b09b57137f22415c4f4a",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><blockquote>\n<p><strong>该文章阅读需要7分钟,更多文章请点击本人博客<a href=\"https://www.halu886.cn\">halu886</a></strong></p>\n</blockquote>\n<ul>\n<li><a href=\"#%E5%BC%82%E6%AD%A5io%E4%B8%8E%E9%9D%9E%E9%98%BB%E5%A1%9Eio\">异步I/O与非阻塞I/O</a>\n<ul>\n<li><a href=\"#read\">read</a></li>\n<li><a href=\"#select\">select</a></li>\n<li><a href=\"#poll\">poll</a></li>\n<li><a href=\"#epoll\">epoll</a></li>\n<li><a href=\"#kqueue\">kqueue</a></li>\n</ul>\n</li>\n<li><a href=\"#%E7%90%86%E6%83%B3%E7%9A%84%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%BC%82%E6%AD%A5io\">理想的非阻塞异步I/O</a></li>\n<li><a href=\"#%E6%98%BE%E5%BC%8F%E7%9A%84%E5%BC%82%E6%AD%A5io\">显式的异步I/O</a></li>\n</ul>\n<h1>异步I/O与非阻塞I/O</h1>\n<p>异步I/O在Node中最为广泛，但是这并非Node原创</p>\n<p>Node介绍时，异步，非阻塞和回调通常一起推介出来。异步和非阻塞听起来似乎是一回事，且从实际效果来看，都实现了并行I/O的效果。但是从计算机内核来说，异步/同步和阻塞/非阻塞其实是两回事。</p>\n<p>操作系统内核对于I/O只有阻塞/非阻塞。当调用阻塞I/O时，那么应用程序只有等待I/O完成返回结果。</p>\n<p>阻塞I/O的一个特点就是，需要系统内核完成所有操作才算调用结束。例如读取磁盘上的一个文件，需要系统内核完成磁盘寻道，读取数据，复制数据到内存中，才算整个调用结束。</p>\n<p>阻塞I/O会使CPU进行等待，CPU的性能得不到充分利用，为了提升CPU的使用性能，内核提供了非阻塞I/O，区别在于调用后立马返回结果。</p>\n<p>阻塞I/O的调用过程\n<img src=\"http://resource.halu886.cn/images/async-io-2/1.png?x-oss-process=style/halu-blog-watermark\" alt=\"1\"></p>\n<p>非阻塞I/O的调用过程\n<img src=\"http://resource.halu886.cn/images/async-io-2/2.png?x-oss-process=style/halu-blog-watermark\" alt=\"2\"></p>\n<p>操作系统把任意支持输入输出设备都抽象成文件，应用程序要对文件操作时，需要获取文件操作符作为与系统内核的凭证。如果应用程序需要调用I/O，需要先打开文件描述符，再通过文件描述符进行文件读写。阻塞I/O的区别是完成整个获取数据的过程再返回，然而非阻塞I/O则不带数据直接返回，之后在通过文件操作符进行读取。</p>\n<p>非阻塞I/O直接返回，CPU时间片可以用来处理其他事物，此时的性能是明显的。</p>\n<p>非阻塞I/O也存在一个问题，当非阻塞I/O返回后，结果不是业务层需要的数据，这个时候就需要不停的确认I/O是否完成，这个就叫做<strong>轮询</strong>技术。</p>\n<p>任意技术并非完美，阻塞I/O造成了CPU等待浪费，而轮询则会导致CPU资源的浪费，那么我们来看一下如何优化轮询减小轮询所造成的CPU的浪费。</p>\n<h2>read</h2>\n<p>这是性能最低的一种方式，通过重复调用检查I/O的状态来完成完整数据的读取，在获取完整数据时，CPU一直耗用再等待上。\n<img src=\"http://resource.halu886.cn/images/async-io-2/3.png?x-oss-process=style/halu-blog-watermark\" alt=\"3\"></p>\n<h2>select</h2>\n<p>基于read的进行一种优化，通过文件描述符进行的事件状态进行判断。不过这有一个限制，它是由一个1024位数组来存储状态的，所以最多存储1024个文件描述符\n<img src=\"http://resource.halu886.cn/images/async-io-2/4.png?x-oss-process=style/halu-blog-watermark\" alt=\"4\"></p>\n<h2>poll</h2>\n<p>基于select进行优化的方案，采用链表的思路进行存储文件描述符，并且避免了没有必要的检查。但是当文件描述符比较多时，性能还是比较低效。\n<img src=\"http://resource.halu886.cn/images/async-io-2/5.png?x-oss-process=style/halu-blog-watermark\" alt=\"5\"></p>\n<h2>epoll</h2>\n<p>该方案是Linux下性能最高的方案，当进入到轮询时，没有检查到I/O事件时，将会进行休眠，直至事件发送将它唤醒。它真实的利用事件通知，执行回调的方法，而不是遍历查询。所以不会浪费CPU，不会浪费CPU，执行效率较高。\n<img src=\"http://resource.halu886.cn/images/async-io-2/6.png?x-oss-process=style/halu-blog-watermark\" alt=\"6\"></p>\n<h2>kqueue</h2>\n<p>该方案与epoll类似，不过只在FreeBSD系统下存在</p>\n<p>轮询机制能够确保非阻塞I/O获取完整数据，但是对于应用程序而言，仍是同步I/O,需要I/O完成读取读取所有数据才算完成，在这个过程中，CPU要么在轮询的过程中或者休眠的过程中。结论还是不够好。</p>\n<h1>理想的非阻塞异步I/O</h1>\n<p>尽管epoll已经降低了CPU的耗用，但是休眠期间CPU几乎是闲置的，对于线程来说，CPU的利用率并不高。</p>\n<p>我们期待的异步I/O是由应用程序进行发起非阻塞调用，然后直接处理下一件任务，然后I/O完成后通过信号或回调返回给应用程序。</p>\n<p><img src=\"http://resource.halu886.cn/images/async-io-2/7.png?x-oss-process=style/halu-blog-watermark\" alt=\"7\">\nLinux存在一种原生的异步I/O方式（AIO）就是通过信号和回调来传递数据,但是仅支持内核I/O中的O_DIRECT方式读取，导致无法利用系统缓存。</p>\n<h1>显式的异步I/O</h1>\n<p>实现异步I/O也并非难事，如果是多线程的话又是另外一番风景。通过部分线程使用阻塞I/O或者非阻塞I/O加轮询技术进行读取数据，再用一个进程作为计算进程，最后再通过进程间通信实现异步I/O。</p>\n<p><img src=\"http://resource.halu886.cn/images/async-io-2/8.png?x-oss-process=style/halu-blog-watermark\" alt=\"8\">\nglibc采用的就是通过线程池模拟异步I/O，但是存在一些难以忍受的bug，不推荐使用。libev的作者实现了一个异步I/O：libeio。libeio实际上还是线程池与阻塞I/O模拟异步I/O。最初Node在*nix平台下libeio配合libev实现异步I/O。在Nodev0.9.3中，自行实现了线程池来完成异步I/O。</p>\n<p>另一种方案则是windows下的IOCP，在某种程度是一种理想的异步I/O方案，调用异步方法，等待I/O完成后的通知，执行回调，无需考虑轮询。但是本质上也是线程池加阻塞I/O的，不过线程池由系统内核接管。</p>\n<p>IOCP和NodeJs的异步I/O调用模型相似，所以在Windows中采用IOCP实现异步I/O。</p>\n<p>由于Windows平台与*nix平台下的差异，Node提供了libuv作为抽象封装层保证上层Node.js与自定义线程池或IOCP各自独立。在编译时，选择性的将win目录下或者unix下的源文件编译进目标程序中\n<img src=\"http://resource.halu886.cn/images/async-io-2/9.png?x-oss-process=style/halu-blog-watermark\" alt=\"9\"></p>\n<p>强调一点，在*nix，任何计算机资源都抽象为文件。磁盘文件，硬件，套接字等等。<br>\n另外一点，我们所说的Node为单线程，指的是Javascript执行在单线程中，但是异步I/O另有线程池。</p>\n<blockquote>\n<p>以上知识点均来自&lt;&lt;深入浅出Node.js&gt;&gt;，更多细节建议阅读书籍:-)</p>\n</blockquote>\n</div>",
+    "title": "浅谈NodeJs异步I/O-2",
+    "last_reply_at": "2019-03-30T11:41:40.738Z",
+    "good": false,
+    "top": false,
+    "reply_count": 0,
+    "visit_count": 79,
+    "create_at": "2019-03-30T11:41:40.738Z",
+    "author": {
+      "loginname": "halu886",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22374024?v=4&s=120"
+    }
+  }, {
+    "id": "5c9887dc00bcfd7eb2be5e34",
+    "author_id": "573212537abbbd520cb244b3",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>目前是用 bd 自带的 watch 监听增改事件,  然后同步到 es. 但是服务器挂掉之后就没发同步了, 会出现数据不一致的情况.</p>\n<p>有什么方案可以优雅得解决一下吗?</p>\n<p>我找到一种方案: MongoDB =&gt; Kafka =&gt; ElasticSearch\n搞了一下发现数据是可以推过去, 但是到 es 的数据结构不行.   我考虑改成 MongoDB =&gt; Kafka =&gt; Node.js =&gt; ElasticSearch  自己处理后推给 es;</p>\n<pre class=\"prettyprint language-json\"><code>{\n    &quot;took&quot;: 5,\n    &quot;timed_out&quot;: false,\n    &quot;_shards&quot;: {\n        &quot;total&quot;: 5,\n        &quot;successful&quot;: 5,\n        &quot;skipped&quot;: 0,\n        &quot;failed&quot;: 0\n    },\n    &quot;hits&quot;: {\n        &quot;total&quot;: 4,\n        &quot;max_score&quot;: 1,\n        &quot;hits&quot;: [\n            {\n                &quot;_index&quot;: &quot;estest&quot;,\n                &quot;_type&quot;: &quot;customer&quot;,\n                &quot;_id&quot;: &quot;estest+0+0&quot;,\n                &quot;_score&quot;: 1,\n                &quot;_source&quot;: {\n                    &quot;after&quot;: &quot;{\\&quot;_id\\&quot; : {\\&quot;$oid\\&quot; : \\&quot;5c9c7b471bc46c008b81ec80\\&quot;},\\&quot;1\\&quot; : 1226}&quot;,\n                    &quot;patch&quot;: null,\n                    &quot;source&quot;: {\n                        &quot;version&quot;: &quot;0.9.3.Final&quot;,\n                        &quot;connector&quot;: &quot;mongodb&quot;,\n                        &quot;name&quot;: &quot;yuwenyun&quot;,\n                        &quot;rs&quot;: &quot;mgset-13045511&quot;,\n                        &quot;ns&quot;: &quot;yuwenyun.estest&quot;,\n                        &quot;sec&quot;: 1553762695,\n                        &quot;ord&quot;: 1,\n                        &quot;h&quot;: 5437490261080768344,\n                        &quot;initsync&quot;: true\n                    },\n                    &quot;op&quot;: &quot;r&quot;,\n                    &quot;ts_ms&quot;: 1553762704918\n                }\n            },\n            {\n                &quot;_index&quot;: &quot;estest&quot;,\n                &quot;_type&quot;: &quot;customer&quot;,\n                &quot;_id&quot;: &quot;estest+0+3&quot;,\n                &quot;_score&quot;: 1,\n                &quot;_source&quot;: {\n                    &quot;after&quot;: null,\n                    &quot;patch&quot;: &quot;{\\&quot;_id\\&quot; : {\\&quot;$oid\\&quot; : \\&quot;5c9c7b471bc46c008b81ec80\\&quot;},\\&quot;1\\&quot; : 1226447}&quot;,\n                    &quot;source&quot;: {\n                        &quot;version&quot;: &quot;0.9.3.Final&quot;,\n                        &quot;connector&quot;: &quot;mongodb&quot;,\n                        &quot;name&quot;: &quot;yuwenyun&quot;,\n                        &quot;rs&quot;: &quot;mgset-13045511&quot;,\n                        &quot;ns&quot;: &quot;yuwenyun.estest&quot;,\n                        &quot;sec&quot;: 1553764732,\n                        &quot;ord&quot;: 1,\n                        &quot;h&quot;: -236075833439367192,\n                        &quot;initsync&quot;: false\n                    },\n                    &quot;op&quot;: &quot;u&quot;,\n                    &quot;ts_ms&quot;: 1553764741906\n                }\n            },\n            {\n                &quot;_index&quot;: &quot;estest&quot;,\n                &quot;_type&quot;: &quot;customer&quot;,\n                &quot;_id&quot;: &quot;estest+0+1&quot;,\n                &quot;_score&quot;: 1,\n                &quot;_source&quot;: {\n                    &quot;after&quot;: null,\n                    &quot;patch&quot;: &quot;{\\&quot;_id\\&quot; : {\\&quot;$oid\\&quot; : \\&quot;5c9c7b471bc46c008b81ec80\\&quot;},\\&quot;1\\&quot; : 12264}&quot;,\n                    &quot;source&quot;: {\n                        &quot;version&quot;: &quot;0.9.3.Final&quot;,\n                        &quot;connector&quot;: &quot;mongodb&quot;,\n                        &quot;name&quot;: &quot;yuwenyun&quot;,\n                        &quot;rs&quot;: &quot;mgset-13045511&quot;,\n                        &quot;ns&quot;: &quot;yuwenyun.estest&quot;,\n                        &quot;sec&quot;: 1553764557,\n                        &quot;ord&quot;: 1,\n                        &quot;h&quot;: -6372310413316992824,\n                        &quot;initsync&quot;: false\n                    },\n                    &quot;op&quot;: &quot;u&quot;,\n                    &quot;ts_ms&quot;: 1553764566566\n                }\n            },\n            {\n                &quot;_index&quot;: &quot;estest&quot;,\n                &quot;_type&quot;: &quot;customer&quot;,\n                &quot;_id&quot;: &quot;estest+0+2&quot;,\n                &quot;_score&quot;: 1,\n                &quot;_source&quot;: {\n                    &quot;after&quot;: null,\n                    &quot;patch&quot;: &quot;{\\&quot;_id\\&quot; : {\\&quot;$oid\\&quot; : \\&quot;5c9c7b471bc46c008b81ec80\\&quot;},\\&quot;1\\&quot; : 122644}&quot;,\n                    &quot;source&quot;: {\n                        &quot;version&quot;: &quot;0.9.3.Final&quot;,\n                        &quot;connector&quot;: &quot;mongodb&quot;,\n                        &quot;name&quot;: &quot;yuwenyun&quot;,\n                        &quot;rs&quot;: &quot;mgset-13045511&quot;,\n                        &quot;ns&quot;: &quot;yuwenyun.estest&quot;,\n                        &quot;sec&quot;: 1553764691,\n                        &quot;ord&quot;: 1,\n                        &quot;h&quot;: -250322674294173573,\n                        &quot;initsync&quot;: false\n                    },\n                    &quot;op&quot;: &quot;u&quot;,\n                    &quot;ts_ms&quot;: 1553764701044\n                }\n            }\n        ]\n    }\n}\n</code></pre></div>",
+    "title": "求推荐 MongoDB 同步到 ElasticSearch 的技术方案",
+    "last_reply_at": "2019-03-30T11:07:30.523Z",
+    "good": false,
+    "top": false,
+    "reply_count": 7,
+    "visit_count": 495,
+    "create_at": "2019-03-25T07:48:44.578Z",
+    "author": {
+      "loginname": "dlyt",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/18431616?v=4&s=120"
+    }
+  }, {
+    "id": "5c9600c800bcfd7eb2be5484",
+    "author_id": "4efc278625fa69ac69000229",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>我在深圳，做了差不多10年程序员，以前是做游戏前端的，后来也做Web前端，然后是Web全栈，后端用Node，后来做游戏又用Node，差不多有三四年Node经验了，但是相对于Java、PHP等后端，Node的应用不是很广而且比较偏，现在找工作挺难的。</p>\n<p>之前公司招人也挺难的，因为Java、PHP转Node的人很少，大部分是前端转过去的，对后端的积累不深，不大满足要求。</p>\n<p>我现在就是处于这样尴尬的地位，虽然最近花了不少时间去积累后端深层技能，但是仍然不够自信。</p>\n<p>我最近在考虑要不要重新回到前端方向去。毕竟前端现在也越来越复杂。前后端全栈，一边调试CSS，一边研究Linux内核，感觉精力实在不足啊。</p>\n<p>不过考虑未来30年的职业发展，我肯定还是会全面发展的。只是近期比较尴尬，又到了养家糊口的年纪。</p>\n</div>",
+    "title": "前端转Node后端会很尴尬吗？",
+    "last_reply_at": "2019-03-30T09:11:20.782Z",
+    "good": false,
+    "top": false,
+    "reply_count": 39,
+    "visit_count": 1721,
+    "create_at": "2019-03-23T09:47:52.134Z",
+    "author": {
+      "loginname": "lushisang",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/197572?v=4&s=120"
+    }
+  }, {
+    "id": "59f576b2508fccca5420f335",
+    "author_id": "515005e9604b3d512109bb17",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><blockquote>\n<p><a href=\"https://www.zhihu.com/lives/907210790807949312\">点我</a>进入 Live，时间是 11 月 27 日晚 7 点。</p>\n</blockquote>\n<p>Node.js 本身其实是很简单的，正如社区里面一直传的一样，它只是一个胶水层。</p>\n<p>所以，这么简单的一个东西到底有哪些地方是值得我们学习的呢？以及，为了能好好跟它玩耍，我们还需要学习哪些周边的姿势呢？</p>\n<p>这些就会在本场 Live 中已我个人的观点进行解说。</p>\n<blockquote>\n<p><strong>注</strong>：本次 Live 与我在 GitChat 上的内容大抵相似，若已参与那场则可略过本场。</p>\n</blockquote>\n<p>顺便附送一个二维码：</p>\n<p><img src=\"//static.cnodejs.org/FtvGlEnsWQG7m59llqel4XQVFg3T\" alt=\"群二维码\"></p>\n</div>",
+    "title": "开场知乎 Live，一起讨论下当我们在学习 Node.js 的时候，我们在学习什么",
+    "last_reply_at": "2019-03-30T03:56:25.297Z",
+    "good": false,
+    "top": false,
+    "reply_count": 6,
+    "visit_count": 2062,
+    "create_at": "2017-10-29T06:35:30.514Z",
+    "author": {
+      "loginname": "XadillaX",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2842176?v=4&s=120"
+    }
+  }, {
+    "id": "5c9ec83899e62a362ff415b4",
+    "author_id": "5c9ec62999e62a362ff415a8",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>地址：<a href=\"http://www.ckminder.top/\">ckminder 导图</a>\n<img src=\"//static.cnodejs.org/FgLJRNvJTqp2Aa5aHDXzf0zUU_d9\" alt=\"QQ图片20190330093617.png\">\n<img src=\"//static.cnodejs.org/FkBhSJ4wu9xAAnXtXzBBAFF5-Z8X\" alt=\"QQ图片20190330220346.png\"></p>\n<p>测试版，目前还正在开发</p>\n</div>",
+    "title": "[ckminder 导图]基于egg.js/zrender.js开发的思维导图网站",
+    "last_reply_at": "2019-03-30T01:36:56.876Z",
+    "good": false,
+    "top": false,
+    "reply_count": 0,
+    "visit_count": 127,
+    "create_at": "2019-03-30T01:36:56.876Z",
+    "author": {
+      "loginname": "Jugging",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/18719494?v=4&s=120"
+    }
+  }, {
+    "id": "5b101b058a4f51e140d9440c",
+    "author_id": "5b094f5257137f22415c4685",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><h1>付费VPN推荐</h1>\n<p>更新：<a href=\"https://www.wallmama.com/best-vpn-china-2019/\">2019年便宜好用的翻墙VPN推荐</a></p>\n<h2>免费VPN服务最好不要用</h2>\n<p>用免费VPN服务，网络流量流经一个不可信的第三方，是件危险的事。你的流量里可能有没有充分加密保护的敏感信息：密码，银行账号，私密资料，访问历史等，流量劫持的潜在风险还不止这些。</p>\n<h2>破解的VPN软件更危险</h2>\n<p>这更危险，此类破解软件挂马带病毒是很常见的事，贪便宜从不明来源下载，很快让你的电脑裸奔；况且，破解软件不能更新，即使能用，也只能用极有限的时间。</p>\n<h2>国内的付费VPN服务想用也用不了</h2>\n<p>去年，GreenVPN被关。</p>\n<p>国内还剩多少可用的付费VPN服务，没统计过，越来越少吧，即使还有也离被关不远了。国内某些小众搜索引擎的结果页里偶尔还出现一些不入流（骗钱）的产品。</p>\n<p>也许存在传说中的“已注册“的服务，但国内政策风险太大，不建议购买。</p>\n<h2>国外的付费VPN服务能用的已经不多</h2>\n<p>绝大多数在这几年也陆续沦陷了，国内无法直接购买，买VPN要先上VPN，本身就很无奈。</p>\n<p>不是所有的付费VPN厂商都重视中国市场，只有一线大厂才可以，小厂商的财力、人力、技术能力都没大到能长期保证国内用户能持续使用服务的程度。</p>\n<h2>国外付费VPN推荐</h2>\n<p>下面推荐的服务商都</p>\n<ul>\n<li>\n<p>重视中国用户，国内还能直接支付宝购买</p>\n</li>\n<li>\n<p>全球服务器，好用的客户端</p>\n</li>\n<li>\n<p>提供额外加强服务，持续改进算法和服务质量</p>\n</li>\n<li>\n<p>支持无条件退款</p>\n</li>\n</ul>\n<p><strong>国内还能用支付宝买到</strong>的国外付费vpn推荐：</p>\n<h2>VPN推荐一：<a href=\"https://indx.cc/exp\">ExpressVPN</a></h2>\n<p>全球148+服务器所在地 / 无限流量 / 多协议，包括openVPN / 一键连接 / 同时3台设备 / 256-bit AES加密 / 支付宝支付 / 支持路由器连接 / 完全IP隐藏 / 零日志 / 全终端覆盖 / 30天无条件退款 / Split tunneling技术 + 浏览器插件，同时访问内外网 / <strong>推荐原因：速度相对最快</strong></p>\n<h2>VPN推荐二：<a href=\"https://indx.cc/vyr\">VyprVPN</a></h2>\n<p>70+自有服务器所在地，200,000+IP地址 / 无限流量 / 多协议，独家混淆协议 / 一键连接 / 同时5台设备 / 支持P2P / 变色龙加密，<strong>推荐原因：连接相对最稳定</strong> / 支付宝支付 / 支持路由器连接 / NAT安全机制 / DNS加密 / 全终端覆盖 / 2年款最大优惠 / 30天无条件退款 / 按程序控制网络技术，同时访问内外网</p>\n<h2>VPN推荐三：<a href=\"https://indx.cc/nrd\">Nord</a></h2>\n<p>3400+服务器 / 无限流量 / 支持Onion over vpn / 一键连接 / 同时6台设备 / 支持P2P / 双重加密 / 支付宝支付 / 支持路由器连接 / CyberSec安全技术 / 零日志 / 专业客户端 / 2年款最大优惠 / 随时退款 / 浏览器代理插件，同时访问内外网 / <strong>推荐原因：随时退款</strong></p>\n<h2>自建VPN方案</h2>\n<p>自建VPN是否成功，得靠运气，像<a href=\"https://www.vultr.com/?ref=6996621\">Vultr</a>这样的IP池比较大，但国内用户也特别多，准备好换IP吧，长远没有付费VPN靠谱。</p>\n<h2>付费VPN稳定性与速度</h2>\n<p>没有100%稳定的VPN服务，每年特殊时间段的连接质量都不好，容易断线。</p>\n<p>一年中大部分时间，日常使用Google，收发Gmail，使用Youtube还是稳定的。</p>\n<p>1080P的油管通常是不可能的，只在极少时间还算流畅，720P多数时候比较流畅。</p>\n<p>日常使用，偶尔断线，基本换服务器位置重连即可。</p>\n<p>即使是同一个服务，在一天不同时段，或在不同地域访问，服务质量也可能天差地别，没人知道具体原因，所以如果你在旅行途中，如果要保证最大限度的可连接性，可以考虑常备两个以上的服务，如果一个服务暂时出问题，另一个替上。</p>\n<h2>用好试用期</h2>\n<p>一线服务商都提供免费试用或至少7天的无条件退款，利用好试用期，充分检测服务质量，不满意及时退款，因为各服务在不同地域服务质量不同，所以一定要自己试一试。</p>\n</div>",
+    "title": "2019国外付费vpn推荐",
+    "last_reply_at": "2019-03-29T17:41:40.806Z",
+    "good": false,
+    "top": false,
+    "reply_count": 20,
+    "visit_count": 18862,
+    "create_at": "2018-05-31T15:55:49.256Z",
+    "author": {
+      "loginname": "wallmama",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39631585?v=4&s=120"
+    }
+  }, {
+    "id": "5b630389b71aedfe4c1266a2",
+    "author_id": "5b62fab258db3ccf66a4516b",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>近期在学习node.js，由于自己是初学者，看了《Node.js开发指南》和 《Node.js开发实战》上的一些基础的东西，《深入浅出 Node.js》看起来是很吃力，最近试着用Express开发自己的一个 个人博客系统，刚刚开始，就感觉很吃力，最近就在想该怎么来学习，希望曾经和我有相同问题的朋友解答下我的疑惑，学习路线很迷茫啊。。。</p>\n</div>",
+    "title": "node.js的入门（萌新）",
+    "last_reply_at": "2019-03-29T14:55:21.339Z",
+    "good": false,
+    "top": false,
+    "reply_count": 38,
+    "visit_count": 5053,
+    "create_at": "2018-08-02T13:13:45.110Z",
+    "author": {
+      "loginname": "remembergf",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34055216?v=4&s=120"
+    }
+  }, {
+    "id": "5c2dd1855bf06c5e7e3f0cce",
+    "author_id": "59aa89ea9e95202d08c91ed3",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>如全CSS实现的浮动菜单，手动实现虽说不难，但数量多的话容易出错</p>\n</div>",
+    "title": "大家都是用什么工具做前端设计？",
+    "last_reply_at": "2019-03-29T12:57:24.824Z",
+    "good": false,
+    "top": false,
+    "reply_count": 5,
+    "visit_count": 1021,
+    "create_at": "2019-01-03T09:10:29.784Z",
+    "author": {
+      "loginname": "xinggsf",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13033798?v=4&s=120"
+    }
+  }, {
+    "id": "5c9de1aa484eeb3634158513",
+    "author_id": "5a0a5c9da57c17282e120654",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p><img src=\"https://user-gold-cdn.xitu.io/2019/3/29/169c8b7d66969005?w=640&amp;h=480&amp;f=jpeg&amp;s=104395\" alt=\"administration-articles-bank-261949.jpg\"></p>\n<p>2019年3月29日目前，Node 对 ES6 Module 的支持又有新进展。一个新的 PR 更新了当前 <code>--experimental-modules</code> 的实现方案。</p>\n<p><strong>type 动态判断模块加载模式</strong></p>\n<p>更新后的方案将根据 <code>package.json</code> 文件中指定的 type 值来判断 js 文件是使用 ESM 还是 commonjs</p>\n<ul>\n<li>如果 type 的值为 module 那么 js 文件将被作为 ESM 加载</li>\n<li>如果 type 的值为 commonjs 那么 js 文件将被作为 commonjs 来加载</li>\n</ul>\n<p>好处就是不需要使用 <code>.mjs</code> 这种与传统 js 扩展名不同的写法</p>\n<p><strong>使用 flag 指定入口文件模块加载模式</strong></p>\n<p>更新后的方案允许开发者使用 <code>--entry-type=type</code> 的方式来指定入口文件的解析方式，判断行为与 <code>package.json</code> 的 type 一致</p>\n<p><strong>支持新的扩展名 .cjs</strong></p>\n<p>新的扩展名 <code>.cjs</code> 表示在 module 模式的加载环境下去使用 commonjs 来加载扩展名为 <code>.cjs</code> 的模块</p>\n<p><strong>模块加载方式有所改变</strong></p>\n<p>新的 flag：<code>--es-module-specifier-resolution=[type]</code> 的默认值是 <code>explicit</code>，和可选值 <code>node</code>，在默认值的情况下引入模块时必须书写扩展名。</p>\n<blockquote>\n<p>This implies that ./x will only ever import exactly the sibling file “x” without appending paths or extensions. “x” is never resolved to x.mjs or x/index.mjs (or the .js equivalents).</p>\n<p>比方说这里加载 <code>./x</code> 模块，那么默认情况下只会加载名为 <code>x</code> 的模块，而不是去尝试加载 <code>x.mjs</code> 或 <code>x/index.mjs</code></p>\n<p>提案在此：<a href=\"https://github.com/GeoffreyBooth/node-import-file-specifier-resolution-proposal#proposal\">https://github.com/GeoffreyBooth/node-import-file-specifier-resolution-proposal#proposal</a></p>\n</blockquote>\n<p><strong>在 ESM 模式下加载 json 文件</strong></p>\n<p><code>--experimental-json-loader</code> flag 能够在 ESM 模式下加载 JSON 文件。</p>\n<p>导入的 json 文件将提供的 json 文件中的内容转化为一个对象或数组。就好像直接通过 JSON 模块 parse 了一样。</p>\n<p><strong>main 根据 type 的值确认入口文件加载模式</strong></p>\n<p>在 <code>package.json</code> 文件中的 main 字段指定入口文件，根据 type 字段来指定是 commonjs 还是 ESM 模式来加载。</p>\n<p>参考：</p>\n<ul>\n<li><a href=\"https://github.com/nodejs/node/pull/26745/commits/b1094dbe19f31f7a69ad16d193748f610b159073\">https://github.com/nodejs/node/pull/26745/commits/b1094dbe19f31f7a69ad16d193748f610b159073</a></li>\n<li><a href=\"https://github.com/GeoffreyBooth/node-import-file-specifier-resolution-proposal#proposal\">https://github.com/GeoffreyBooth/node-import-file-specifier-resolution-proposal#proposal</a></li>\n</ul>\n<p><img src=\"https://user-gold-cdn.xitu.io/2019/3/29/169c8b7d668e008f?w=960&amp;h=260&amp;f=jpeg&amp;s=58713\" alt=\"JS 菌公众账号\"></p>\n<p>请关注我的订阅号，不定期推送有关 JS 的技术文章，只谈技术不谈八卦 😊</p>\n</div>",
+    "title": "Node 引入 ESM 新方案",
+    "last_reply_at": "2019-03-29T09:13:14.005Z",
+    "good": false,
+    "top": false,
+    "reply_count": 0,
+    "visit_count": 217,
+    "create_at": "2019-03-29T09:13:14.005Z",
+    "author": {
+      "loginname": "oliyg",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19631785?v=4&s=120"
+    }
+  }, {
+    "id": "5c6ba967b8913c5110b0c3fe",
+    "author_id": "5b7cc310632c7f422e5b8066",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>这都node11，12版本了，找了一圈还是没有简单直接的用import方法，什么时候能原生支持啊</p>\n</div>",
+    "title": "node中import老大难问题",
+    "last_reply_at": "2019-03-29T08:36:22.307Z",
+    "good": false,
+    "top": false,
+    "reply_count": 28,
+    "visit_count": 1429,
+    "create_at": "2019-02-19T06:59:51.500Z",
+    "author": {
+      "loginname": "DuJiming",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36750680?v=4&s=120"
+    }
+  }, {
+    "id": "5b13c12157137f22415c4892",
+    "author_id": "5a9d2f0989a57ad544fa4279",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>koa 框架一直都保持着简洁性, 它只对 node 的 HTTP 模块进行了封装, 而在真正实际使用, 我们还需要更多地像路由这样的模块来构建我们的应用, 而 koa-router 是常用的 koa 的路由库. 这里通过解析 koa-router 的源码来达到深入学习的目的.\n&lt;!-- more --&gt;</p>\n<h2>深入浅出路由模块</h2>\n<p>在 node 原生里面, 如果我们需要实现路由功能, 那么就可以像下面这样编写代码:</p>\n<pre class=\"prettyprint\"><code>const http = require(&#x27;http&#x27;);\nconst { parse } = require(&#x27;url&#x27;);\n\nconst server = http.createServer((req, res) =&gt; {\n    let { pathname } = parse(req.url);\n    \n    if (pathname === &#x27;&#x2F;&#x27;) {\n        res.end(&#x27;index page&#x27;);\n    } else if (pathname === &#x27;&#x2F;test&#x27;) {\n        res.end(&#x27;test page&#x27;);\n    } else {\n        res.end(&#x27;router is not found&#x27;);\n    }\n});\n\nserver.listen(3000);\n</code></pre><p>上面的代码通过解析原生 <em>request IncomingMessage</em> 的 url 属性, 利用 <em>if…else</em> 判断路径返回不同的结果.\n但是上面的代码缺点也很明显, 如果路由过多, <em>if…else</em> 的分支也会越庞大, 不利于代码的维护与多人合作.因此,我们需要一个特定的路由模块来统一地模块化地解决路由功能的问题.\n如果是使用 koa-router 的话, 那么可以借助下面的代码来简单建立一个 koa-router 库的使用 demo:</p>\n<pre class=\"prettyprint\"><code>const Koa = require(&#x27;koa&#x27;);\nconst KoaRouter = require(&#x27;koa-router&#x27;);\n\nconst app = new Koa();\n&#x2F;&#x2F; 创建 router 实例对象\nconst router = new KoaRouter();\n\n&#x2F;&#x2F;注册路由\nrouter.get(&#x27;&#x2F;&#x27;, async (ctx, next) =&gt; {\n  console.log(&#x27;index&#x27;);\n  ctx.body = &#x27;index&#x27;;\n});\n\napp.use(router.routes());  &#x2F;&#x2F; 添加路由中间件\napp.use(router.allowedMethods()); &#x2F;&#x2F; 对请求进行一些限制处理\n\napp.listen(3000);\n</code></pre><p>运行上面的代码, 访问根路由 ‘/’ 我们可以看到返回数据为 ‘index’, 这说明路由已经基本生效了.\n我们来看上面的代码, 使用 koa-router 第一步就是新建一个 router 实例对象:</p>\n<pre class=\"prettyprint\"><code>const router = new KoaRouter();\n</code></pre><p>然后在构建应用的时候, 我们的首要目标就是创建多个 CGI 接口以适配不同的业务需求, 那么接下来就需要注册对应的路由:</p>\n<pre class=\"prettyprint\"><code>router.get(&#x27;&#x2F;&#x27;, async (ctx, next) =&gt; {\n  console.log(&#x27;index&#x27;);\n  ctx.body = &#x27;index&#x27;;\n});\n</code></pre><p>上面的示例使用了 GET 方法来进行注册根路由, 实际上不仅可以使用 GET 方法, 还可以使用 POST, DELETE, PUT 等等\nnode 支持的方法.\n然后为了让 koa 实例使用我们处理后的路由模块, 我们需要使用 routes 方法将路由加入到应用全局的中间件函数中:</p>\n<pre class=\"prettyprint\"><code>app.use(router.routes());  &#x2F;&#x2F; 添加路由中间件\napp.use(router.allowedMethods()); &#x2F;&#x2F; 对请求进行一些限制处理\n</code></pre><h2>源码架构与解析</h2>\n<p>通过上面的代码, 我们已经知道了 koa-router 的简单使用, 接下来我们需要深入到代码中, 理解它是怎么做到匹配从\n客户端传过来的请求并跳转执行对应的逻辑的.在此之前我们先看一下代码的结构图:\n<img src=\"http://ofsur12wi.bkt.clouddn.com/%E7%BB%93%E6%9E%84%E5%9B%BE.png\" alt></p>\n<h3>Router &amp; Layer</h3>\n<p>第一步, 我们需要新建一个 Router 的实例对象, 而对于一个 Router 的实例来说理解其属性是至关重要的.</p>\n<pre class=\"prettyprint\"><code>function Router(opts) {\n  if (!(this instanceof Router)) {\n    return new Router(opts);\n  }\n\n  this.opts = opts || {};\n  this.methods = this.opts.methods || [\n    &#x27;HEAD&#x27;,\n    &#x27;OPTIONS&#x27;,\n    &#x27;GET&#x27;,\n    &#x27;PUT&#x27;,\n    &#x27;PATCH&#x27;,\n    &#x27;POST&#x27;,\n    &#x27;DELETE&#x27;\n  ];\n\n  this.params = {};\n  this.stack = [];\n};\n</code></pre><p>可以看到, 实际有用的属性不过 3 个, 分别是 methods 数组, params 对象, stack 数组. methods 数组存放的是允许\n使用的 HTTP 方法名, 会在 Router.prototype.allowedMethods 方法中使用, 我们在创建 Router 实例的时候可以进行配置, 允许使用哪些方法. 而对于 params 对象它存储的是键为参数名与值为对应的参数校验函数, 这样是为了通过在全局存储参数的校验函数, 方便在注册路由的时候为路由的中间件函数数组添加校验函数. 对于 stack 数组, 则是存储每一个路由, 也就是 Layer 的实例对象, 每一个路由都相当于一个 Layer 实例对象.\n对于 Layer 类来说, 创建一个实例对象用于管理每个路由:</p>\n<pre class=\"prettyprint\"><code>function Layer(path, methods, middleware, opts) {\n  this.opts = opts || {};\n  &#x2F;&#x2F; 路由命名\n  this.name = this.opts.name || null;\n  &#x2F;&#x2F; 路由对应的方法\n  this.methods = [];\n  &#x2F;&#x2F; 路由参数名数组\n  this.paramNames = [];\n  &#x2F;&#x2F; 路由处理中间件数组\n  this.stack = Array.isArray(middleware) ? middleware : [middleware];\n  &#x2F;&#x2F; 存储路由方法\n  methods.forEach(function(method) {\n    var l = this.methods.push(method.toUpperCase());\n    if (this.methods[l-1] === &#x27;GET&#x27;) {\n      this.methods.unshift(&#x27;HEAD&#x27;);\n    }\n  }, this);\n\n  &#x2F;&#x2F; 将添加的回调处理中间件函数添加到 Layer 实例对象的 stack 数组中\n  this.stack.forEach(function(fn) {\n    var type = (typeof fn);\n    if (type !== &#x27;function&#x27;) {\n      throw new Error(\n        methods.toString() + &quot; &#96;&quot; + (this.opts.name || path) +&quot;&#96;: &#96;middleware&#96; &quot;\n        + &quot;must be a function, not &#96;&quot; + type + &quot;&#96;&quot;\n      );\n    }\n  }, this);\n\n  this.path = path;\n  this.regexp = pathToRegExp(path, this.paramNames, this.opts);\n\n  debug(&#x27;defined route %s %s&#x27;, this.methods, this.opts.prefix + this.path);\n};\n</code></pre><p>我们可以看到, 对于 Layer 的实例对象, 核心的逻辑还是在于将 path 转化为正则表达式用于匹配请求的路由,  然后将路由的处理中间件添加到 Layer 的 stack 数组中. 注意这里的 stack 和 Router 里面的 stack 是不一样的, Router 的 stack 数组是存放每个路由对应的 Layer 实例对象的, 而 Layer 实例对象里面的 stack 数组是存储每个路由的处理函数中间件的, 换言之, 一个路由可以添加多个处理函数.\n<img src=\"http://ofsur12wi.bkt.clouddn.com/router&amp;layer.png\" alt></p>\n<h3>method 相关函数</h3>\n<p>所谓 method 就是 HTTP 协议中或者说是在 node 中支持的 HTTP 请求方法.其实我们可以通过打印 node 中的 HTTP 的方法来查看 node 支持的 HTTP method:</p>\n<pre class=\"prettyprint\"><code>require(&#x27;http&#x27;).METHODS; &#x2F;&#x2F; [&#x27;ACL&#x27;, ...., &#x27;GET&#x27;, &#x27;POST&#x27;, &#x27;PUT&#x27;, ...]\n</code></pre><p>在 koa-router 里面的体现就是我们可以通过在 router 实例对象上调用对应的方法函数来注册对应的 HTTP 方法的路由而且每个方法的核心逻辑都类似, 就是将传入的路由路径与对应的回调函数绑定, 所以我们可以遍历一个方法数组来快速构建原型的 method 方法:</p>\n<pre class=\"prettyprint\"><code>methods.forEach(function (method) {\n  Router.prototype[method] = function (name, path, middleware) {\n    var middleware;\n    &#x2F;&#x2F; 判断有没有传入 name 参数, 如果有则处理参数个数问题\n    if (typeof path === &#x27;string&#x27; || path instanceof RegExp) {\n      middleware = Array.prototype.slice.call(arguments, 2);\n    } else {\n      middleware = Array.prototype.slice.call(arguments, 1);\n      path = name;\n      name = null;\n    }\n    &#x2F;&#x2F; 注册路由\n    this.register(path, [method], middleware, {\n      name: name\n    });\n\n    return this;\n  };\n});\n</code></pre><p>上面函数中先判断 path 是否是字符串或者正则表达式是因为注册路由的时候还可以为路由进行命名(命名空间方便管理), 然后准确地获取回调的函数数组(注册路由可以接收多个回调), 这样如果匹配到某个路由, 回调函数数组中的函数就会依次执行. 留意到每个方法都会返回对象本身, 也就是说注册路由的时候是可以支持<strong>链式</strong>调用的.\n此外, 我们可以看到, 每个方法的核心其实还是 register 函数, 所以我们下面看看 register 函数的逻辑.</p>\n<h3>Router.prototype.register</h3>\n<p>register 是注册路由的核心函数, 举个例子, 如果我们需要注册一个路径为 <em>‘/test’</em> 的接收 GET 方法的路由, 那么:</p>\n<pre class=\"prettyprint\"><code>router.get(&#x27;&#x2F;test&#x27;, async (ctx, next) =&gt; {});\n</code></pre><p>其实它相当于下面这段代码:</p>\n<pre class=\"prettyprint\"><code>router.register(&#x27;&#x2F;test&#x27;, [&#x27;GET&#x27;], [async (ctx, next) =&gt; {}], { name: null });\n</code></pre><p>我们可以看到, 函数将路由作为第一个参数传入, 然后方法名放入到方法数组中作为第二个参数, 第三个函数是路由的回调数组, 其实每个路由注册的时候, 后面都可以添加很多个函数, 而这些函数都会被添加到一个数组里面, 如果被匹配到, 就会利用中间件机制来逐个执行这些函数. 最后一个函数是将路由的命名空间传入.\n这里避免篇幅过长, 不再陈列 register 函数的代码, 请移步 <a href=\"https://github.com/alexmingoia/koa-router/blob/master/lib/router.js#L537\">koa-router 源码仓库关于 register 函数部分</a> 查看.\nregister 函数的逻辑其实也很简单, 因为核心的代码全部都交由 Layer 类去完成了, register 函数只是负责处理 path 如果是数组的话那么需要递归调用 register 函数, 然后新建一个 Layer 类的实例对象, 并且检查在注册这个路由之间有没有注册过 param 路由参数校验函数, 如果有的话, 那么就使用 Layer.prototype.param 函数将校验函数加入到路由的中间件函数数组前面.</p>\n<h3>Router.prototype.match</h3>\n<p>通过上面的模块, 我们已经注册好了路由, 但是, 如果请求过来了, 请求是怎么匹配然后进行到相对应的处理函数去的呢? 答案就是利用 match 函数.先看一下 match 函数的代码:</p>\n<pre class=\"prettyprint\"><code>Router.prototype.match = function (path, method) {\n  &#x2F;&#x2F; 取所有路由 Layer 实例\n  var layers = this.stack;\n  var layer;\n  &#x2F;&#x2F; 匹配结果\n  var matched = {\n    path: [],\n    pathAndMethod: [],\n    route: false\n  };\n  &#x2F;&#x2F; 遍历路由 Router 的 stack 逐个判断\n  for (var len = layers.length, i = 0; i &lt; len; i++) {\n    layer = layers[i];\n\n    debug(&#x27;test %s %s&#x27;, layer.path, layer.regexp);\n    &#x2F;&#x2F; 这里是使用由路由字符串生成的正则表达式判断当前路径是否符合该正则\n    if (layer.match(path)) {\n      &#x2F;&#x2F; 将对应的 Layer 实例加入到结果集的 path 数组中\n      matched.path.push(layer);\n      &#x2F;&#x2F; 如果对应的 layer 实例中 methods 数组为空或者数组中有找到对应的方法\n      if (layer.methods.length === 0 || ~layer.methods.indexOf(method)) {\n        &#x2F;&#x2F; 将 layer 放入到结果集的 pathAndMethod 中\n        matched.pathAndMethod.push(layer);\n        &#x2F;&#x2F; 这里是用于判断是否有真正匹配到路由处理函数\n        &#x2F;&#x2F; 因为像 router.use(session()); 这样的中间件也是通过 Layer 来管理的, 它们的 methods 数组为空\n        if (layer.methods.length) matched.route = true;\n      }\n    }\n  }\n\n  return matched;\n};\n</code></pre><p>通过上面返回的结果集, 我们知道一个请求来临的时候, 我们可以使用正则来匹配路由是否符合, 然后在 path 数组或者 pathAndMethod 数组中找到对应的 Layer 实例对象.</p>\n<h3>Router.prototype.routes(middlewares)</h3>\n<p>如果根据一开始的 demo 例子, 在上面注册好了路由之后, 我们就可以使用 router.routes 来将路由模块添加到 koa 的中间件处理机制当中了. 由于 koa 的中间件插件是以一个函数的形式存在的, 所以 routes 函数返回值就是一个函数:</p>\n<pre class=\"prettyprint\"><code>Router.prototype.routes = Router.prototype.middleware = function () {\n  var router = this;\n\n  var dispatch = function dispatch(ctx, next) {\n    ...\n  };\n\n  dispatch.router = this;\n\n  return dispatch;\n};\n</code></pre><p>我们可以看到返回的 dispatch 函数在 routes 内部形成了一个闭包, 并且按照 koa 的中间件形式编写函数.对于 dispatch 函数内部逻辑就如下:</p>\n<pre class=\"prettyprint\"><code>var dispatch = function dispatch(ctx, next) {\n    debug(&#x27;%s %s&#x27;, ctx.method, ctx.path);\n    \n    var path = router.opts.routerPath || ctx.routerPath || ctx.path;\n    &#x2F;&#x2F; 根据 path 值取的匹配的路由 Layer 实例对象\n    var matched = router.match(path, ctx.method);\n    var layerChain, layer, i;\n    \n    if (ctx.matched) {\n      ctx.matched.push.apply(ctx.matched, matched.path);\n    } else {\n      ctx.matched = matched.path;\n    }\n    \n    ctx.router = router;\n    &#x2F;&#x2F; 如果没有匹配到对应的路由模块, 那么就直接跳过下面的逻辑\n    if (!matched.route) return next();\n    &#x2F;&#x2F; 取路径与方法都匹配了的 Layer 实例对象\n    var matchedLayers = matched.pathAndMethod\n    var mostSpecificLayer = matchedLayers[matchedLayers.length - 1]\n    ctx._matchedRoute = mostSpecificLayer.path;\n    if (mostSpecificLayer.name) {\n      ctx._matchedRouteName = mostSpecificLayer.name;\n    }\n    &#x2F;&#x2F; 构建路径对应路由的处理中间件函数数组\n    &#x2F;&#x2F; 这里的目的是在每个匹配的路由对应的中间件处理函数数组前添加一个用于处理\n    &#x2F;&#x2F; 对应路由的 captures, params, 以及路由命名的函数\n    layerChain = matchedLayers.reduce(function(memo, layer) {\n      memo.push(function(ctx, next) {\n        &#x2F;&#x2F; captures 是存储路由中参数的值的数组\n        ctx.captures = layer.captures(path, ctx.captures);\n        &#x2F;&#x2F; params 是一个对象, 键为参数名, 根据参数名可以获取路由中的参数值, 值从 captures 中拿\n        ctx.params = layer.params(path, ctx.captures, ctx.params);\n        ctx.routerName = layer.name;\n        return next();\n      });\n      return memo.concat(layer.stack);\n    }, []);\n    &#x2F;&#x2F; 使用 compose 模块将对应路由的处理中间件数组中的函数逐个执行\n    &#x2F;&#x2F; 当路由的处理函数中间件函数全部执行完, 再调用上一层级的 next 函数进入下一个中间件\n    return compose(layerChain)(ctx, next);\n};\n</code></pre><h3>Router.prototype.allowedMethod</h3>\n<p>对于 allowedMethod 方法来说, 它的作用就是用于处理请求的错误, 所以它作为路由模块的最后一个函数来执行.同样地, 它也是以一个 koa 的中间件插件函数的形式出现, 同样在函数内部形成了一个闭包:</p>\n<pre class=\"prettyprint\"><code>Router.prototype.allowedMethods = function (options) {\n  options = options || {};\n  var implemented = this.methods;\n\n  return function allowedMethods(ctx, next) {\n    ...\n  };\n};\n</code></pre><p>上面的代码很简单, 就是保存 Router 配置中允许的 HTTP 方法数组在闭包内部</p>\n<pre class=\"prettyprint\"><code>return function allowedMethods(ctx, next) {\n    &#x2F;&#x2F; 从这里可以看出, allowedMethods 函数是用于在中间件机制中处理返回结果的函数\n    &#x2F;&#x2F; 先执行 next 函数, next 函数返回的是一个 Promise 对象\n    return next().then(function() {\n      var allowed = {};\n      &#x2F;&#x2F; allowedMethods 函数的逻辑建立在 statusCode 没有设置或者值为 404 的时候\n      if (!ctx.status || ctx.status === 404) {\n        &#x2F;&#x2F; 这里的 matched 就是在 match 函数执行之后返回结果集中的 path 数组\n        &#x2F;&#x2F; 也就是说请求路径与路由正则匹配的 layer 实例对象数组\n        ctx.matched.forEach(function (route) {\n          &#x2F;&#x2F; 将这些 layer 路由的 HTTP 方法存储起来\n          route.methods.forEach(function (method) {\n            allowed[method] = method;\n          });\n        });\n        &#x2F;&#x2F; 将上面的 allowed 整理为数组\n        var allowedArr = Object.keys(allowed);\n        &#x2F;&#x2F; implemented 就是 Router 配置中的 methods 数组, 也就是允许的方法\n        &#x2F;&#x2F; 这里通过 ~ 运算判断当前的请求方法是否在配置允许的方法中\n        &#x2F;&#x2F; 如果该方法不被允许\n        if (!~implemented.indexOf(ctx.method)) {\n          &#x2F;&#x2F; 如果 Router 配置中配置 throw 为 true\n          if (options.throw) {\n            var notImplementedThrowable;\n            &#x2F;&#x2F; 如果配置中规定了 throw 抛出错误的函数, 那么就执行对应的函数\n            if (typeof options.notImplemented === &#x27;function&#x27;) {\n              notImplementedThrowable = options.notImplemented(); &#x2F;&#x2F; set whatever the user returns from their function\n            } else {\n            &#x2F;&#x2F; 如果没有则直接抛出 HTTP Error\n              notImplementedThrowable = new HttpError.NotImplemented();\n            }\n            &#x2F;&#x2F; 抛出错误\n            throw notImplementedThrowable;\n          } else {\n            &#x2F;&#x2F; Router 配置 throw 为 false\n            &#x2F;&#x2F; 设置状态码为 501\n            ctx.status = 501;\n            &#x2F;&#x2F; 并且设置 Allow 头部, 值为上面得到的允许的方法数组 allowedArr\n            ctx.set(&#x27;Allow&#x27;, allowedArr.join(&#x27;, &#x27;));\n          }\n        } else if (allowedArr.length) {\n          &#x2F;&#x2F; 来到这里说明该请求的方法是被允许的, 那么为什么会没有状态码 statusCode 或者 statusCode 为 404 呢?\n          &#x2F;&#x2F; 原因在于除却特殊情况, 我们一般在业务逻辑里面不会处理 OPTIONS 请求的\n          &#x2F;&#x2F; 发出这个请求一般常见就是非简单请求, 则会发出预检请求 OPTIONS\n          &#x2F;&#x2F; 例如 application&#x2F;json 格式的 POST 请求\n          \n          &#x2F;&#x2F; 如果是 OPTIONS 请求, 状态码为 200, 然后设置 Allow 头部, 值为允许的方法数组 methods\n          if (ctx.method === &#x27;OPTIONS&#x27;) {\n            ctx.status = 200;\n            ctx.body = &#x27;&#x27;;\n            ctx.set(&#x27;Allow&#x27;, allowedArr.join(&#x27;, &#x27;));\n          } else if (!allowed[ctx.method]) {\n          &#x2F;&#x2F; 方法被服务端允许, 但是在路径匹配的路由中没有找到对应本次请求的方法的处理函数\n            &#x2F;&#x2F; 类似上面的逻辑\n            if (options.throw) {\n              var notAllowedThrowable;\n              if (typeof options.methodNotAllowed === &#x27;function&#x27;) {\n                notAllowedThrowable = options.methodNotAllowed(); &#x2F;&#x2F; set whatever the user returns from their function\n              } else {\n                notAllowedThrowable = new HttpError.MethodNotAllowed();\n              }\n              throw notAllowedThrowable;\n            } else {\n              &#x2F;&#x2F; 这里的状态码为 405\n              ctx.status = 405;\n              ctx.set(&#x27;Allow&#x27;, allowedArr.join(&#x27;, &#x27;));\n            }\n          }\n        }\n      }\n    });\n};\n</code></pre><p>值得注意的是, Router.methods 数组里面的方法是服务端需要实现并支持的方法, 如果客户端发送过来的请求方法不被允许, 那么这是一个服务端错误 501, 但是如果这个方法被允许, 但是找不到对应这个方法的路由处理函数(比如相同路由的 POST 路由但是用 GET 方法来获取数据), 这是一个客户端错误 405.</p>\n<h3>Router.prototype.use</h3>\n<p>use 函数就是用于添加中间件的, 只不过不同于 koa 中的 use 函数, router 的 use 函数添加的中间件函数会在所有路由执行之前执行.此外, 它还可以对某些特定路径的进行中间件函数的绑定执行.</p>\n<pre class=\"prettyprint\"><code>Router.prototype.use = function () {\n  var router = this;\n  &#x2F;&#x2F; 中间件函数数组\n  var middleware = Array.prototype.slice.call(arguments);\n  var path;\n\n  &#x2F;&#x2F; 支持同时为多个路由绑定中间件函数: router.use([&#x27;&#x2F;use&#x27;, &#x27;&#x2F;admin&#x27;], auth());\n  if (Array.isArray(middleware[0]) &amp;&amp; typeof middleware[0][0] === &#x27;string&#x27;) {\n    middleware[0].forEach(function (p) {\n      &#x2F;&#x2F; 递归调用\n      router.use.apply(router, [p].concat(middleware.slice(1)));\n    });\n    &#x2F;&#x2F; 直接返回, 下面是非数组 path 的逻辑\n    return this;\n  }\n  &#x2F;&#x2F; 如果第一个参数有传值为字符串, 说明有传路径\n  var hasPath = typeof middleware[0] === &#x27;string&#x27;;\n  if (hasPath) {\n    path = middleware.shift();\n  }\n    \n  middleware.forEach(function (m) {\n    &#x2F;&#x2F; 如果有 router 属性, 说明这个中间件函数是由 Router.prototype.routes 暴露出来的\n    &#x2F;&#x2F; 属于嵌套路由\n    if (m.router) {\n      &#x2F;&#x2F; 这里的逻辑很有意思, 如果是嵌套路由, 相当于将需要嵌套路由重新注册到现在的 Router 对象上\n      m.router.stack.forEach(function (nestedLayer) {\n        &#x2F;&#x2F; 如果有 path, 那么为需要嵌套的路由加上路径前缀\n        if (path) nestedLayer.setPrefix(path);\n        &#x2F;&#x2F; 如果本身的 router 有前缀配置, 也添加上\n        if (router.opts.prefix) nestedLayer.setPrefix(router.opts.prefix);\n        &#x2F;&#x2F; 将需要嵌套的路由模块的 stack 中存储的 Layer 加入到本 router 对象上\n        router.stack.push(nestedLayer);\n      });\n      &#x2F;&#x2F; 这里与 register 函数的逻辑类似, 注册的时候检查添加参数校验函数 params\n      if (router.params) {\n        Object.keys(router.params).forEach(function (key) {\n          m.router.param(key, router.params[key]);\n        });\n      }\n    } else {\n      &#x2F;&#x2F; 没有 router 属性则是常规中间件函数, 如果有给定的 path 那么就生成一个 Layer 模块进行管理\n      &#x2F;&#x2F; 如果没有 path, 那么就生成通配的路径 (.*) 来生成 Layer 来管理\n      router.register(path || &#x27;(.*)&#x27;, [], m, { end: false, ignoreCaptures: !hasPath });\n    }\n  });\n\n  return this;\n};\n</code></pre><p>通过上面我们就清楚, 在 koa-router 里面, 它将所有的路由与所有路由都适用的中间件函数都看做 Layer, 通过 Layer 来处理, 然后将他们的回调函数存储在 Layer 实例本身的 stack 数组中, 然后全局的 router 实例对象的 stack 数组存放所有的 Layer 达到全局管理的目的.</p>\n<h2>router 处理请求的流程</h2>\n<p>上面就是 koa-router 的核心 API, 下面我们通过一张图来总结一下, 看一下当一个请求来临, koa-router 是如何处理的:\n<img src=\"http://ofsur12wi.bkt.clouddn.com/%E8%AF%B7%E6%B1%82%E6%B5%81%E7%A8%8B%E5%9B%BE.png\" alt=\"一个请求处理流程图\"></p>\n<h2>附录</h2>\n<h3>为什么需要在 GET 请求放一个 HEAD 请求 ?</h3>\n<p>我们可以看到在 Layer 的构建函数里面, 在对于 methods 的处理中, 会进行判断如果该请求为 GET 请求, 那么就需要在 GET 请求前面添加一个 HEAD 方法, 其原因在于 HEAD 方法与 GET 方法基本是一致的, 所以 koa-router 在处理 GET 请求的时候顺带将 HEAD 请求一并处理, 因为两者的区别在于 HEAD 请求不响应数据体.</p>\n</div>",
+    "title": "全面理解 koa-router",
+    "last_reply_at": "2019-03-29T06:03:06.982Z",
+    "good": false,
+    "top": false,
+    "reply_count": 5,
+    "visit_count": 5108,
+    "create_at": "2018-06-03T10:21:21.246Z",
+    "author": {
+      "loginname": "zhangxiang958",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13307374?v=4&s=120"
+    }
+  }, {
+    "id": "5c9daba199e62a362ff41112",
+    "author_id": "5c9da76099e62a362ff410ea",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>项目地址 ：<a href=\"http://sql2schema.surge.sh/\">sql2schema</a>\n只需要拷贝创建 sql 的语句，就可生成 schema\n当然还可以自定义生成的，使用 <a href=\"http://olado.github.io/doT/index.html\">doT</a> 修改配置, 配置将保持到 localstorage\n由于可以修改模板，所以理论上啥东西都可以生成。。。\n<img src=\"//static.cnodejs.org/Fhn9ZBdv3RXyNKGuzmjXTm5GmJ5B\" alt=\"WeChatef4ee69f737c18d0144f725a2f1233bc.png\">\n<img src=\"//static.cnodejs.org/Ftoc_-5sCRW3PA87mex_f9rlgpRS\" alt=\"WeChatbce3208295ce674ef60e23c33daab273.png\"></p>\n</div>",
+    "title": "用 graphql 嫌写 schema 麻烦，试下用 sql2schema",
+    "last_reply_at": "2019-03-29T05:22:41.444Z",
+    "good": false,
+    "top": false,
+    "reply_count": 0,
+    "visit_count": 197,
+    "create_at": "2019-03-29T05:22:41.444Z",
+    "author": {
+      "loginname": "KenyeeC",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/18223471?v=4&s=120"
+    }
+  }, {
+    "id": "5c6657630752e020af943d12",
+    "author_id": "4f447c2f0a8abae26e01b27d",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><blockquote>\n<p>原文地址，知乎专栏： <a href=\"https://zhuanlan.zhihu.com/p/56780733\">https://zhuanlan.zhihu.com/p/56780733</a></p>\n</blockquote>\n<h2>先睹为快</h2>\n<p>感受下在 JS 下也能 <code>智能提示</code> 和 <code>点击跳转</code> 的 Feeling~</p>\n<p><img src=\"https://cdn.nlark.com/yuque/0/2019/gif/84182/1550199849857-33990e86-85e0-4275-9cbf-c05ad050534b.gif#align=left&amp;display=inline&amp;height=404&amp;linkTarget=_blank&amp;name=js-dts.gif&amp;originHeight=444&amp;originWidth=819&amp;size=650168&amp;width=746\" alt=\"js-dts.gif\"></p>\n<p><strong>Try it out!</strong></p>\n<pre class=\"prettyprint language-bash\"><code># 通过骨架初始化\n$ mkdir showcase &amp;&amp; cd showcase\n$ npm init egg --type=simple\n\n# 安装依赖，并启动\n$ npm i --no-package-lock\n$ npm run dev\n</code></pre><h2>背景</h2>\n<p><code>VSCode</code> 等 IDE 的智能提示，一般是通过静态分析来实现的。</p>\n<p>因此，它们对 Egg 的支持并不是很好，因为 Egg 是通过 Loader 动态挂载的。</p>\n<p>幸好，<strong>Egg 团队依旧一如既往的关注研发体验。</strong> 在不懈的努力研究下，We made it!</p>\n<p>我们此前已经支持了 TS：<a href=\"https://zhuanlan.zhihu.com/p/35334932\">『当 Egg 遇到 TypeScript，收获茶叶蛋一枚』</a>。\n而这次，我们对 JS 的项目，也提供了类似的支持，保持一致的研发体验。</p>\n<h2>写在展开之前</h2>\n<p>尽管我们对 JS 和 TS 的 Egg 项目，都支持了智能提示和跳转的支持。</p>\n<p>但我们还是期望你能对它保持一个理性的认知：</p>\n<blockquote>\n<p>Egg 研发委提示您：\n<strong>代码千万行，测试要写完。</strong>\n<strong>提示不过脑，上线泪两行。</strong></p>\n</blockquote>\n<p><strong>请务必提醒自己：智能提示仅仅是锦上添花，而不是不可或缺的。</strong></p>\n<p><strong>对于业务而言，TS 并不是银弹，完善的单元测试覆盖，严谨的 Code Review 流程更重要。</strong></p>\n<p><strong>测试都覆盖不全，就别来跟我们聊什么企业应用、质量保障、架构啥的了。</strong></p>\n<h2>解决思路</h2>\n<p>主要思路其实非常简单，无非就是：</p>\n<p><strong>动态生成<code>d.ts</code> ，使用 TypeScript 的 <a href=\"https://www.typescriptlang.org/docs/handbook/declaration-merging.html\">Declaration Merging</a> 特性，并读取 JSDoc 注释。</strong></p>\n<p><a href=\"https://github.com/whxaxes/egg-ts-helper\">egg-ts-helper</a> 已经对 TS 和 JS 都提供了同样的支持，并内置到 egg-bin 中。</p>\n<p><strong>需要注意的是，为了更好的体验，开发者需要完善应用本身的 JSDoc 。</strong></p>\n<h2>旧项目升级</h2>\n<p>非常简单，只需要几步：</p>\n<ul>\n<li>删除 <code>node_modules</code> 重新安装依赖（<strong>不要锁版本</strong>），升级到最新的 <code>egg-bin</code> 。</li>\n<li>修改 <code>package.json</code> 添加 <code>&quot;egg&quot;: { &quot;declarations&quot;: true }</code> 。</li>\n<li>启动应用 <code>npm run dev</code>\n<ul>\n<li><code>egg-bin</code> 会自动生成对应的 <code>d.ts</code> 。</li>\n<li>如果无法提示，可能是 <code>VSCode</code> 缓存，需重启一次。</li>\n</ul>\n</li>\n<li>开始体验吧！</li>\n</ul>\n<h2>注意事项</h2>\n<p>整体体验，限于语言特性，并不敢说尽善尽美，但至少解决了有无问题，大部分的体验还 OK。</p>\n<blockquote>\n<p>Egg 研发委提示您：</p>\n<p>代码千万行，测试要写完。\n提示不过脑，上线泪两行。</p>\n</blockquote>\n<h3><code>Router</code></h3>\n<p>需增加 <code>JSDoc</code> 定义：</p>\n<pre class=\"prettyprint language-javascript\"><code>&#x2F;&#x2F; app&#x2F;router.js\n\n&#x2F;**\n * @param {Egg.Application} app - egg application\n *&#x2F;\nmodule.exports = app =&gt; {\n  const { router, controller } = app;\n  router.get(&#x27;&#x2F;&#x27;, app.middleware.access(), controller.home.index);\n};\n</code></pre><h3><code>Config</code></h3>\n<p>格式需修改如下：</p>\n<pre class=\"prettyprint language-javascript\"><code>&#x2F;&#x2F; config&#x2F;config.default.js\n\n&#x2F;**\n * @param {Egg.EggAppInfo} appInfo\n *&#x2F;\nmodule.exports = appInfo =&gt; {\n  &#x2F;**\n   * 框架内置配置\n   * @type {Egg.EggAppConfig}\n   *&#x2F;\n  const config = {};\n  config.keys = appInfo.name + &#x27;_1543991101115_6311&#x27;;\n  config.middleware = [];\n\n  &#x2F;**\n   * 自定义配置\n   *&#x2F;\n  const userConfig = {\n    query: {\n      &#x2F;**\n       * default query count\n       *&#x2F;\n      limit: 10,\n    },\n    biz: {\n      test: &#x27;123&#x27;,\n    },\n  };\n\n  return {\n    ...config,\n    ...userConfig,\n  };\n};\n\n</code></pre><h3><code>Service</code></h3>\n<p>主要是 <code>JSDoc</code> ：</p>\n<pre class=\"prettyprint language-javascript\"><code>&#x2F;&#x2F; app&#x2F;service&#x2F;user.js\n\nconst { Service } = require(&#x27;egg&#x27;);\n\nclass UserService extends Service {\n  &#x2F;**\n   * @typedef {Object} User - user class\n   * @property {String} name - name\n   *&#x2F;\n\n  &#x2F;**\n   * list users with filter\n   * @param {String} [keyword] - user name filter\n   * @param {Number} [limit] - fetch count\n   * @return {Array&lt;User&gt;} return required users\n   *&#x2F;\n  async list(keyword, limit) {\n    return [].filter(item =&gt; item.name.includes(keyword)).slice(limit);\n  }\n}\n\nmodule.exports = UserService;\n</code></pre><h3>Plugin</h3>\n<pre class=\"prettyprint language-javascript\"><code>&#x2F;&#x2F; config&#x2F;plugin.js\n\n&#x2F;** @type Egg.EggPlugin *&#x2F;\nmodule.exports = {\n  nunjucks: {\n    enable: true,\n    package: &#x27;egg-view-nunjucks&#x27;,\n  }\n};\n</code></pre><h2>写在最后</h2>\n<p>我们依旧一如既往的关注研发体验，后续会有更多优化。</p>\n<blockquote>\n<p>预告：春节期间，我们闭关把文档重新梳理了信息架构，精简合并了不少内容，从用户角度去重新阐述。\n不过由于工作量较大，还需要耐心等待。</p>\n</blockquote>\n</div>",
+    "title": "Egg 支持 JS 智能提示",
+    "last_reply_at": "2019-03-29T05:11:34.698Z",
+    "good": true,
+    "top": false,
+    "reply_count": 11,
+    "visit_count": 1322,
+    "create_at": "2019-02-15T06:08:35.529Z",
+    "author": {
+      "loginname": "atian25",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/227713?v=4&s=120"
+    }
+  }, {
+    "id": "5c9d9ea599e62a362ff410c1",
+    "author_id": "5c98426500bcfd7eb2be5add",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><h1>SSL或TLS握手的概述</h1>\n<p>SSL或TLS握手建立了用于客户端和服务端通信的秘钥。</p>\n<p>客户端和服务端SSL或TLS能够相互通信的基本步骤：</p>\n<ul>\n<li>确认使用协议的版本</li>\n<li>选择加密算法</li>\n<li>通过交换和验证数字证书对彼此进行身份验证</li>\n<li>使用非对称加密技术生成共享密钥，避免了密钥分发问题。然后SSL或TLS使用共享密钥对消息进行对称加密解密，这比非对称加密更快</li>\n</ul>\n<p>综上所述SSL握手的步骤如下：</p>\n<ol>\n<li>SSL或TLS客户端先向服务端发送一个加密通信请求，叫做ClientHello请求。该请求包含以下信息：\n<ul>\n<li>客户端支持的SSL或者TLS版本</li>\n<li>客户端生成的随机数，用于生成后续通信的随机字符串（“对话密钥”）</li>\n<li>客户端支持的加密算法</li>\n</ul>\n</li>\n<li>SSL或TLS服务端收到客户端请求后，向客户端发出响应，叫做ServerHello。该响应包含以下信息：\n<ul>\n<li>服务端从客户端提供的SSL或TLS列表中选择的版本</li>\n<li>Sesstion ID 和 另外生成的随机数</li>\n<li>服务端的数字证书（如果服务端需要用于客户端身份验证的数字证书，则服务端发送一个客户端证书请求，其中包含受支持的证书类型列表和可接受的认证机构(CAs)的专有名称。）</li>\n<li>确认使用的加密算法</li>\n</ul>\n</li>\n<li>客户端收到服务端响应后，首先校验服务端发来的数字证书决定是否继续通信。</li>\n<li>证书校验通过，会像服务端发送以下信息：\n<ul>\n<li>生成一个随机数，并对这个随机数用从服务端数字证书中取出的公钥加密（用与生成后续通信的“随机密钥”）</li>\n</ul>\n</li>\n<li>如果服务端发送了一个客户端证书请求，客户端将会发送一个用客户端私钥加密的随机字符串和客户端的数字证书，或者没有数字证书的警告。在某些强制客户端证书的实现中，如果客户端没有数字证书责握手会失败</li>\n<li>服务端接受并验证客户端证书</li>\n<li>客户端向服务端发送一条完成的消息，该消息使用密钥加密，表示握手的客户端部分已经完成。</li>\n<li>服务端向客户端发送一条完成的消息，该消息使用密钥加密，表示握手的服务端部分已经完成</li>\n<li>在SSL或TLS会话期间，服务端和客户端现在可以交换使用共享密钥对称加密的消息</li>\n</ol>\n</div>",
+    "title": "SSL或TLS握手的概述",
+    "last_reply_at": "2019-03-29T04:27:17.407Z",
+    "good": false,
+    "top": false,
+    "reply_count": 0,
+    "visit_count": 187,
+    "create_at": "2019-03-29T04:27:17.407Z",
+    "author": {
+      "loginname": "lvwxx",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15207681?v=4&s=120"
+    }
+  }, {
+    "id": "5c9ae053fd41137eb76621dd",
+    "author_id": "582180b9d5e70f900534345b",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>个人网站新上友链模块，欢迎各路大神前来申请站位。</p>\n<p>个人网站信息</p>\n<p>链接： <a href=\"https://www.lcddjm.com\">https://www.lcddjm.com</a>\n昵称：lcddjm\n头像链接： <a href=\"https://image.lcddjm.com/avatar/b34681a0-4be0-11e8-94a9-75503d77c645.png\">https://image.lcddjm.com/avatar/b34681a0-4be0-11e8-94a9-75503d77c645.png</a>\n介绍：星空不问赶路人，时光不负有心人。</p>\n<p>评论区留言，早占坑 😂</p>\n</div>",
+    "title": "[友链] 个人网站友链申请",
+    "last_reply_at": "2019-03-29T03:55:58.996Z",
+    "good": false,
+    "top": false,
+    "reply_count": 5,
+    "visit_count": 525,
+    "create_at": "2019-03-27T02:30:43.355Z",
+    "author": {
+      "loginname": "JaqenZhang",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19965441?v=4&s=120"
+    }
+  }, {
+    "id": "5c9d88de99e62a362ff41038",
+    "author_id": "5909444b782dbc4b183ecfe2",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><blockquote>\n<p>前面刚刚说不要瞎折腾这种东西了\n结果身体却很诚实，又写了一个 vscode 扩展.</p>\n</blockquote>\n<p>在 vscode 中查看热映电影、即将上映的电影和评分前 250 名的电影.</p>\n<p>在写代码之余，不妨关注下影讯，放松自己。</p>\n<p>我们应该把更多的娱乐(上班滑水)元素带入 <code>vscode</code>。不要为资本家 996 了进 ICU。</p>\n<p>截图\n<img src=\"https://github.com/axetroy/vscode-movie/raw/master/screenshot-1.png\" alt=\"Screenshot\">\n<img src=\"https://github.com/axetroy/vscode-movie/raw/master/screenshot-2.png\" alt=\"Screenshot\"></p>\n<p>Github: <a href=\"https://github.com/axetroy/vscode-movie\">https://github.com/axetroy/vscode-movie</a>\n安装: <a href=\"https://marketplace.visualstudio.com/items?itemName=axetroy.vscode-movie\">axetroy.vscode-movie</a></p>\n</div>",
+    "title": "用VSCODE写代码之余，不妨看看有什么好电影",
+    "last_reply_at": "2019-03-29T02:54:22.617Z",
+    "good": false,
+    "top": false,
+    "reply_count": 0,
+    "visit_count": 301,
+    "create_at": "2019-03-29T02:54:22.617Z",
+    "author": {
+      "loginname": "axetroy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9758711?v=4&s=120"
+    }
+  }, {
+    "id": "5c9c7100484eeb3634157ea2",
+    "author_id": "56ce68bc842c03521a73520e",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>我用的是Egg框架，原生的ctx.getFileStream()可以获取到文件流，但是只支持multipart/form-data。\n现在我对接的前端只能用application/octet-stream，所以我需要找到办法获取到请求中的二进制文件。</p>\n</div>",
+    "title": "求助：如何获取请求数据中的二进制文件？",
+    "last_reply_at": "2019-03-29T01:37:12.855Z",
+    "good": false,
+    "top": false,
+    "reply_count": 2,
+    "visit_count": 209,
+    "create_at": "2019-03-28T07:00:16.849Z",
+    "author": {
+      "loginname": "JarvisQJ",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15104950?v=4&s=120"
+    }
+  }, {
+    "id": "5c9cd3a5484eeb3634158093",
+    "author_id": "5c9cd34d99e62a362ff40e45",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>node.js cluster模块的负载均衡算法可以自定义吗</p>\n</div>",
+    "title": "node.js cluster模块",
+    "last_reply_at": "2019-03-29T01:28:00.425Z",
+    "good": false,
+    "top": false,
+    "reply_count": 2,
+    "visit_count": 211,
+    "create_at": "2019-03-28T14:01:09.545Z",
+    "author": {
+      "loginname": "Linezy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35105473?v=4&s=120"
+    }
+  }, {
+    "id": "5c9b3336fd41137eb76626bc",
+    "author_id": "5a24ea201c0db2f94a3aee8d",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>egg 的文件夹命名， 一般都用单数， 比如 app 下的 model 和 controller\n然而为什么 run dev 默认生成的日志文件夹是 <code>logs</code> （应该够可以配置）, 强迫症很抓狂</p>\n</div>",
+    "title": "egg 文件夹命名单复数",
+    "last_reply_at": "2019-03-29T01:08:14.909Z",
+    "good": false,
+    "top": false,
+    "reply_count": 4,
+    "visit_count": 295,
+    "create_at": "2019-03-27T08:24:22.566Z",
+    "author": {
+      "loginname": "acfasj",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20757983?v=4&s=120"
+    }
+  }, {
+    "id": "5c18d6837ec239239ff582b8",
+    "author_id": "5c179fa17ec239239ff57b8f",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>请大神们推荐几本教材啊</p>\n</div>",
+    "title": "想学node.js, 有什么教材推荐吗",
+    "last_reply_at": "2019-03-28T16:45:53.449Z",
+    "good": false,
+    "top": false,
+    "reply_count": 21,
+    "visit_count": 1944,
+    "create_at": "2018-12-18T11:14:11.553Z",
+    "author": {
+      "loginname": "sxuni",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16433603?v=4&s=120"
+    }
+  }, {
+    "id": "5c9c4d2799e62a362ff40b58",
+    "author_id": "5c862e877ce0df3732426edf",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>现在我创建一个数据库, 例如创建一个USER表,USER有几个职业(老师,学生,教授)最多不超过4个类型的数据,我需要创建多一个张表job来保存这个几个数据,还是直接在代码设置常量就好尼。。</p>\n</div>",
+    "title": "[数据库设计]",
+    "last_reply_at": "2019-03-28T15:35:39.568Z",
+    "good": false,
+    "top": false,
+    "reply_count": 4,
+    "visit_count": 377,
+    "create_at": "2019-03-28T04:27:19.868Z",
+    "author": {
+      "loginname": "cheerApril",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/38412944?v=4&s=120"
+    }
+  }, {
+    "id": "5c88cb9cacb681372d417bf9",
+    "author_id": "5a7a5d505321b5396004ec1e",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>欢迎使用 Nest Cloud\nNest Cloud 是一套以 consul 作为服务注册与发现中心，基于 nest.js 的微服务解决方案。</p>\n<p>由以下几个组件组成：</p>\n<p>​boot - 服务启动的时候读取本地配置文件和环境变量</p>\n<p>​consul - 对 consul api 的一层封装</p>\n<p>​consul-config - 提供以 consul kv 作为配置中心的 client</p>\n<p>​consul-service - 提供服务注册以及服务查找功能</p>\n<p>​consul-loadbalance - 提供本地负载均衡功能</p>\n<p>​feign - 提供基于 decorator 的 http client，并且支持负载均衡，使用更加简单方便</p>\n<p>​schedule - 提供基于 decorator 实现的定时任务库，支持分布式</p>\n<p>围观地址： <a href=\"https://nestcloud.org/solutions/\">https://nestcloud.org/solutions/</a></p>\n</div>",
+    "title": "基于 nest.js 的微服务解决方案—— Nest cloud",
+    "last_reply_at": "2019-03-28T15:33:15.851Z",
+    "good": false,
+    "top": false,
+    "reply_count": 12,
+    "visit_count": 1143,
+    "create_at": "2019-03-13T09:21:32.430Z",
+    "author": {
+      "loginname": "zuohuadong",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/11203929?v=4&s=120"
+    }
+  }, {
+    "id": "5bb0bf6f37a6965f59051df3",
+    "author_id": "5ba61ea38f5b0c1c59ea10b6",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><h2>在线体验地址:<a href=\"http://vip.52tech.tech/\">http://vip.52tech.tech/</a></h2>\n<h2>GIthub源码：<a href=\"https://github.com/xiugangzhang/vip.github.io\">https://github.com/xiugangzhang/vip.github.io</a></h2>\n<h2>项目预览</h2>\n<p><img src=\"//static.cnodejs.org/FmjZMm4b3MUqJIuSB5aYS2PEW0pf\" alt=\"preview.jpg\"></p>\n<ul>\n<li>主页面\n<img src=\"//static.cnodejs.org/FhTjrj9HgY37ojGYNdLWupmBfSyv\" alt=\"preview.jpg\"></li>\n<li>登录页面\n<img src=\"//static.cnodejs.org/FrZr5Mck4VQD9ndVXhJGqA9XwHsU\" alt=\"login.jpg\"></li>\n<li>注册页面\n<img src=\"//static.cnodejs.org/FnXwM1CtMBcA7cFv66vlYb-t559E\" alt=\"register.jpg\"></li>\n<li>会员中心\n<img src=\"//static.cnodejs.org/FtCfCUeeIA8Y0WnYkhvzqlweqPbs\" alt=\"user.jpg\"></li>\n<li>电影播放页面\n<img src=\"//static.cnodejs.org/FryrTyzEeEFuOgD1uXrkwF4MzXn-\" alt=\"play.jpg\"></li>\n<li>电影弹幕功能\n<img src=\"//static.cnodejs.org/FhcOXAvbMZuafMrJzU00fMvRXot9\" alt=\"danmu.jpg\"></li>\n</ul>\n<h2>视频网站项目已经完功能如下：</h2>\n<h3>v1.0.3（当前最新版本）</h3>\n<ul>\n<li>\n<ol>\n<li>增加自动抓取功能，网站数据定期实时更新</li>\n</ol>\n<ul>\n<li>电影和电视剧数据抓取</li>\n<li>电影数据信息前端展现</li>\n</ul>\n</li>\n<li>\n<ol>\n<li>电影页面图片的自动抓取、下载和展示</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>代码结构调整</li>\n</ol>\n</li>\n</ul>\n<h3>v1.0.2</h3>\n<ul>\n<li>\n<ol>\n<li>简化程序安装流程，新增可视化安装界面</li>\n</ol>\n<ul>\n<li>用户可直接输入数据库名、数据库地址、数据库用户名、数据库密码信息一键完成程序的安装</li>\n</ul>\n</li>\n<li>\n<ol>\n<li>页面部分结构的调整</li>\n</ol>\n</li>\n</ul>\n<h3>v1.0.1</h3>\n<ul>\n<li>\n<ol>\n<li>用户中心的管理</li>\n</ol>\n<ul>\n<li>对于已经注册的用户，实现用户基本信息的修改</li>\n<li>用户密码的修改</li>\n<li>用户评论记录的查看</li>\n<li>用户收藏电影的查看和播放</li>\n<li>用户登录日志的查看</li>\n</ul>\n</li>\n<li>\n<ol>\n<li>电影搜索功能（特色功能）</li>\n</ol>\n<ul>\n<li>实现了根据视频播放地址和视频名称全网视频的搜索和播放功能</li>\n<li>实现了正在热映，即将上映和TOP250的电影列表的展示</li>\n<li>电影收藏和取消功能</li>\n</ul>\n</li>\n<li>\n<ol>\n<li>弹幕功能（特色功能）</li>\n</ol>\n<ul>\n<li>类似于B站等其他视频网站的弹幕功能，用户在登录之后可以实现在线发言</li>\n</ul>\n</li>\n</ul>\n<h3>v1.0.0</h3>\n<ul>\n<li>\n<ol>\n<li>用户主页的搭建：</li>\n</ol>\n<ul>\n<li>实现了主页轮播图的显示和切换，用户可以从数据库中自由配置和切换轮播图的显示</li>\n<li>实现了主页电影列表的显示：从数据库文件读取电影和电视剧列表信息并在前台显示</li>\n</ul>\n</li>\n<li>\n<ol>\n<li>用户登录和注册页面的搭建：</li>\n</ol>\n<ul>\n<li>实现了用户的登录和注册功能</li>\n<li>用户注册和登录验证码提示功能</li>\n</ul>\n</li>\n<li>\n<ol>\n<li>电影播放页面的搭建</li>\n</ol>\n<ul>\n<li>对于其他页面的任意可以展现电影列表的页面，用户可以直接点击列表，直接进入播放页面</li>\n<li>播放页面电影详细信息的展现</li>\n<li>对于加载速度较慢的视频，用户可以自由切换播放接口进行加速</li>\n<li>用户可以在相应的播放页面查看其他用户已经发表的评论，同时也可以在登录之后自由发表评论</li>\n</ul>\n</li>\n</ul>\n<h3>其他</h3>\n<ul>\n<li>\n<ol>\n<li>页面整体的风格模仿了Discuz等论坛网站的布局</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>网站首页的轮播图效果模仿了优酷、爱奇艺、腾讯视频等主流视频网站的轮播图效果，并且对该部分的效果实现进行了代码封装</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>电影底部的的友情链接，使用了大部分网站的分栏布局，用户可以添加自己的QQ群以及微信公众号方便增加自己网站的人气</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>主要列表的分页功能，对于一些内容显示较多的不能再一页显示完整的页面，使用了ajax无刷新分页对数据进行多条展示，提高了用户的体验</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>目前主流浏览器中也做了相应测试，建议大家使用谷歌或者火狐浏览器，效果可能会更好</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>未使用其他第三方框架，首页和播放页均为纯原生的HTML，CSS， js实现（至于这个xframe-min-1.0.js文件可以参见我的GitHub xframe.js这个开源项目）</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>电影播放页面：此处也是类似于当前主流网站的的播放页面，左侧为播放窗口，右侧部分为电影的详细信息</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>底部导航：使用分栏的方式实现了底部的导航，前面的为友情链接，后面的一个为网站的微信，Q微博等联系方式</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>用户中心：这部分实现了修改密码，评论，登录，日志管理，收藏电影的功能，用户可以自由切换</li>\n</ol>\n</li>\n</ul>\n<h2>程序目录结构说明</h2>\n<pre class=\"prettyprint\"><code>vip.github.io:\n├─controllers               &#x2F;&#x2F; 控制层\n├─data                      &#x2F;&#x2F; 数据抓取层\n├─logs                      &#x2F;&#x2F; 后台日志\n│  ├─errlog                 &#x2F;&#x2F; 错误日志\n│  ├─othlog                 &#x2F;&#x2F; 其他日志\n│  └─reqlog                 &#x2F;&#x2F; 请求日志\n├─models                    &#x2F;&#x2F; 模型层\n├─static                    &#x2F;&#x2F; 静态页\n│  ├─css                    &#x2F;&#x2F; 样式表\n│  ├─images                 &#x2F;&#x2F; 静态图片资源\n│  └─js                     &#x2F;&#x2F; js脚本\n├─utils                     &#x2F;&#x2F; 工具相关\n├─views                     &#x2F;&#x2F; 视图层\n└─www                       &#x2F;&#x2F; 静态资源\n    ├─css                   &#x2F;&#x2F; 样式表\n    ├─html                  &#x2F;&#x2F; html文件\n    ├─images                &#x2F;&#x2F; 静态图片资源\n    ├─js                    &#x2F;&#x2F; js脚本\n    │  └─movielist          &#x2F;&#x2F; 搜索页电影列表\n    │      ├─components     &#x2F;&#x2F; top250&#x2F;即将上映\n    │      └─in_theaters    &#x2F;&#x2F; 正在热映\n    └─uploads               &#x2F;&#x2F; 文件上传目录\n        ├─avatar            &#x2F;&#x2F; 用户图像\n        └─movie             &#x2F;&#x2F; 电影图标\n\n</code></pre><h2>程序安装方法</h2>\n<ul>\n<li>\n<ol>\n<li>确保电脑已经安装了NodeJS环境，运行版本尽量保持最新（V8以上吧），选择本地的一个路径，然后运行命令：</li>\n</ol>\n</li>\n</ul>\n<pre class=\"prettyprint\"><code>   git clone https:&#x2F;&#x2F;github.com&#x2F;xiugangzhang&#x2F;vip.github.io.git\n</code></pre><ul>\n<li>\n<ol>\n<li>进入程序的主目录（包含app.js的那个文件夹）运行命令：npm install，系统就会自动安装该程序的依赖包；</li>\n</ol>\n</li>\n<li>\n<ol>\n<li>在以上的步骤都执行完成且正确的情况下，就可以在程序主目录下面（有app.js的那个目录）,运行命令</li>\n</ol>\n</li>\n</ul>\n<pre class=\"prettyprint\"><code>   node app.js\n</code></pre><p>之后就会自动在浏览器中打开本程序安装的主界面；</p>\n<ul>\n<li>\n<ol>\n<li>如果是windows环境下，本程序提供了可视化的安装。用户可在程序的安装界面输入数据库名、数据库主机地址、数据库用户名、数据库密码，之后点击按钮立即安装即可，在输入的参数全部正确的情况下，就会后台自动安装程序，安装成功之后会自动跳转到网站首页；\n<img src=\"//static.cnodejs.org/FqNdjsfo5whahU-WvEC8WOpBBXA5\" alt=\"installing.jpg\"></li>\n</ol>\n</li>\n<li>\n<ol>\n<li>如果是Linux环境下，请提前准备好数据库名（database=video）、数据库主机地址（host=localhost）、数据库用户名（user=root）、数据库密码（password=123456 ），按照如下格式保存为config.properties文件，请确保这里的配置信息和你的数据库配置信息完全一致；</li>\n</ol>\n</li>\n</ul>\n<pre class=\"prettyprint\"><code>    database=video               \n    host=localhost          \n    user=root               \n    password=123456         \n</code></pre><ul>\n<li>\n<ol>\n<li>在线演示站点：<a href=\"http://vip.52tech.tech\">http://vip.52tech.tech</a></li>\n</ol>\n</li>\n<li>\n<ol>\n<li>对于安装和使用的过程中如果有什么问题和建议，也欢迎交流和提出建议，可以在issue去发起话题讨论，或直接联系邮箱：tech52admin@126.com</li>\n</ol>\n</li>\n</ul>\n</div>",
+    "title": "【VIP视频网站项目】基于Nodejs开发的VIP视频网站项目及源码分享【v1.0.3版】",
+    "last_reply_at": "2019-03-28T10:04:24.104Z",
+    "good": false,
+    "top": false,
+    "reply_count": 24,
+    "visit_count": 15020,
+    "create_at": "2018-09-30T12:19:59.585Z",
+    "author": {
+      "loginname": "xiugangzhang",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29092258?v=4&s=120"
+    }
+  }, {
+    "id": "5c9c671f484eeb3634157e41",
+    "author_id": "5aef3aa30a36e5312d6ecd82",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><h3>需求</h3>\n<p>有一个 HTTP 接口 A，后端会执行一段异步任务\n发一个 HTTP 请求到 B 站点，B 站点异步执行后 callback A 站点的 HTTP 接口。</p>\n<p>我想客户端请求的时候阻塞一下 A &lt;—&gt; B 这个过程，让客户端使用 A 的时候基本无感，有没有什么比较好的处理方案？</p>\n<h3>现有方案</h3>\n<p>标记每一个请求，A 接口上轮询等待 B 接口的返回结果。有其他更好的事件流或者闭包处理方案吗？\n伪代码</p>\n<pre class=\"prettyprint language-js\"><code>const POOL = {}\nfunction sleep(timer = 100) {\n  return new Promise(resolve =&gt; {\n    setTimeout(resolve, timer)\n  })\n}\n\n&#x2F;&#x2F; 客户端请求的接口\nasync function handle(ctx) {\n  const tid = Math.random().toString()\n  await axios.post(&#x27;xxx&#x27;, { tid })\n  POOL[tid] = null\n  for (let i = 0; i &lt;= 100; i++) {\n    &#x2F;&#x2F; 轮询 POOL 有没有返回值\n    if (POOL[tid]) {\n\t   break\n\t}\n    await sleep()\n  }\n  const res = POOL[tid]\n  if (!res) {\n    ctx.throw(500)\n  }\n  ctx.body = res\n}\n\nasync function callback() {\n  const { tid, payload } = ctx.request.body\n  if (POOL[tid] !== undefined) {\n    POOL[tid] = payload\n  }\n  ctx.body = &#x27;ok&#x27;\n}\n\n</code></pre></div>",
+    "title": "HTTP 请求异步资源，后端阻塞等待怎么高效实现？",
+    "last_reply_at": "2019-03-28T10:00:32.653Z",
+    "good": false,
+    "top": false,
+    "reply_count": 2,
+    "visit_count": 215,
+    "create_at": "2019-03-28T06:18:07.155Z",
+    "author": {
+      "loginname": "wiviwiv",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25006774?v=4&s=120"
+    }
+  }, {
+    "id": "5c98ee28fd41137eb76619b1",
+    "author_id": "5c98ed8300bcfd7eb2be614f",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>去 fork ，然后修改 bug , 然后去 npm 重新发布一个新的 package？</p>\n</div>",
+    "title": "项目中使用的 一些 npm package 不维护了，应该怎么处理？",
+    "last_reply_at": "2019-03-28T09:09:19.166Z",
+    "good": false,
+    "top": false,
+    "reply_count": 12,
+    "visit_count": 522,
+    "create_at": "2019-03-25T15:05:12.467Z",
+    "author": {
+      "loginname": "NiLinli",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/25059127?v=4&s=120"
+    }
+  }, {
+    "id": "5c9c87e799e62a362ff40cce",
+    "author_id": "5c88bffdacb681372d417bb4",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>多多客（doodooke）是一款支持微信、百度、支付宝小程序的第三方SaaS平台。</p>\n<p><strong>重要更新</strong>\n1、开源diy可视化拖拉拽；\n2、开源taro三端合一小程序；</p>\n<p><strong>3.0新特性</strong>\n1、支持migrations，可以快速的创建和修改表；\n2、支持rewrite，可以将请求转发到修改过的接口；\n3、支持view逻辑钩子，可以扩展vue逻辑；\n4、支持view视图钩子，可以扩展vue视图；\n5、支持cluster，可以启动多个项目；\n6、支持本地调试，可以将生产环境的请求转发或复制到本地；\n7、支持bin命令，可以快速的处理migration等；</p>\n<p>开源版下载：<a href=\"https://gitee.com/doodooke/doodoo\">https://gitee.com/doodooke/doodoo</a></p>\n</div>",
+    "title": "【全开源】可视化DIY微信/百度/支付宝小程序saas平台源码",
+    "last_reply_at": "2019-03-28T08:37:59.067Z",
+    "good": false,
+    "top": false,
+    "reply_count": 0,
+    "visit_count": 262,
+    "create_at": "2019-03-28T08:37:59.067Z",
+    "author": {
+      "loginname": "doodooke1688",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/48510722?v=4&s=120"
+    }
+  }, {
+    "id": "5c9b3dd200bcfd7eb2be6e6f",
+    "author_id": "590a8584bbaf2f3f569be508",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>我司现在有个需求是在一个新闻列表中点击某一条，然后可以在pc端模拟展示出该新闻在移动端的页面预览。类似如下效果，但是由于移动端的链接项目页面结构是不确定的，且没有使用响应式，有没有朋友有相关的实现经验，可以实现这个功能。</p>\n<p><img src=\"//static.cnodejs.org/Fg6hToE8yYxY1yrDPR8tfgAjqPzc\" alt=\"1553677288(1).jpg\"></p>\n</div>",
+    "title": "如何在pc端实现预览移动端页面的效果？",
+    "last_reply_at": "2019-03-28T07:06:42.382Z",
+    "good": false,
+    "top": false,
+    "reply_count": 3,
+    "visit_count": 344,
+    "create_at": "2019-03-27T09:09:38.150Z",
+    "author": {
+      "loginname": "GeekHi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22934185?v=4&s=120"
+    }
+  }, {
+    "id": "5c7c8d8b5b8cb21491ca56b6",
+    "author_id": "5c247db93898674067a78f02",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>egg.js中实现RESTfull api，vue请求post数据提示 missing csrf token</p>\n<p><img src=\"//static.cnodejs.org/FsadJ4J2Ln6qZilgzTaTWCZmYhzQ\" alt=\"2.png\"></p>\n</div>",
+    "title": "egg.js中实现RESTfull api，vue请求post数据提示 missing csrf token",
+    "last_reply_at": "2019-03-28T06:48:17.982Z",
+    "good": false,
+    "top": false,
+    "reply_count": 20,
+    "visit_count": 1092,
+    "create_at": "2019-03-04T02:29:31.323Z",
+    "author": {
+      "loginname": "gougou168",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/46184813?v=4&s=120"
+    }
+  }, {
+    "id": "5c9b430cfd41137eb7662787",
+    "author_id": "511350f6df9e9fcc58856443",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><h2>前言</h2>\n<p>对每个接口的传入参数进行校验，是一个Web后端项目的必备功能，有一个npm包叫<a href=\"https://github.com/hapijs/joi\">Joi</a>可以很优雅的完成这个工作，比如这样子：</p>\n<pre class=\"prettyprint\"><code>const schema = {\n    userId: Joi.string()\n};\nconst {error, value} = Joi.validate({ userId: &#x27;a string&#x27; }, schema);\n</code></pre><p>我们使用Typescript是希望得到明确的类型定义，减少出错的可能性。在一个后端项目中，给每个接口定义它的传入参数结构以及返回结果的结构，是一件很值得做的事情，因为这样给后续的维护带来极大的便利。比如这样子：</p>\n<pre class=\"prettyprint\"><code>export type IFooParam = {\n  userId: string\n}\n\nexport type IFooResponse = {\n  name: string\n}\n\nasync foo (param: IFooParam): Promise&lt;IFooResponse&gt; {\n  &#x2F;&#x2F; Your business code\n  return {name: &#x27;bar&#x27;}\n}\n</code></pre><p>现在问题就来了，如果传入参数希望加多一个字段，我们必须得修改2个地方，一个是Joi的校验，一个是IFooParam类型的定义。有没有好的办法解决这个问题呢？</p>\n<h2>Class-validaotr</h2>\n<p>有一个npm包叫<a href=\"https://github.com/typestack/class-validator\">class-validator</a>, 是采用注解的方式进行校验，底层使用的是老牌的校验包<a href=\"https://github.com/chriso/validator.js\">validator.js</a>。<br>\n这次试用，发现通过一些小包装，居然做到像Joi一样优雅的写法，而且更好用！</p>\n<h3>定义传入/返回结构</h3>\n<pre class=\"prettyprint\"><code>import {Length, Min, Max} from &#x27;class-validator&#x27;\n\nexport class IRegister {\n  @Length(11)\n  phone: string\n\n  @Length(2, 10)\n  name: string\n\n  @Min(18)\n  @Max(50)\n  age: number\n}\n\nclass Button {\n  text: string\n}\n\nexport class ORegister {\n  &#x2F;**\n   * user&#x27;s id\n   *&#x2F;\n  userId: string\n\n  buttons: Button[]\n}\n</code></pre><p>这里定义了2个类，IRegister为传入参数，通过class-validator规定的注解方式做校验，ORegister为返回结果。</p>\n<p>class-validator官方提供的方式还不能直接对一个请求的body进行校验，它要求必须要是IRegister类的一个对象，所以需要做一些处理。</p>\n<h3>使用class-transformer做转化</h3>\n<p>跟class-validator的作者也开源了另外一个包，叫<a href=\"https://github.com/typestack/class-transformer\">class-transformer</a>, 可以将一个json转成指定的类的对象，官方的例子是这样的：</p>\n<pre class=\"prettyprint\"><code>import {plainToClass} from &quot;class-transformer&quot;;\n\nlet users = plainToClass(User, userJson); &#x2F;&#x2F; to convert user plain object a single user. also supports arrays\n</code></pre><p>利用这一点，我们写一个小工具：</p>\n<pre class=\"prettyprint\"><code>import * as classTransformer from &#x27;class-transformer&#x27;\nimport {validate} from &#x27;class-validator&#x27;\nimport * as lodash from &#x27;lodash&#x27;\n\nexport class ValidateUtil {\n  private static instance: ValidateUtil\n\n  private constructor () {\n  }\n\n  static getInstance () {\n    return this.instance || (this.instance = new ValidateUtil())\n  }\n\n  async validate (Clazz, data): Promise&lt;any&gt; {\n    const obj = classTransformer.plainToClass(Clazz, data)\n    const errors = await validate(obj)\n    if (errors.length &gt; 0) {\n      console.info(errors)\n      throw new Error(lodash.values(errors[0].constraints)[0])\n    }\n    return obj\n  }\n}\n</code></pre><p>这个小工具提供了一个validate方法，第一个参数是一个类定义，第二个是一个json，它先利用class-transformer将json转成指定类的对象，然后使用class-validator做校验，如果校验错误将抛出错误，否则返回转化后的对象。</p>\n<h3>在Controller中使用</h3>\n<p>有了上面的工具，就可以方便地在代码中对传入参数做校验了，比如这样：</p>\n<pre class=\"prettyprint\"><code>  static async register(ctx) {\n    const iRegister = await ValidateUtil.getInstance().validate(IRegister, ctx.request.body)\n    const oRegister = await UserService.register(iRegister)\n    ctx.body = oRegister\n  }\n</code></pre><h2>新问题</h2>\n<p>到了这里，完美地使用class-validator替换掉了Joi。</p>\n<p>但是还有一个问题没解决，也是之前一直遗留的问题。</p>\n<p>我们使用<a href=\"http://apidocjs.com/\">apidoc</a>编写接口文档，当新增或修改一个接口时，是通过编写一段注释，让apidoc自动生成html文档，将文档地址发给前端，可以减少双方的频繁沟通，而且对前端的体验也是非常好的。比如写这样一段注释：</p>\n<pre class=\"prettyprint\"><code>  &#x2F;**\n   * @api {post} &#x2F;user&#x2F;registerOld registerOld\n   * @apiGroup user\n   * @apiName registerOld\n   * @apiParam {String} name user&#x27;s name\n   * @apiParam {Number} age user&#x27;s age\n   * @apiSuccess {String} userId user&#x27;s id \n   *&#x2F;\n  router.post(&#x27;&#x2F;user&#x2F;registerOld&#x27;, UserController.register)\n</code></pre><p>apidoc会帮我们生成这样的文档： <a href=\"https://user-gold-cdn.xitu.io/2019/3/21/1699f85c7d18d3e3?w=1060&amp;h=916&amp;f=png&amp;s=88262\"><img src=\"https://user-gold-cdn.xitu.io/2019/3/21/1699f85c7d18d3e3?w=1060&amp;h=916&amp;f=png&amp;s=88262\" alt=\"oldApidocDemo\"></a></p>\n<p>问题比较明显，当我们要新增一个参数时，需要修改一次类的定义，同时还要修改一次apidoc的注释，很烦，由于很烦，文档会慢慢变得没人维护，新同事就会吐槽没有文档或者文档太旧了。</p>\n<p>理想的情况是代码即文档，只需要修改类的定义，apidoc文档自动更新。</p>\n<h2>探索apidoc根据class-validator的定义生成</h2>\n<p>从同事的分享中得知一个废弃的npm包，叫<a href=\"https://www.npmjs.com/package/apidoc-plugin-ts\">apidoc-plugin-ts</a>, 可以实现根据ts的interface定义来生成apidoc的。官方的例子：</p>\n<pre class=\"prettyprint\"><code>filename: .&#x2F;employers.ts\n \nexport interface Employer {\n  &#x2F;**\n   * Employer job title\n   *&#x2F;\n  jobTitle: string;\n  &#x2F;**\n   * Employer personal details\n   *&#x2F;\n  personalDetails: {\n    name: string;\n    age: number;\n  }\n}\n @apiInterface (.&#x2F;employers.ts) {Person}\n</code></pre><p>会转化成：</p>\n<pre class=\"prettyprint\"><code> @apiSuccess {String} jobTitle Job title\n @apiSuccess {Object} personalDetails Empoyer personal details\n @apiSuccess {String} personalDetails.name\n @apiSuccess {Number} personalDetails.age\n</code></pre><p>虽然不知道为什么作者要废弃它，但是它的思想很好，源码也很有帮助。</p>\n<p>给我的启发是，参考这个npm包，写一个针对class定义来生成apidoc的插件就行了。</p>\n<h2>造轮子: apidoc-plugin-class-validator</h2>\n<p>轮子的制造细节不适合在这里陈述，基本上参考apidoc-plugin-ts，目前已经发布在npm上了，<a href=\"https://www.npmjs.com/package/apidoc-plugin-class-validator\">apidoc-plugin-class-validator</a></p>\n<h2>使用apidoc-plugin-class-validator</h2>\n<p>以上面的注册接口为例，使用方法：</p>\n<pre class=\"prettyprint\"><code>  &#x2F;**\n   * @api {post} &#x2F;user&#x2F;register register\n   * @apiGroup user\n   * @apiName register\n   * @apiParamClass (src&#x2F;user&#x2F;io&#x2F;Register.ts) {IRegister}\n   * @apiSuccessClass (src&#x2F;user&#x2F;io&#x2F;Register.ts) {ORegister}\n   *&#x2F;\n  router.post(&#x27;&#x2F;user&#x2F;register&#x27;, UserController.register)\n</code></pre><p>就会生成文档： <a href=\"https://user-gold-cdn.xitu.io/2019/3/21/1699f85c40449b5a?w=1288&amp;h=1224&amp;f=png&amp;s=120386\"><img src=\"https://user-gold-cdn.xitu.io/2019/3/21/1699f85c40449b5a?w=1288&amp;h=1224&amp;f=png&amp;s=120386\" alt=\"demo\"></a></p>\n<p>后续新增字段，只需修改IRegister类的定义就行，真正做到了修改一处，处处生效，代码即文档的效果。</p>\n<p>本文的demo代码在<a href=\"https://github.com/zhengyhn/apidoc-plugin-class-validator-demo\">这里</a>，这是一个简单的web后端项目，看代码更容易理解。</p>\n<hr>\n<p>著作权归本文作者所有，未经授权，请勿转载，谢谢。</p>\n</div>",
+    "title": "使用class-validator替换Joi包的方法",
+    "last_reply_at": "2019-03-28T06:34:00.873Z",
+    "good": false,
+    "top": false,
+    "reply_count": 1,
+    "visit_count": 241,
+    "create_at": "2019-03-27T09:31:56.079Z",
+    "author": {
+      "loginname": "kalengo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8817810?v=4&s=120"
+    }
+  }, {
+    "id": "5c9c477d484eeb3634157d7b",
+    "author_id": "5c9c474299e62a362ff40b3c",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>nodejs怎么执行远程服务器的bat脚本，求大佬</p>\n</div>",
+    "title": "nodejs怎么执行远程服务器的bat脚本",
+    "last_reply_at": "2019-03-28T06:13:23.753Z",
+    "good": false,
+    "top": false,
+    "reply_count": 4,
+    "visit_count": 227,
+    "create_at": "2019-03-28T04:03:09.310Z",
+    "author": {
+      "loginname": "IAmYuanZhao",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/38496544?v=4&s=120"
+    }
+  }, {
+    "id": "5c2edce13898674067a7b103",
+    "author_id": "5372465f3c72496d41009adc",
+    "tab": "share",
+    "content": "<div class=\"markdown-text\"><p>截止1 月 12日晚 22:00，有效参与人数共 252 人，抽取 5 名中奖者。\n恭喜以下中奖者🎉🎉🎉🎉🎉 gofromzero,MoeXian,yxcs,caoxiaoshuai1,langjy🎉🎉🎉🎉🎉\n请评论区留下联系方式。\n<img src=\"//static.cnodejs.org/Fvx9s9EjQk7IwNrAMO5_y7zJfrej\" alt=\"image.png\"></p>\n<p>---------------- 以下是原文 ----------------</p>\n<p>新书《Node.js开发实战》热卖，大获好评，感谢大家的支持，送几本书回馈给大家。</p>\n<p>赠书办法：</p>\n<ul>\n<li>只须在本贴留言即可。</li>\n<li>从回贴评论者中随机抽取中奖者，共计 5 本，每位中奖者 1 本。</li>\n<li>获赠名单公布在本帖，并在本贴下评论 @ 每位获赠的同学。</li>\n<li>截止时间 2019 年 1 月 12 日 22:00:00 （ UTC+8 ），以评论时间为准。</li>\n<li>由于本站不支持私信，请获奖同学在本帖回复联系方式，邮箱或者任何其它能联系到你的形式。</li>\n<li>开奖后 72 小时未能回复联系方式者视为放弃。</li>\n</ul>\n<p>试读样章：<a href=\"https://pan.baidu.com/s/1x3c35AmJV4rcEj_W3A1WGg\">https://pan.baidu.com/s/1x3c35AmJV4rcEj_W3A1WGg</a>\n京东有售：<a href=\"https://item.jd.com/12460185.html\">https://item.jd.com/12460185.html</a>\n<img src=\"//static.cnodejs.org/Finp2H7di-Equ_yMWsjJY6hxYGkh\" alt=\"WechatIMG148 copy.jpg\"></p>\n</div>",
+    "title": "送几本《Node.js开发实战》",
+    "last_reply_at": "2019-03-28T05:33:07.588Z",
+    "good": false,
+    "top": false,
+    "reply_count": 364,
+    "visit_count": 12204,
+    "create_at": "2019-01-04T04:11:13.570Z",
+    "author": {
+      "loginname": "meikidd",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/376338?v=4&s=120"
+    }
+  }, {
+    "id": "5c95dc1dfd41137eb7660bd2",
+    "author_id": "5c95d7eefd41137eb7660bbf",
+    "tab": "ask",
+    "content": "<div class=\"markdown-text\"><p>由于node本身异步的机制，打印日志也是异步的，而不是一个请求对应一个完整的日志过程，在请求并发的时候日志都是混乱的，请问大佬们平时都是怎么做的，希望大家可以互相讨论学习下</p>\n</div>",
+    "title": "node如何做到日志“同步”",
+    "last_reply_at": "2019-03-28T01:35:36.637Z",
+    "good": false,
+    "top": false,
+    "reply_count": 8,
+    "visit_count": 749,
+    "create_at": "2019-03-23T07:11:25.195Z",
+    "author": {
+      "loginname": "newJack12",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38709773?v=4&s=120"
+    }
+  }]
+}

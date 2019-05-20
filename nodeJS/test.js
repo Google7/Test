@@ -85,3 +85,9 @@ function getNumber() {
     })
     return p;
 }
+
+getNumber().then(function(data){
+    console.log(data)
+}).catch(function(reson){
+    console.log(reson);
+})

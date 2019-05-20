@@ -1,11 +1,10 @@
 <template>
   <div>
     <Header></Header>
-    <div class="article_list">
+    <div>
       <ul>
-        <li v-for="i in list" v-bind:key="i.id">
-          <time v-text="$utils.goodTime(i.create_at)"></time>
-          <router-link :to="'/content/' + i.id">{{ i.title }}</router-link>
+        <li v-for="i in list" v-bind:key="i.userId">
+          <p v-if="i.userId">ID：{{i.userId}} 用户名：{{i.userName}}</p>
         </li>
       </ul>
     </div>
@@ -24,15 +23,20 @@ export default {
     };
   },
   created() {
-    this.getData();
+    this.select();
   },
   methods: {
-    getData() {
-      this.$api.get("topics", null, result => {
-        this.list = result.data;
-      },err => {
-        window.alert(err);
-      });
+    select() {
+      this.$api.get(
+        "/select",
+        null,
+        result => {
+          this.list = result.data;
+        },
+        err => {
+          window.alert(err);
+        }
+      );
     }
   }
 };
