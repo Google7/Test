@@ -2,7 +2,7 @@ let mysql = require("mysql");
 let events = require("events");
 let eventEmitter = new events.EventEmitter();
 let fs = require("fs");
-let jsonStr ='{"result":true}';
+let jsonStr = '{"result":true}';
 const config = {
     host: "localhost",
     user: "root",
@@ -15,11 +15,11 @@ let insert = "insert into userinfo set ?";
 let del = "delete from userinfo where userid = ?"
 let update = "update userinfo set username = ? where userid = ?"
 let login = "select * from userinfo where username = ? and userpwd = ?"
-let users = {
+let user = {
     username: 'abc',
     userpwd: 'def',
     usersex: 1,
-    userages: 22,
+    userage: null,
     usercity: null
 }
 let connect = mysql.createConnection(config);
@@ -83,14 +83,14 @@ function selectData(con, index) {
                 console.log(`查询成功`);
                 console.log(result[index].userid + "--" +
                     result[index].username + "--" + result[index].userpwd + "--" +
-                    result[index].usersex + "--" + result[index].userages + "--" +
+                    result[index].usersex + "--" + result[index].userage + "--" +
                     result[index].usercity);
             } else {
                 console.log(`查询到${result.length}条数据`);
                 for (const i in result) {
                     console.log(result[i].userid + "--" +
                         result[i].username + "--" + result[i].userpwd + "--" +
-                        result[i].usersex + "--" + result[i].userages + "--" +
+                        result[i].usersex + "--" + result[i].userage + "--" +
                         result[i].usercity);
                 }
             }
@@ -99,26 +99,24 @@ function selectData(con, index) {
     });
 }
 
-function toLogin(array) {
-    connect.connect(function (err) {
+var toLogin = function (array) {
+    var msg;
+    return connect.connect(function (err) {
         if (err) throw err;
         console.log("数据库连接成功");
-        connect.query(login, array, function(errs, result) {
+        return connect.query(login, array, function (errs, result) {
             if (err) throw errs;
             if (result[0] != null) {
-                console.log(result);
-                fs.writeFile(`${__dirname}/test.txt`,jsonStr,"utf-8",function(err){
-                    if(err) throw err;
-                    console.log("写入成功");
-                });
+                msg = true;
             } else {
-                console.log(false);
+                msg = false;
             }
+            console.log(msg);
             connect.end();
             console.log("数据库关闭成功");
         });
-    });
-}
+    });  
+};
 
 var autoConnect = function () {
     let n = 0;
@@ -153,3 +151,5 @@ function closeMySQL(con) {
 }
 
 exports.toLogin = toLogin;
+
+console.log(toLogin(["abc","def"]));
