@@ -12,9 +12,15 @@ const config = {
 };
 let select = "select * from userinfo";
 let insert = "insert into userinfo set ?";
+<<<<<<< HEAD
 let del = "delete from userinfo where userid = ?";
 let update = "update userinfo set username = ? where userid = ?";
 let login = "select * from userinfo where username = ? and userpwd = ?";
+=======
+let del = "delete from userinfo where userid = ?"
+let update = "update userinfo set username = ? where userid = ?"
+let login = "select * from userinfo where username = ? and userpwd = ?"
+>>>>>>> e5073c733d33b70a8db52e210cbb3fb44a429bfc
 let user = {
     username: 'abc',
     userpwd: 'def',

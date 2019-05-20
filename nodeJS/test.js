@@ -29,16 +29,24 @@ var person = new Person("jian", 23);
 
 var arr = [1, 2, 2, 3, 3, 4, 5];
 
+<<<<<<< HEAD
 function demo(array) {
     var temp = [];
     for (var i = 0; i < array.length; i++) {
         if (temp.indexOf(array[i]) == -1) {
+=======
+function demo(array){
+    var temp = [];
+    for (var i = 0; i < array.length; i++) {
+        if(temp.indexOf(array[i]) == -1){
+>>>>>>> e5073c733d33b70a8db52e210cbb3fb44a429bfc
             temp.push(array[i]);
         }
     }
     return temp;
 }
 
+<<<<<<< HEAD
 function runAsync1() {
     var p = new Promise(function (resolve) {
         //做一些异步操作
@@ -91,3 +99,11 @@ getNumber().then(function(data){
 }).catch(function(reson){
     console.log(reson);
 })
+=======
+console.log(demo(arr));
+
+var aa = [1,3,5,2,7,4,8,6];
+console.log(aa.sort().reverse().join(" ").split(/ /));
+
+
+>>>>>>> e5073c733d33b70a8db52e210cbb3fb44a429bfc
